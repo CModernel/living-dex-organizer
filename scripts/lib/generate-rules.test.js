@@ -7,6 +7,7 @@ const {
   sameTypesAndStats,
   pairRowsToCandidates,
   parseSheetRows,
+  extractRegionalDex,
 } = require('./generate-rules');
 
 test('isExcludedForm excludes battle/cosmetic-only forms', () => {
@@ -105,6 +106,25 @@ test('parseSheetRows skips generation-separator rows without counting them as Po
   assert.equal(separatorRows, 1);
   assert.equal(Object.keys(byDex).length, 1);
   assert.equal(byDex['0001'].length, 1);
+});
+
+test('extractRegionalDex keeps only the tracked regional dexes, as a sparse map', () => {
+  // Real shape from GET /pokemon-species/grookey/ (trimmed)
+  const pokedexNumbers = [
+    { entry_number: 810, pokedex: { name: 'national' } },
+    { entry_number: 1, pokedex: { name: 'galar' } },
+    { entry_number: 227, pokedex: { name: 'blueberry' } },
+  ];
+  assert.deepEqual(extractRegionalDex(pokedexNumbers), { galar: 1, blueberry: 227 });
+});
+
+test('extractRegionalDex returns an empty map for a species in no tracked regional dex', () => {
+  const pokedexNumbers = [{ entry_number: 1, pokedex: { name: 'national' } }];
+  assert.deepEqual(extractRegionalDex(pokedexNumbers), {});
+});
+
+test('extractRegionalDex handles a missing/undefined pokedex_numbers gracefully', () => {
+  assert.deepEqual(extractRegionalDex(undefined), {});
 });
 
 test('parseSheetRows flags a -f row as a female variant only when it repeats the prior form name', () => {

@@ -25,6 +25,7 @@ const {
   resolveEvolutionStage,
   detectRegion,
   sameTypesAndStats,
+  extractRegionalDex,
   pairRowsToCandidates,
   SEPARATE_SEX_FORM_DEX,
 } = require('./lib/generate-rules');
@@ -42,8 +43,9 @@ const CACHE_FILE = path.join(__dirname, '.pokeapi-candidates-cache.json');
 const EVOLUTION_CACHE_FILE = path.join(__dirname, '.pokeapi-evolution-chains-cache.json');
 // Bump this when the candidate shape *or* fetching logic changes, so a stale on-disk
 // cache is rejected instead of silently keeping outdated/incorrect data (e.g. fields
-// added later, or the v3 fix below for shared sprites on multi-form species).
-const CANDIDATE_CACHE_VERSION = 3;
+// added later, the v3 fix for shared sprites on multi-form species, or the v4
+// addition of regionalDex).
+const CANDIDATE_CACHE_VERSION = 4;
 
 // Deliberately stays on Austin John's own 1.4 rather than the fan-made 1.4.1: 1.4.1 drops
 // Eternal Flower Floette (floette-5), which is obtainable in Legends Z-A and transferable
@@ -162,7 +164,10 @@ async function collectCandidates() {
       if (!pokemon) continue;
 
       let dexId = null, generation = 1, evolutionChainUrl = null, speciesName = null;
+      let regionalDex = {};
       if (pokemon.species?.url) {
+        // Same species fetch already covers regional Pokedex numbers (TODO #2) — no
+        // extra request needed, they're just another field on this response.
         const species = await fetchWithRetry(pokemon.species.url);
         if (species) {
           if (species.generation?.url) {
@@ -171,6 +176,7 @@ async function collectCandidates() {
           dexId = species.id ? String(species.id).padStart(4, '0') : null;
           evolutionChainUrl = species.evolution_chain?.url || null;
           speciesName = species.name;
+          regionalDex = extractRegionalDex(species.pokedex_numbers);
         }
       }
       if (!dexId) continue;
@@ -198,6 +204,7 @@ async function collectCandidates() {
           speciesName,
           generation,
           evolutionChainUrl,
+          regionalDex,
           types: pokemon.types.map(t => t.type.name),
           stats: {
             hp: statsMap.hp,
@@ -375,6 +382,7 @@ async function main() {
         dex,
         types: candidate.types,
         generation: candidate.generation,
+        regionalDex: candidate.regionalDex,
         sprites: spriteRefForOutput(candidate.sprites),
         evolutionStage: resolveEvolutionStage(candidate.slug, evolutionStage),
         isAlternateForm,
@@ -418,6 +426,7 @@ async function main() {
         dex,
         types: candidate.types,
         generation: candidate.generation,
+        regionalDex: candidate.regionalDex,
         sprites: spriteRefForOutput(candidate.sprites),
         evolutionStage: resolveEvolutionStage(candidate.slug, evolutionStage),
         isAlternateForm: base.isAlternateForm,

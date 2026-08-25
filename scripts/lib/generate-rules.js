@@ -178,6 +178,35 @@ function sameTypesAndStats(a, b) {
   return Object.keys(a.stats).every(k => a.stats[k] === b.stats[k]);
 }
 
+// The current-generation regional Pokedexes worth tracking (each game/DLC's own
+// numbering, distinct from the National dex in `dex`) — see TODO.md #2. Deliberately
+// NOT the sheet's own SwSh/BDSP/PLA/SV/PLZA column grouping (a letter-prefix hack
+// bundling e.g. galar+isle-of-armor+crown-tundra under one "SwSh" column): PokeAPI's
+// own pokedex names are the generic, vendor-agnostic source of truth.
+const REGIONAL_POKEDEXES = [
+  'galar', 'isle-of-armor', 'crown-tundra',
+  'extended-sinnoh',
+  'hisui',
+  'paldea', 'kitakami', 'blueberry',
+  'lumiose-city',
+];
+
+/**
+ * Filter a PokemonSpecies' `pokedex_numbers` array (species-level — shared by every
+ * form of that species, same as the National `dex` field) down to the regional
+ * dexes above. Returns a sparse { pokedexName: entryNumber } map; a species absent
+ * from a given dex simply has no key for it, rather than a null placeholder.
+ */
+function extractRegionalDex(pokedexNumbers) {
+  const regionalDex = {};
+  for (const entry of pokedexNumbers || []) {
+    if (REGIONAL_POKEDEXES.includes(entry.pokedex.name)) {
+      regionalDex[entry.pokedex.name] = entry.entry_number;
+    }
+  }
+  return regionalDex;
+}
+
 // ---------------------------------------------------------------------------
 // Name-based pairing
 // ---------------------------------------------------------------------------
@@ -259,6 +288,8 @@ module.exports = {
   REGION_PATTERN,
   detectRegion,
   sameTypesAndStats,
+  REGIONAL_POKEDEXES,
+  extractRegionalDex,
   FORM_WORD_SYNONYMS,
   normalizeWords,
   formTokens,

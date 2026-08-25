@@ -17,25 +17,15 @@ existing ones.
       Flabébé/Floette/Florges) were all sharing their parent's sprite instead of
       each form's own — see the "Fix shared sprites" commit.
 
-- [ ] **2. Add the per-game regional Pokédex numbers** (SwSh/BDSP/PLA/SV/PLZA columns in
-      the original sheet — each game's own regional Pokédex position, e.g. Grookey is
-      "#1" in Galar's own dex, not its National number 810). These ARE available from
-      PokeAPI, confirmed live: `GET /pokemon-species/{name}/` → `pokedex_numbers`
-      (NOT `pokemon.game_indices`, which is a dead end — it just mirrors the National
-      number for every Gen 4+ game). Confirmed mapping from the sheet's columns to
-      PokeAPI's `pokedex.name` values:
-      | sheet column | no letter prefix | lettered prefix |
-      |---|---|---|
-      | SwSh  | `galar` | A = `isle-of-armor`, C = `crown-tundra` |
-      | BDSP  | `original-sinnoh` (same values as `extended-sinnoh` in every case checked) | — |
-      | PLA   | `hisui` | — |
-      | SV    | `paldea` | B = `blueberry` (kitakami's prefix letter not yet confirmed) |
-      | PLZA  | `lumiose-city` | — |
-      Verified against Grookey, Piplup, Bulbasaur, Charmander, Zubat, and Jigglypuff —
-      every value matched the sheet exactly. Since this no longer depends on the CSV,
-      it can be added to `scripts/generate-living-form-full.js` (fetch
-      `pokemon-species.pokedex_numbers` per entry, store the relevant regional entries)
-      whenever the per-game filtering feature is actually wanted.
+- [x] **2. Add the per-game regional Pokédex numbers.** Done: each entry now has a
+      sparse `regionalDex` map (e.g. `{ "galar": 1, "blueberry": 227 }`) built from
+      `pokemon-species.pokedex_numbers`, extracted in `scripts/lib/generate-rules.js`'s
+      `extractRegionalDex` (no extra requests — the species fetch already used for
+      `generation`/`dex` carries this field too). Uses PokeAPI's own regional dex
+      names (`galar`, `isle-of-armor`, `crown-tundra`, `extended-sinnoh`, `hisui`,
+      `paldea`, `kitakami`, `blueberry`, `lumiose-city`) rather than replicating the
+      original sheet's SwSh/BDSP/PLA/SV/PLZA letter-prefix grouping. 1311/1387
+      entries have at least one regional dex entry.
 
 ## Product / App
 
