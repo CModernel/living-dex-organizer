@@ -1,5 +1,7 @@
 # Living Dex Organizer
 
+[![CI](https://github.com/CModernel/living-dex-organizer/actions/workflows/ci.yml/badge.svg)](https://github.com/CModernel/living-dex-organizer/actions/workflows/ci.yml)
+
 Tool for organizing a Pokémon Living Dex: which Pokémon (including regional forms,
 gender variants, and special forms) belong to each collection tier, built from a static
 dataset generated from PokéAPI.
@@ -50,8 +52,23 @@ share the same `dex`.
    minutes.
 3. **`node scripts/verify.js`** — verifies the generated dataset is semantically
    consistent and that, filtered by metadata, it exactly reproduces each of the other
-   reference sheets (Living Form, Living Lite, Final Form Full, Final Form). Doesn't
-   run automatically — no CI is set up yet (see `TODO.md`).
+   reference sheets (Living Form, Living Lite, Final Form Full, Final Form). Runs
+   automatically in CI (`.github/workflows/ci.yml`) on every push/PR to `main`.
+
+## Distribution
+
+This is a public repo, so `data/v1/living-form-full-data.json` is already servable
+as a free, globally-cached CDN via [jsDelivr](https://www.jsdelivr.com/) — no hosting
+needed:
+
+```
+https://cdn.jsdelivr.net/gh/CModernel/living-dex-organizer@main/data/v1/living-form-full-data.json
+```
+
+A future app should fetch it from there instead of bundling the JSON into the app
+binary. jsDelivr serves gzip/brotli automatically — the file measures 830KB raw but
+~54KB over gzip. The `data/v1/` path exists so a future breaking schema change can
+move to `data/v2/` without breaking clients still pinned to `v1`.
 
 ## Documentation
 

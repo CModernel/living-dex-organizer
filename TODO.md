@@ -50,12 +50,8 @@ what's missing + why it was left pending.
       cheap now, avoids a breaking rename later once an app depends on a specific
       path. Done: `data/living-form-full-data.json` and
       `data/living-form-full-mapping-report.json` moved to `data/v1/`.
-- [ ] **Document jsDelivr CDN access in the README** once this repo is pushed public.
-      A public GitHub repo is automatically servable via
-      `https://cdn.jsdelivr.net/gh/<user>/<repo>@<branch>/<path>`, with free global
-      caching and automatic gzip/brotli — measured: our 1.15MB JSON is ~60KB over
-      gzip. No hosting needed; this just needs writing down so a future app fetches
-      it this way instead of bundling the JSON into the app binary.
+- [x] **Document jsDelivr CDN access in the README.** Done, now that the repo is
+      pushed public — see the README's "Distribution" section.
 - [ ] **Consider an incremental PokeAPI fetch cache** for
       `scripts/generate-living-form-full.js`, mirroring `pokemon-trainer-data`'s
       approach (reuse the previously committed output as the cache, only fetch IDs
@@ -67,6 +63,6 @@ what's missing + why it was left pending.
 
 ## Infrastructure
 
-- [ ] **Wire `scripts/verify.js` into CI** once a `package.json` / GitHub Actions
-      exists, so it runs automatically on every change to the CSVs or the generator,
-      instead of having to remember to run it by hand.
+- [x] **Wire `scripts/verify.js` into CI.** Done: `.github/workflows/ci.yml` runs
+      `npm test` + `npm run verify` on every push/PR to `main`. Doesn't hit PokeAPI —
+      validates the already-committed dataset and CSVs, so it's fast and free.
