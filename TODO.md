@@ -45,17 +45,28 @@ existing ones.
       `data/living-form-full-mapping-report.json` moved to `data/v1/`.
 - [x] **6. Document jsDelivr CDN access in the README.** Done, now that the repo is
       pushed public — see the README's "Distribution" section.
-- [ ] **7. Consider an incremental PokeAPI fetch cache** for
-      `scripts/generate-living-form-full.js`, mirroring `pokemon-trainer-data`'s
-      approach (reuse the previously committed output as the cache, only fetch IDs
-      missing from it). Caution: our curation rules (`isExcludedForm`, tier
-      predicates, dex corrections) change far more often than "a new National Dex ID
-      appeared" — a naive skip-if-cached approach risks not reapplying an updated
-      rule to already-cached entries. Would need a cache-invalidation story (e.g.
-      bump a rules version alongside `CANDIDATE_CACHE_VERSION`) before this is safe.
+- [x] **7. Consider an incremental PokeAPI fetch cache** — decided against, not
+      implemented. On closer look, our curation rules (`isExcludedForm`, tier
+      predicates, dex corrections) are already applied fresh at read time against
+      the cached raw candidates, not baked into the cache — so a rules change
+      already works fine with the existing versioned cache, no incremental fetch
+      needed for that case. The actual risk incremental fetching would introduce:
+      PokeAPI adds data to species that already exist (e.g. Legends Z-A added a
+      `lumiose-city` entry to Bulbasaur's `pokedex_numbers`, an already-cached
+      species, not a new one) — a naive "skip if already cached" approach would
+      miss exactly that. See #9 for what we did instead.
 
 ## Infrastructure
 
 - [x] **8. Wire `scripts/verify.js` into CI.** Done: `.github/workflows/ci.yml` runs
       `npm test` + `npm run verify` on every push/PR to `main`. Doesn't hit PokeAPI —
       validates the already-committed dataset and CSVs, so it's fast and free.
+- [x] **9. Weekly automated PokeAPI regeneration.** Done:
+      `.github/workflows/weekly-regenerate.yml` runs every Monday (plus manual
+      trigger) — full fetch, not incremental (see #7), runs `npm test` +
+      `npm run generate` + `npm run verify`. If verify fails, the workflow just
+      fails (visible in the Actions tab) and nothing lands. If it passes and the
+      dataset changed, it opens a PR (via `peter-evans/create-pull-request`) instead
+      of pushing to `main` directly — keeps a human reviewing the diff/report before
+      merging, same spirit as `docs/RULES.md` #7 (never commit without confirmation)
+      even for automation.
