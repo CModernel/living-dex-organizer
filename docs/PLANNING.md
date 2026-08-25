@@ -56,31 +56,44 @@ type PokemonList = {
   ownedIds: string[];            // sparse: owned entry slugs; absence = not owned
 };
 
-// preset = byte-identical to a curated sheet, via @cmodernel/living-dex-tiers
-// (packages/tiers/ — includes every one-off species exception, e.g. Tauros/
-// Basculin/Minior/Alcremie). custom = generic, checkbox-composable criteria over
-// the dataset's own metadata fields; it can only approximate a preset — that's
-// expected, not a gap to fix.
-type ListFilter =
-  | { type: 'preset'; preset: 'living-form-full' | 'living-form' | 'living-lite'
-                              | 'final-form-full' | 'final-form' }
-  | { type: 'custom'; criteria: CustomFilterCriteria };
-
-type CustomFilterCriteria = {
-  evolutionStages?: Array<'pre' | 'mid' | 'final'>; // omit = all
-  includeAlternateForms?: boolean;   // default true
-  includeGenderVariants?: boolean;   // default false (matches living-form's rule)
-  regionalFormsOnly?: boolean;       // if includeAlternateForms, restrict to regional
-  regions?: string[];                // omit = all regions
+// Always anchored to one of the 5 curated presets from @cmodernel/living-dex-tiers
+// (packages/tiers/ — byte-identical to a reference sheet, including every one-off
+// species exception: Tauros breeds, Basculin stripes, Minior colors, Alcremie
+// flavors). There is deliberately no independent "build a filter from scratch"
+// mode — customization means a small set of well-defined overrides layered on top
+// of a preset, not a generic query builder that could drift from the curated
+// rules. `overrides` currently has exactly one field because it's the only gap the
+// 5 presets don't already cover between them (see below).
+type ListFilter = {
+  preset: 'living-form-full' | 'living-form' | 'living-lite'
+        | 'final-form-full' | 'final-form';
+  overrides?: {
+    includeGenderVariants?: boolean; // every preset excludes these by default
+  };
 };
 ```
+
+Why `includeGenderVariants` is the only override needed: the 4 non-master presets
+already form a complete 2×2 of (all evolution stages | final stage only) ×
+(all alternate forms | regional forms only) — confirmed against the real dataset:
+
+| | all alternate forms | regional forms only |
+|---|---|---|
+| **all evolution stages** | Living Form (1284) | Living Lite (1082) |
+| **final stage only** | Final Form Full (716) | Final Form (604) |
+
+Only `living-form-full` (the unfiltered master, 1387) includes gender variants,
+and it doesn't restrict stage or alternate-form scope. So "final stage only, but
+with gender variants" (837 entries) or "regional-only, but with gender variants"
+(1178) have no preset of their own — `includeGenderVariants: true` on top of the
+relevant preset reaches them without needing a 6th/7th named tier.
 
 Notes:
 - Box/slot position (TODO #17) is **never persisted** — always derived client-side
   from a list's filtered, `sortIndex`-sorted entries, chunked into boxes of 30, per
   `generate-living-form-full.js`'s own stated design.
 - The empty-state "start a list" flow (TODO #16) just creates a new `PokemonList`
-  with `ownedIds: []` and either a preset or a custom filter.
+  with `ownedIds: []` and a chosen preset (+ optional override).
 - Storage still goes through `getUserState()`/`setUserState()` (whole-object
   read/write, see below); any finer-grained helpers (`toggleOwned`, `upsertList`)
   are a thin layer on top in the app, not a new persistence primitive.
