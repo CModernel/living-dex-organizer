@@ -52,3 +52,6 @@
   unless a mandatory rule changes.
 - When the backend/Supabase phase is tackled, that work must follow the "Security and
   sensitive data" section of `RULES.md` (explicit TODOs, no hardcoded secrets, etc.).
+- Not planned work, just a thought worth keeping in mind: if sustaining this project
+  long-term ever becomes relevant, prefer a low-friction, non-intrusive option (e.g. a
+  GitHub Sponsors / donation link) over ads or paywalls.
