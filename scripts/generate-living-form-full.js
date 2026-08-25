@@ -29,8 +29,8 @@ const {
   SEPARATE_SEX_FORM_DEX,
 } = require('./lib/generate-rules');
 
-const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'living-form-full-data.json');
-const REPORT_FILE = path.join(__dirname, '..', 'data', 'living-form-full-mapping-report.json');
+const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-data.json');
+const REPORT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-mapping-report.json');
 const CACHE_FILE = path.join(__dirname, '.pokeapi-candidates-cache.json');
 const EVOLUTION_CACHE_FILE = path.join(__dirname, '.pokeapi-evolution-chains-cache.json');
 // Bump this when the candidate shape changes, so a stale on-disk cache is rejected instead

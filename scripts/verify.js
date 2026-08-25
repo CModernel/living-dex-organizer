@@ -24,7 +24,7 @@ const fs = require('fs');
 const path = require('path');
 const { TIERS, KNOWN_DIVERGENCES } = require('./lib/tiers');
 
-const JSON_FILE = path.join(__dirname, '..', 'data', 'living-form-full-data.json');
+const JSON_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-data.json');
 const CSV_DIR = path.join(__dirname, '..', 'sheets');
 
 // ---------------------------------------------------------------------------

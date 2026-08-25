@@ -42,6 +42,28 @@ what's missing + why it was left pending.
       yet** (see `docs/PLANNING.md` and `docs/RULES.md` section 3). When tackled, it
       must leave the security TODOs `docs/RULES.md` section 1 requires.
 
+## Distribution / CDN
+
+- [x] **Move the dataset under `data/v1/`** to prepare for path-based versioning,
+      mirroring the sibling `pokemon-trainer-data` project's jsDelivr CDN pattern —
+      cheap now, avoids a breaking rename later once an app depends on a specific
+      path. Done: `data/living-form-full-data.json` and
+      `data/living-form-full-mapping-report.json` moved to `data/v1/`.
+- [ ] **Document jsDelivr CDN access in the README** once this repo is pushed public.
+      A public GitHub repo is automatically servable via
+      `https://cdn.jsdelivr.net/gh/<user>/<repo>@<branch>/<path>`, with free global
+      caching and automatic gzip/brotli — measured: our 1.15MB JSON is ~60KB over
+      gzip. No hosting needed; this just needs writing down so a future app fetches
+      it this way instead of bundling the JSON into the app binary.
+- [ ] **Consider an incremental PokeAPI fetch cache** for
+      `scripts/generate-living-form-full.js`, mirroring `pokemon-trainer-data`'s
+      approach (reuse the previously committed output as the cache, only fetch IDs
+      missing from it). Caution: our curation rules (`isExcludedForm`, tier
+      predicates, dex corrections) change far more often than "a new National Dex ID
+      appeared" — a naive skip-if-cached approach risks not reapplying an updated
+      rule to already-cached entries. Would need a cache-invalidation story (e.g.
+      bump a rules version alongside `CANDIDATE_CACHE_VERSION`) before this is safe.
+
 ## Infrastructure
 
 - [ ] **Wire `scripts/verify.js` into CI** once a `package.json` / GitHub Actions

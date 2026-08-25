@@ -13,7 +13,7 @@ see [`TODO.md`](./TODO.md).
 ## Structure
 
 ```text
-data/                     Generated dataset (source of truth for the app)
+data/v1/                  Generated dataset (source of truth for the app; path-versioned)
 scripts/                  Generation/validation/normalization pipeline
 sheets/                   Reference sheets (generic format, see docs/GUIDE.md)
 sheets/raw/               Original vendor sheets (untracked, see .gitignore)
@@ -23,12 +23,12 @@ TODO.md                   Known pending tasks
 
 ## Dataset
 
-- **`data/living-form-full-data.json`** — canonical dataset: every Pokémon/form
+- **`data/v1/living-form-full-data.json`** — canonical dataset: every Pokémon/form
   included in the Living Dex, with types, sprites (derived from PokéAPI), and filter
   metadata (`evolutionStage`, `isAlternateForm`, `isGenderVariant`, `isRegionalForm`,
   `hasStatOrTypeDifference`). Regenerated with
   `node scripts/generate-living-form-full.js`.
-- **`data/living-form-full-mapping-report.json`** — diagnostic report from the
+- **`data/v1/living-form-full-mapping-report.json`** — diagnostic report from the
   generator's last run (unmatched rows, orphan candidates). Regenerated alongside the
   dataset, not hand-edited.
 
@@ -44,8 +44,8 @@ share the same `dex`.
    via `scripts/normalize-sheet.js` (see [`docs/GUIDE.md`](./docs/GUIDE.md) for the form
    inclusion/exclusion rules).
 2. **`node scripts/generate-living-form-full.js`** — maps `sheets/Living Form Full.csv`
-   1:1 against PokéAPI and writes `data/living-form-full-data.json` +
-   `data/living-form-full-mapping-report.json`. Caches PokéAPI responses in
+   1:1 against PokéAPI and writes `data/v1/living-form-full-data.json` +
+   `data/v1/living-form-full-mapping-report.json`. Caches PokéAPI responses in
    `scripts/.pokeapi-*-cache.json` (untracked) because a full run takes several
    minutes.
 3. **`node scripts/verify.js`** — verifies the generated dataset is semantically
