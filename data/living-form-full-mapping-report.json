@@ -1,0 +1,6948 @@
+{
+  "csvTotalRows": 1387,
+  "csvMainRows": 1291,
+  "csvFemaleRows": 96,
+  "separatorRowsSkipped": 8,
+  "candidatesKept": 1291,
+  "finalEntries": 1387,
+  "matched": [
+    {
+      "dex": "0001",
+      "keyword": "bulbasaur",
+      "key": "bulbasaur"
+    },
+    {
+      "dex": "0002",
+      "keyword": "ivysaur",
+      "key": "ivysaur"
+    },
+    {
+      "dex": "0003",
+      "keyword": "venusaur",
+      "key": "venusaur"
+    },
+    {
+      "dex": "0003",
+      "keyword": "venusaur-f",
+      "key": "venusaur-f"
+    },
+    {
+      "dex": "0004",
+      "keyword": "charmander",
+      "key": "charmander"
+    },
+    {
+      "dex": "0005",
+      "keyword": "charmeleon",
+      "key": "charmeleon"
+    },
+    {
+      "dex": "0006",
+      "keyword": "charizard",
+      "key": "charizard"
+    },
+    {
+      "dex": "0007",
+      "keyword": "squirtle",
+      "key": "squirtle"
+    },
+    {
+      "dex": "0008",
+      "keyword": "wartortle",
+      "key": "wartortle"
+    },
+    {
+      "dex": "0009",
+      "keyword": "blastoise",
+      "key": "blastoise"
+    },
+    {
+      "dex": "0010",
+      "keyword": "caterpie",
+      "key": "caterpie"
+    },
+    {
+      "dex": "0011",
+      "keyword": "metapod",
+      "key": "metapod"
+    },
+    {
+      "dex": "0012",
+      "keyword": "butterfree",
+      "key": "butterfree"
+    },
+    {
+      "dex": "0012",
+      "keyword": "butterfree-f",
+      "key": "butterfree-f"
+    },
+    {
+      "dex": "0013",
+      "keyword": "weedle",
+      "key": "weedle"
+    },
+    {
+      "dex": "0014",
+      "keyword": "kakuna",
+      "key": "kakuna"
+    },
+    {
+      "dex": "0015",
+      "keyword": "beedrill",
+      "key": "beedrill"
+    },
+    {
+      "dex": "0016",
+      "keyword": "pidgey",
+      "key": "pidgey"
+    },
+    {
+      "dex": "0017",
+      "keyword": "pidgeotto",
+      "key": "pidgeotto"
+    },
+    {
+      "dex": "0018",
+      "keyword": "pidgeot",
+      "key": "pidgeot"
+    },
+    {
+      "dex": "0019",
+      "keyword": "rattata",
+      "key": "rattata"
+    },
+    {
+      "dex": "0019",
+      "keyword": "rattata-1",
+      "key": "rattata-alola"
+    },
+    {
+      "dex": "0019",
+      "keyword": "rattata-f",
+      "key": "rattata-f"
+    },
+    {
+      "dex": "0020",
+      "keyword": "raticate",
+      "key": "raticate"
+    },
+    {
+      "dex": "0020",
+      "keyword": "raticate-1",
+      "key": "raticate-alola"
+    },
+    {
+      "dex": "0020",
+      "keyword": "raticate-f",
+      "key": "raticate-f"
+    },
+    {
+      "dex": "0021",
+      "keyword": "spearow",
+      "key": "spearow"
+    },
+    {
+      "dex": "0022",
+      "keyword": "fearow",
+      "key": "fearow"
+    },
+    {
+      "dex": "0023",
+      "keyword": "ekans",
+      "key": "ekans"
+    },
+    {
+      "dex": "0024",
+      "keyword": "arbok",
+      "key": "arbok"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu",
+      "key": "pikachu"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-1",
+      "key": "pikachu-original-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-2",
+      "key": "pikachu-hoenn-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-3",
+      "key": "pikachu-sinnoh-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-4",
+      "key": "pikachu-unova-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-5",
+      "key": "pikachu-kalos-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-6",
+      "key": "pikachu-alola-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-7",
+      "key": "pikachu-partner-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-9",
+      "key": "pikachu-world-cap"
+    },
+    {
+      "dex": "0025",
+      "keyword": "pikachu-f",
+      "key": "pikachu-f"
+    },
+    {
+      "dex": "0026",
+      "keyword": "raichu",
+      "key": "raichu"
+    },
+    {
+      "dex": "0026",
+      "keyword": "raichu-1",
+      "key": "raichu-alola"
+    },
+    {
+      "dex": "0026",
+      "keyword": "raichu-f",
+      "key": "raichu-f"
+    },
+    {
+      "dex": "0027",
+      "keyword": "sandshrew",
+      "key": "sandshrew"
+    },
+    {
+      "dex": "0027",
+      "keyword": "sandshrew-1",
+      "key": "sandshrew-alola"
+    },
+    {
+      "dex": "0028",
+      "keyword": "sandslash",
+      "key": "sandslash"
+    },
+    {
+      "dex": "0028",
+      "keyword": "sandslash-1",
+      "key": "sandslash-alola"
+    },
+    {
+      "dex": "0029",
+      "keyword": "nidoran♀",
+      "key": "nidoran-f"
+    },
+    {
+      "dex": "0030",
+      "keyword": "nidorina",
+      "key": "nidorina"
+    },
+    {
+      "dex": "0031",
+      "keyword": "nidoqueen",
+      "key": "nidoqueen"
+    },
+    {
+      "dex": "0032",
+      "keyword": "nidoran♂",
+      "key": "nidoran-m"
+    },
+    {
+      "dex": "0033",
+      "keyword": "nidorino",
+      "key": "nidorino"
+    },
+    {
+      "dex": "0034",
+      "keyword": "nidoking",
+      "key": "nidoking"
+    },
+    {
+      "dex": "0035",
+      "keyword": "clefairy",
+      "key": "clefairy"
+    },
+    {
+      "dex": "0036",
+      "keyword": "clefable",
+      "key": "clefable"
+    },
+    {
+      "dex": "0037",
+      "keyword": "vulpix",
+      "key": "vulpix"
+    },
+    {
+      "dex": "0037",
+      "keyword": "vulpix-1",
+      "key": "vulpix-alola"
+    },
+    {
+      "dex": "0038",
+      "keyword": "ninetales",
+      "key": "ninetales"
+    },
+    {
+      "dex": "0038",
+      "keyword": "ninetales-1",
+      "key": "ninetales-alola"
+    },
+    {
+      "dex": "0039",
+      "keyword": "jigglypuff",
+      "key": "jigglypuff"
+    },
+    {
+      "dex": "0040",
+      "keyword": "wigglytuff",
+      "key": "wigglytuff"
+    },
+    {
+      "dex": "0041",
+      "keyword": "zubat",
+      "key": "zubat"
+    },
+    {
+      "dex": "0041",
+      "keyword": "zubat-f",
+      "key": "zubat-f"
+    },
+    {
+      "dex": "0042",
+      "keyword": "golbat",
+      "key": "golbat"
+    },
+    {
+      "dex": "0042",
+      "keyword": "golbat-f",
+      "key": "golbat-f"
+    },
+    {
+      "dex": "0043",
+      "keyword": "oddish",
+      "key": "oddish"
+    },
+    {
+      "dex": "0044",
+      "keyword": "gloom",
+      "key": "gloom"
+    },
+    {
+      "dex": "0044",
+      "keyword": "gloom-f",
+      "key": "gloom-f"
+    },
+    {
+      "dex": "0045",
+      "keyword": "vileplume",
+      "key": "vileplume"
+    },
+    {
+      "dex": "0045",
+      "keyword": "vileplume-f",
+      "key": "vileplume-f"
+    },
+    {
+      "dex": "0046",
+      "keyword": "paras",
+      "key": "paras"
+    },
+    {
+      "dex": "0047",
+      "keyword": "parasect",
+      "key": "parasect"
+    },
+    {
+      "dex": "0048",
+      "keyword": "venonat",
+      "key": "venonat"
+    },
+    {
+      "dex": "0049",
+      "keyword": "venomoth",
+      "key": "venomoth"
+    },
+    {
+      "dex": "0050",
+      "keyword": "diglett",
+      "key": "diglett"
+    },
+    {
+      "dex": "0050",
+      "keyword": "diglett-1",
+      "key": "diglett-alola"
+    },
+    {
+      "dex": "0051",
+      "keyword": "dugtrio",
+      "key": "dugtrio"
+    },
+    {
+      "dex": "0051",
+      "keyword": "dugtrio-1",
+      "key": "dugtrio-alola"
+    },
+    {
+      "dex": "0052",
+      "keyword": "meowth",
+      "key": "meowth"
+    },
+    {
+      "dex": "0052",
+      "keyword": "meowth-1",
+      "key": "meowth-alola"
+    },
+    {
+      "dex": "0052",
+      "keyword": "meowth-2",
+      "key": "meowth-galar"
+    },
+    {
+      "dex": "0053",
+      "keyword": "persian",
+      "key": "persian"
+    },
+    {
+      "dex": "0053",
+      "keyword": "persian-1",
+      "key": "persian-alola"
+    },
+    {
+      "dex": "0054",
+      "keyword": "psyduck",
+      "key": "psyduck"
+    },
+    {
+      "dex": "0055",
+      "keyword": "golduck",
+      "key": "golduck"
+    },
+    {
+      "dex": "0056",
+      "keyword": "mankey",
+      "key": "mankey"
+    },
+    {
+      "dex": "0057",
+      "keyword": "primeape",
+      "key": "primeape"
+    },
+    {
+      "dex": "0058",
+      "keyword": "growlithe",
+      "key": "growlithe"
+    },
+    {
+      "dex": "0058",
+      "keyword": "growlithe-1",
+      "key": "growlithe-hisui"
+    },
+    {
+      "dex": "0059",
+      "keyword": "arcanine",
+      "key": "arcanine"
+    },
+    {
+      "dex": "0059",
+      "keyword": "arcanine-1",
+      "key": "arcanine-hisui"
+    },
+    {
+      "dex": "0060",
+      "keyword": "poliwag",
+      "key": "poliwag"
+    },
+    {
+      "dex": "0061",
+      "keyword": "poliwhirl",
+      "key": "poliwhirl"
+    },
+    {
+      "dex": "0062",
+      "keyword": "poliwrath",
+      "key": "poliwrath"
+    },
+    {
+      "dex": "0063",
+      "keyword": "abra",
+      "key": "abra"
+    },
+    {
+      "dex": "0064",
+      "keyword": "kadabra",
+      "key": "kadabra"
+    },
+    {
+      "dex": "0064",
+      "keyword": "kadabra-f",
+      "key": "kadabra-f"
+    },
+    {
+      "dex": "0065",
+      "keyword": "alakazam",
+      "key": "alakazam"
+    },
+    {
+      "dex": "0065",
+      "keyword": "alakazam-f",
+      "key": "alakazam-f"
+    },
+    {
+      "dex": "0066",
+      "keyword": "machop",
+      "key": "machop"
+    },
+    {
+      "dex": "0067",
+      "keyword": "machoke",
+      "key": "machoke"
+    },
+    {
+      "dex": "0068",
+      "keyword": "machamp",
+      "key": "machamp"
+    },
+    {
+      "dex": "0069",
+      "keyword": "bellsprout",
+      "key": "bellsprout"
+    },
+    {
+      "dex": "0070",
+      "keyword": "weepinbell",
+      "key": "weepinbell"
+    },
+    {
+      "dex": "0071",
+      "keyword": "victreebel",
+      "key": "victreebel"
+    },
+    {
+      "dex": "0072",
+      "keyword": "tentacool",
+      "key": "tentacool"
+    },
+    {
+      "dex": "0073",
+      "keyword": "tentacruel",
+      "key": "tentacruel"
+    },
+    {
+      "dex": "0074",
+      "keyword": "geodude",
+      "key": "geodude"
+    },
+    {
+      "dex": "0074",
+      "keyword": "geodude-1",
+      "key": "geodude-alola"
+    },
+    {
+      "dex": "0075",
+      "keyword": "graveler",
+      "key": "graveler"
+    },
+    {
+      "dex": "0075",
+      "keyword": "graveler-1",
+      "key": "graveler-alola"
+    },
+    {
+      "dex": "0076",
+      "keyword": "golem",
+      "key": "golem"
+    },
+    {
+      "dex": "0076",
+      "keyword": "golem-1",
+      "key": "golem-alola"
+    },
+    {
+      "dex": "0077",
+      "keyword": "ponyta",
+      "key": "ponyta"
+    },
+    {
+      "dex": "0077",
+      "keyword": "ponyta-1",
+      "key": "ponyta-galar"
+    },
+    {
+      "dex": "0078",
+      "keyword": "rapidash",
+      "key": "rapidash"
+    },
+    {
+      "dex": "0078",
+      "keyword": "rapidash-1",
+      "key": "rapidash-galar"
+    },
+    {
+      "dex": "0079",
+      "keyword": "slowpoke",
+      "key": "slowpoke"
+    },
+    {
+      "dex": "0079",
+      "keyword": "slowpoke-1",
+      "key": "slowpoke-galar"
+    },
+    {
+      "dex": "0080",
+      "keyword": "slowbro",
+      "key": "slowbro"
+    },
+    {
+      "dex": "0080",
+      "keyword": "slowbro-1",
+      "key": "slowbro-galar"
+    },
+    {
+      "dex": "0081",
+      "keyword": "magnemite",
+      "key": "magnemite"
+    },
+    {
+      "dex": "0082",
+      "keyword": "magneton",
+      "key": "magneton"
+    },
+    {
+      "dex": "0083",
+      "keyword": "farfetch'd",
+      "key": "farfetchd"
+    },
+    {
+      "dex": "0083",
+      "keyword": "farfetch'd-1",
+      "key": "farfetchd-galar"
+    },
+    {
+      "dex": "0084",
+      "keyword": "doduo",
+      "key": "doduo"
+    },
+    {
+      "dex": "0084",
+      "keyword": "doduo-f",
+      "key": "doduo-f"
+    },
+    {
+      "dex": "0085",
+      "keyword": "dodrio",
+      "key": "dodrio"
+    },
+    {
+      "dex": "0085",
+      "keyword": "dodrio-f",
+      "key": "dodrio-f"
+    },
+    {
+      "dex": "0086",
+      "keyword": "seel",
+      "key": "seel"
+    },
+    {
+      "dex": "0087",
+      "keyword": "dewgong",
+      "key": "dewgong"
+    },
+    {
+      "dex": "0088",
+      "keyword": "grimer",
+      "key": "grimer"
+    },
+    {
+      "dex": "0088",
+      "keyword": "grimer-1",
+      "key": "grimer-alola"
+    },
+    {
+      "dex": "0089",
+      "keyword": "muk",
+      "key": "muk"
+    },
+    {
+      "dex": "0089",
+      "keyword": "muk-1",
+      "key": "muk-alola"
+    },
+    {
+      "dex": "0090",
+      "keyword": "shellder",
+      "key": "shellder"
+    },
+    {
+      "dex": "0091",
+      "keyword": "cloyster",
+      "key": "cloyster"
+    },
+    {
+      "dex": "0092",
+      "keyword": "gastly",
+      "key": "gastly"
+    },
+    {
+      "dex": "0093",
+      "keyword": "haunter",
+      "key": "haunter"
+    },
+    {
+      "dex": "0094",
+      "keyword": "gengar",
+      "key": "gengar"
+    },
+    {
+      "dex": "0095",
+      "keyword": "onix",
+      "key": "onix"
+    },
+    {
+      "dex": "0096",
+      "keyword": "drowzee",
+      "key": "drowzee"
+    },
+    {
+      "dex": "0097",
+      "keyword": "hypno",
+      "key": "hypno"
+    },
+    {
+      "dex": "0097",
+      "keyword": "hypno-f",
+      "key": "hypno-f"
+    },
+    {
+      "dex": "0098",
+      "keyword": "krabby",
+      "key": "krabby"
+    },
+    {
+      "dex": "0099",
+      "keyword": "kingler",
+      "key": "kingler"
+    },
+    {
+      "dex": "0100",
+      "keyword": "voltorb",
+      "key": "voltorb"
+    },
+    {
+      "dex": "0100",
+      "keyword": "voltorb-1",
+      "key": "voltorb-hisui"
+    },
+    {
+      "dex": "0101",
+      "keyword": "electrode",
+      "key": "electrode"
+    },
+    {
+      "dex": "0101",
+      "keyword": "electrode-1",
+      "key": "electrode-hisui"
+    },
+    {
+      "dex": "0102",
+      "keyword": "exeggcute",
+      "key": "exeggcute"
+    },
+    {
+      "dex": "0103",
+      "keyword": "exeggutor",
+      "key": "exeggutor"
+    },
+    {
+      "dex": "0103",
+      "keyword": "exeggutor-1",
+      "key": "exeggutor-alola"
+    },
+    {
+      "dex": "0104",
+      "keyword": "cubone",
+      "key": "cubone"
+    },
+    {
+      "dex": "0105",
+      "keyword": "marowak",
+      "key": "marowak"
+    },
+    {
+      "dex": "0105",
+      "keyword": "marowak-1",
+      "key": "marowak-alola"
+    },
+    {
+      "dex": "0106",
+      "keyword": "hitmonlee",
+      "key": "hitmonlee"
+    },
+    {
+      "dex": "0107",
+      "keyword": "hitmonchan",
+      "key": "hitmonchan"
+    },
+    {
+      "dex": "0108",
+      "keyword": "lickitung",
+      "key": "lickitung"
+    },
+    {
+      "dex": "0109",
+      "keyword": "koffing",
+      "key": "koffing"
+    },
+    {
+      "dex": "0110",
+      "keyword": "weezing",
+      "key": "weezing"
+    },
+    {
+      "dex": "0110",
+      "keyword": "weezing-1",
+      "key": "weezing-galar"
+    },
+    {
+      "dex": "0111",
+      "keyword": "rhyhorn",
+      "key": "rhyhorn"
+    },
+    {
+      "dex": "0111",
+      "keyword": "rhyhorn-f",
+      "key": "rhyhorn-f"
+    },
+    {
+      "dex": "0112",
+      "keyword": "rhydon",
+      "key": "rhydon"
+    },
+    {
+      "dex": "0112",
+      "keyword": "rhydon-f",
+      "key": "rhydon-f"
+    },
+    {
+      "dex": "0113",
+      "keyword": "chansey",
+      "key": "chansey"
+    },
+    {
+      "dex": "0114",
+      "keyword": "tangela",
+      "key": "tangela"
+    },
+    {
+      "dex": "0115",
+      "keyword": "kangaskhan",
+      "key": "kangaskhan"
+    },
+    {
+      "dex": "0116",
+      "keyword": "horsea",
+      "key": "horsea"
+    },
+    {
+      "dex": "0117",
+      "keyword": "seadra",
+      "key": "seadra"
+    },
+    {
+      "dex": "0118",
+      "keyword": "goldeen",
+      "key": "goldeen"
+    },
+    {
+      "dex": "0118",
+      "keyword": "goldeen-f",
+      "key": "goldeen-f"
+    },
+    {
+      "dex": "0119",
+      "keyword": "seaking",
+      "key": "seaking"
+    },
+    {
+      "dex": "0119",
+      "keyword": "seaking-f",
+      "key": "seaking-f"
+    },
+    {
+      "dex": "0120",
+      "keyword": "staryu",
+      "key": "staryu"
+    },
+    {
+      "dex": "0121",
+      "keyword": "starmie",
+      "key": "starmie"
+    },
+    {
+      "dex": "0122",
+      "keyword": "mr. mime",
+      "key": "mr-mime"
+    },
+    {
+      "dex": "0122",
+      "keyword": "mr. mime-1",
+      "key": "mr-mime-galar"
+    },
+    {
+      "dex": "0123",
+      "keyword": "scyther",
+      "key": "scyther"
+    },
+    {
+      "dex": "0123",
+      "keyword": "scyther-f",
+      "key": "scyther-f"
+    },
+    {
+      "dex": "0124",
+      "keyword": "jynx",
+      "key": "jynx"
+    },
+    {
+      "dex": "0125",
+      "keyword": "electabuzz",
+      "key": "electabuzz"
+    },
+    {
+      "dex": "0126",
+      "keyword": "magmar",
+      "key": "magmar"
+    },
+    {
+      "dex": "0127",
+      "keyword": "pinsir",
+      "key": "pinsir"
+    },
+    {
+      "dex": "0128",
+      "keyword": "tauros",
+      "key": "tauros"
+    },
+    {
+      "dex": "0128",
+      "keyword": "tauros-1",
+      "key": "tauros-paldea-combat-breed"
+    },
+    {
+      "dex": "0128",
+      "keyword": "tauros-2",
+      "key": "tauros-paldea-blaze-breed"
+    },
+    {
+      "dex": "0128",
+      "keyword": "tauros-3",
+      "key": "tauros-paldea-aqua-breed"
+    },
+    {
+      "dex": "0129",
+      "keyword": "magikarp",
+      "key": "magikarp"
+    },
+    {
+      "dex": "0129",
+      "keyword": "magikarp-f",
+      "key": "magikarp-f"
+    },
+    {
+      "dex": "0130",
+      "keyword": "gyarados",
+      "key": "gyarados"
+    },
+    {
+      "dex": "0130",
+      "keyword": "gyarados-f",
+      "key": "gyarados-f"
+    },
+    {
+      "dex": "0131",
+      "keyword": "lapras",
+      "key": "lapras"
+    },
+    {
+      "dex": "0132",
+      "keyword": "ditto",
+      "key": "ditto"
+    },
+    {
+      "dex": "0133",
+      "keyword": "eevee",
+      "key": "eevee"
+    },
+    {
+      "dex": "0133",
+      "keyword": "eevee-f",
+      "key": "eevee-f"
+    },
+    {
+      "dex": "0134",
+      "keyword": "vaporeon",
+      "key": "vaporeon"
+    },
+    {
+      "dex": "0135",
+      "keyword": "jolteon",
+      "key": "jolteon"
+    },
+    {
+      "dex": "0136",
+      "keyword": "flareon",
+      "key": "flareon"
+    },
+    {
+      "dex": "0137",
+      "keyword": "porygon",
+      "key": "porygon"
+    },
+    {
+      "dex": "0138",
+      "keyword": "omanyte",
+      "key": "omanyte"
+    },
+    {
+      "dex": "0139",
+      "keyword": "omastar",
+      "key": "omastar"
+    },
+    {
+      "dex": "0140",
+      "keyword": "kabuto",
+      "key": "kabuto"
+    },
+    {
+      "dex": "0141",
+      "keyword": "kabutops",
+      "key": "kabutops"
+    },
+    {
+      "dex": "0142",
+      "keyword": "aerodactyl",
+      "key": "aerodactyl"
+    },
+    {
+      "dex": "0143",
+      "keyword": "snorlax",
+      "key": "snorlax"
+    },
+    {
+      "dex": "0144",
+      "keyword": "articuno",
+      "key": "articuno"
+    },
+    {
+      "dex": "0144",
+      "keyword": "articuno-1",
+      "key": "articuno-galar"
+    },
+    {
+      "dex": "0145",
+      "keyword": "zapdos",
+      "key": "zapdos"
+    },
+    {
+      "dex": "0145",
+      "keyword": "zapdos-1",
+      "key": "zapdos-galar"
+    },
+    {
+      "dex": "0146",
+      "keyword": "moltres",
+      "key": "moltres"
+    },
+    {
+      "dex": "0146",
+      "keyword": "moltres-1",
+      "key": "moltres-galar"
+    },
+    {
+      "dex": "0147",
+      "keyword": "dratini",
+      "key": "dratini"
+    },
+    {
+      "dex": "0148",
+      "keyword": "dragonair",
+      "key": "dragonair"
+    },
+    {
+      "dex": "0149",
+      "keyword": "dragonite",
+      "key": "dragonite"
+    },
+    {
+      "dex": "0150",
+      "keyword": "mewtwo",
+      "key": "mewtwo"
+    },
+    {
+      "dex": "0151",
+      "keyword": "mew",
+      "key": "mew"
+    },
+    {
+      "dex": "0152",
+      "keyword": "chikorita",
+      "key": "chikorita"
+    },
+    {
+      "dex": "0153",
+      "keyword": "bayleef",
+      "key": "bayleef"
+    },
+    {
+      "dex": "0154",
+      "keyword": "meganium",
+      "key": "meganium"
+    },
+    {
+      "dex": "0154",
+      "keyword": "meganium-f",
+      "key": "meganium-f"
+    },
+    {
+      "dex": "0155",
+      "keyword": "cyndaquil",
+      "key": "cyndaquil"
+    },
+    {
+      "dex": "0156",
+      "keyword": "quilava",
+      "key": "quilava"
+    },
+    {
+      "dex": "0157",
+      "keyword": "typhlosion",
+      "key": "typhlosion"
+    },
+    {
+      "dex": "0157",
+      "keyword": "typhlosion-1",
+      "key": "typhlosion-hisui"
+    },
+    {
+      "dex": "0158",
+      "keyword": "totodile",
+      "key": "totodile"
+    },
+    {
+      "dex": "0159",
+      "keyword": "croconaw",
+      "key": "croconaw"
+    },
+    {
+      "dex": "0160",
+      "keyword": "feraligatr",
+      "key": "feraligatr"
+    },
+    {
+      "dex": "0161",
+      "keyword": "sentret",
+      "key": "sentret"
+    },
+    {
+      "dex": "0162",
+      "keyword": "furret",
+      "key": "furret"
+    },
+    {
+      "dex": "0163",
+      "keyword": "hoothoot",
+      "key": "hoothoot"
+    },
+    {
+      "dex": "0164",
+      "keyword": "noctowl",
+      "key": "noctowl"
+    },
+    {
+      "dex": "0165",
+      "keyword": "ledyba",
+      "key": "ledyba"
+    },
+    {
+      "dex": "0165",
+      "keyword": "ledyba-f",
+      "key": "ledyba-f"
+    },
+    {
+      "dex": "0166",
+      "keyword": "ledian",
+      "key": "ledian"
+    },
+    {
+      "dex": "0166",
+      "keyword": "ledian-f",
+      "key": "ledian-f"
+    },
+    {
+      "dex": "0167",
+      "keyword": "spinarak",
+      "key": "spinarak"
+    },
+    {
+      "dex": "0168",
+      "keyword": "ariados",
+      "key": "ariados"
+    },
+    {
+      "dex": "0169",
+      "keyword": "crobat",
+      "key": "crobat"
+    },
+    {
+      "dex": "0170",
+      "keyword": "chinchou",
+      "key": "chinchou"
+    },
+    {
+      "dex": "0171",
+      "keyword": "lanturn",
+      "key": "lanturn"
+    },
+    {
+      "dex": "0172",
+      "keyword": "pichu",
+      "key": "pichu"
+    },
+    {
+      "dex": "0173",
+      "keyword": "cleffa",
+      "key": "cleffa"
+    },
+    {
+      "dex": "0174",
+      "keyword": "igglybuff",
+      "key": "igglybuff"
+    },
+    {
+      "dex": "0175",
+      "keyword": "togepi",
+      "key": "togepi"
+    },
+    {
+      "dex": "0176",
+      "keyword": "togetic",
+      "key": "togetic"
+    },
+    {
+      "dex": "0177",
+      "keyword": "natu",
+      "key": "natu"
+    },
+    {
+      "dex": "0178",
+      "keyword": "xatu",
+      "key": "xatu"
+    },
+    {
+      "dex": "0178",
+      "keyword": "xatu-f",
+      "key": "xatu-f"
+    },
+    {
+      "dex": "0179",
+      "keyword": "mareep",
+      "key": "mareep"
+    },
+    {
+      "dex": "0180",
+      "keyword": "flaaffy",
+      "key": "flaaffy"
+    },
+    {
+      "dex": "0181",
+      "keyword": "ampharos",
+      "key": "ampharos"
+    },
+    {
+      "dex": "0182",
+      "keyword": "bellossom",
+      "key": "bellossom"
+    },
+    {
+      "dex": "0183",
+      "keyword": "marill",
+      "key": "marill"
+    },
+    {
+      "dex": "0184",
+      "keyword": "azumarill",
+      "key": "azumarill"
+    },
+    {
+      "dex": "0185",
+      "keyword": "sudowoodo",
+      "key": "sudowoodo"
+    },
+    {
+      "dex": "0185",
+      "keyword": "sudowoodo-f",
+      "key": "sudowoodo-f"
+    },
+    {
+      "dex": "0186",
+      "keyword": "politoed",
+      "key": "politoed"
+    },
+    {
+      "dex": "0186",
+      "keyword": "politoed-f",
+      "key": "politoed-f"
+    },
+    {
+      "dex": "0187",
+      "keyword": "hoppip",
+      "key": "hoppip"
+    },
+    {
+      "dex": "0188",
+      "keyword": "skiploom",
+      "key": "skiploom"
+    },
+    {
+      "dex": "0189",
+      "keyword": "jumpluff",
+      "key": "jumpluff"
+    },
+    {
+      "dex": "0190",
+      "keyword": "aipom",
+      "key": "aipom"
+    },
+    {
+      "dex": "0190",
+      "keyword": "aipom-f",
+      "key": "aipom-f"
+    },
+    {
+      "dex": "0191",
+      "keyword": "sunkern",
+      "key": "sunkern"
+    },
+    {
+      "dex": "0192",
+      "keyword": "sunflora",
+      "key": "sunflora"
+    },
+    {
+      "dex": "0193",
+      "keyword": "yanma",
+      "key": "yanma"
+    },
+    {
+      "dex": "0194",
+      "keyword": "wooper",
+      "key": "wooper"
+    },
+    {
+      "dex": "0194",
+      "keyword": "wooper-1",
+      "key": "wooper-paldea"
+    },
+    {
+      "dex": "0194",
+      "keyword": "wooper-f",
+      "key": "wooper-f"
+    },
+    {
+      "dex": "0195",
+      "keyword": "quagsire",
+      "key": "quagsire"
+    },
+    {
+      "dex": "0195",
+      "keyword": "quagsire-f",
+      "key": "quagsire-f"
+    },
+    {
+      "dex": "0196",
+      "keyword": "espeon",
+      "key": "espeon"
+    },
+    {
+      "dex": "0197",
+      "keyword": "umbreon",
+      "key": "umbreon"
+    },
+    {
+      "dex": "0198",
+      "keyword": "murkrow",
+      "key": "murkrow"
+    },
+    {
+      "dex": "0198",
+      "keyword": "murkrow-f",
+      "key": "murkrow-f"
+    },
+    {
+      "dex": "0199",
+      "keyword": "slowking",
+      "key": "slowking"
+    },
+    {
+      "dex": "0199",
+      "keyword": "slowking-1",
+      "key": "slowking-galar"
+    },
+    {
+      "dex": "0200",
+      "keyword": "misdreavus",
+      "key": "misdreavus"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown",
+      "key": "unown-a"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-1",
+      "key": "unown-b"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-2",
+      "key": "unown-c"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-3",
+      "key": "unown-d"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-4",
+      "key": "unown-e"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-5",
+      "key": "unown-f"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-6",
+      "key": "unown-g"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-7",
+      "key": "unown-h"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-8",
+      "key": "unown-i"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-9",
+      "key": "unown-j"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-10",
+      "key": "unown-k"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-11",
+      "key": "unown-l"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-12",
+      "key": "unown-m"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-13",
+      "key": "unown-n"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-14",
+      "key": "unown-o"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-15",
+      "key": "unown-p"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-16",
+      "key": "unown-q"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-17",
+      "key": "unown-r"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-18",
+      "key": "unown-s"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-19",
+      "key": "unown-t"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-20",
+      "key": "unown-u"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-21",
+      "key": "unown-v"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-22",
+      "key": "unown-w"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-23",
+      "key": "unown-x"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-24",
+      "key": "unown-y"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-25",
+      "key": "unown-z"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-26",
+      "key": "unown-exclamation"
+    },
+    {
+      "dex": "0201",
+      "keyword": "unown-27",
+      "key": "unown-question"
+    },
+    {
+      "dex": "0202",
+      "keyword": "wobbuffet",
+      "key": "wobbuffet"
+    },
+    {
+      "dex": "0202",
+      "keyword": "wobbuffet-f",
+      "key": "wobbuffet-f"
+    },
+    {
+      "dex": "0203",
+      "keyword": "girafarig",
+      "key": "girafarig"
+    },
+    {
+      "dex": "0203",
+      "keyword": "girafarig-f",
+      "key": "girafarig-f"
+    },
+    {
+      "dex": "0204",
+      "keyword": "pineco",
+      "key": "pineco"
+    },
+    {
+      "dex": "0205",
+      "keyword": "forretress",
+      "key": "forretress"
+    },
+    {
+      "dex": "0206",
+      "keyword": "dunsparce",
+      "key": "dunsparce"
+    },
+    {
+      "dex": "0207",
+      "keyword": "gligar",
+      "key": "gligar"
+    },
+    {
+      "dex": "0207",
+      "keyword": "gligar-f",
+      "key": "gligar-f"
+    },
+    {
+      "dex": "0208",
+      "keyword": "steelix",
+      "key": "steelix"
+    },
+    {
+      "dex": "0208",
+      "keyword": "steelix-f",
+      "key": "steelix-f"
+    },
+    {
+      "dex": "0209",
+      "keyword": "snubbull",
+      "key": "snubbull"
+    },
+    {
+      "dex": "0210",
+      "keyword": "granbull",
+      "key": "granbull"
+    },
+    {
+      "dex": "0211",
+      "keyword": "qwilfish",
+      "key": "qwilfish"
+    },
+    {
+      "dex": "0211",
+      "keyword": "qwilfish-1",
+      "key": "qwilfish-hisui"
+    },
+    {
+      "dex": "0212",
+      "keyword": "scizor",
+      "key": "scizor"
+    },
+    {
+      "dex": "0212",
+      "keyword": "scizor-f",
+      "key": "scizor-f"
+    },
+    {
+      "dex": "0213",
+      "keyword": "shuckle",
+      "key": "shuckle"
+    },
+    {
+      "dex": "0214",
+      "keyword": "heracross",
+      "key": "heracross"
+    },
+    {
+      "dex": "0214",
+      "keyword": "heracross-f",
+      "key": "heracross-f"
+    },
+    {
+      "dex": "0215",
+      "keyword": "sneasel",
+      "key": "sneasel"
+    },
+    {
+      "dex": "0215",
+      "keyword": "sneasel-1",
+      "key": "sneasel-hisui"
+    },
+    {
+      "dex": "0215",
+      "keyword": "sneasel-f",
+      "key": "sneasel-f"
+    },
+    {
+      "dex": "0215",
+      "keyword": "sneasel-1-f",
+      "key": "sneasel-hisui-f"
+    },
+    {
+      "dex": "0216",
+      "keyword": "teddiursa",
+      "key": "teddiursa"
+    },
+    {
+      "dex": "0217",
+      "keyword": "ursaring",
+      "key": "ursaring"
+    },
+    {
+      "dex": "0217",
+      "keyword": "ursaring-f",
+      "key": "ursaring-f"
+    },
+    {
+      "dex": "0218",
+      "keyword": "slugma",
+      "key": "slugma"
+    },
+    {
+      "dex": "0219",
+      "keyword": "magcargo",
+      "key": "magcargo"
+    },
+    {
+      "dex": "0220",
+      "keyword": "swinub",
+      "key": "swinub"
+    },
+    {
+      "dex": "0221",
+      "keyword": "piloswine",
+      "key": "piloswine"
+    },
+    {
+      "dex": "0221",
+      "keyword": "piloswine-f",
+      "key": "piloswine-f"
+    },
+    {
+      "dex": "0222",
+      "keyword": "corsola",
+      "key": "corsola"
+    },
+    {
+      "dex": "0222",
+      "keyword": "corsola-1",
+      "key": "corsola-galar"
+    },
+    {
+      "dex": "0223",
+      "keyword": "remoraid",
+      "key": "remoraid"
+    },
+    {
+      "dex": "0224",
+      "keyword": "octillery",
+      "key": "octillery"
+    },
+    {
+      "dex": "0224",
+      "keyword": "octillery-f",
+      "key": "octillery-f"
+    },
+    {
+      "dex": "0225",
+      "keyword": "delibird",
+      "key": "delibird"
+    },
+    {
+      "dex": "0226",
+      "keyword": "mantine",
+      "key": "mantine"
+    },
+    {
+      "dex": "0227",
+      "keyword": "skarmory",
+      "key": "skarmory"
+    },
+    {
+      "dex": "0228",
+      "keyword": "houndour",
+      "key": "houndour"
+    },
+    {
+      "dex": "0229",
+      "keyword": "houndoom",
+      "key": "houndoom"
+    },
+    {
+      "dex": "0229",
+      "keyword": "houndoom-f",
+      "key": "houndoom-f"
+    },
+    {
+      "dex": "0230",
+      "keyword": "kingdra",
+      "key": "kingdra"
+    },
+    {
+      "dex": "0231",
+      "keyword": "phanpy",
+      "key": "phanpy"
+    },
+    {
+      "dex": "0232",
+      "keyword": "donphan",
+      "key": "donphan"
+    },
+    {
+      "dex": "0232",
+      "keyword": "donphan-f",
+      "key": "donphan-f"
+    },
+    {
+      "dex": "0233",
+      "keyword": "porygon2",
+      "key": "porygon2"
+    },
+    {
+      "dex": "0234",
+      "keyword": "stantler",
+      "key": "stantler"
+    },
+    {
+      "dex": "0235",
+      "keyword": "smeargle",
+      "key": "smeargle"
+    },
+    {
+      "dex": "0236",
+      "keyword": "tyrogue",
+      "key": "tyrogue"
+    },
+    {
+      "dex": "0237",
+      "keyword": "hitmontop",
+      "key": "hitmontop"
+    },
+    {
+      "dex": "0238",
+      "keyword": "smoochum",
+      "key": "smoochum"
+    },
+    {
+      "dex": "0239",
+      "keyword": "elekid",
+      "key": "elekid"
+    },
+    {
+      "dex": "0240",
+      "keyword": "magby",
+      "key": "magby"
+    },
+    {
+      "dex": "0241",
+      "keyword": "miltank",
+      "key": "miltank"
+    },
+    {
+      "dex": "0242",
+      "keyword": "blissey",
+      "key": "blissey"
+    },
+    {
+      "dex": "0243",
+      "keyword": "raikou",
+      "key": "raikou"
+    },
+    {
+      "dex": "0244",
+      "keyword": "entei",
+      "key": "entei"
+    },
+    {
+      "dex": "0245",
+      "keyword": "suicune",
+      "key": "suicune"
+    },
+    {
+      "dex": "0246",
+      "keyword": "larvitar",
+      "key": "larvitar"
+    },
+    {
+      "dex": "0247",
+      "keyword": "pupitar",
+      "key": "pupitar"
+    },
+    {
+      "dex": "0248",
+      "keyword": "tyranitar",
+      "key": "tyranitar"
+    },
+    {
+      "dex": "0249",
+      "keyword": "lugia",
+      "key": "lugia"
+    },
+    {
+      "dex": "0250",
+      "keyword": "ho-oh",
+      "key": "ho-oh"
+    },
+    {
+      "dex": "0251",
+      "keyword": "celebi",
+      "key": "celebi"
+    },
+    {
+      "dex": "0252",
+      "keyword": "treecko",
+      "key": "treecko"
+    },
+    {
+      "dex": "0253",
+      "keyword": "grovyle",
+      "key": "grovyle"
+    },
+    {
+      "dex": "0254",
+      "keyword": "sceptile",
+      "key": "sceptile"
+    },
+    {
+      "dex": "0255",
+      "keyword": "torchic",
+      "key": "torchic"
+    },
+    {
+      "dex": "0255",
+      "keyword": "torchic-f",
+      "key": "torchic-f"
+    },
+    {
+      "dex": "0256",
+      "keyword": "combusken",
+      "key": "combusken"
+    },
+    {
+      "dex": "0256",
+      "keyword": "combusken-f",
+      "key": "combusken-f"
+    },
+    {
+      "dex": "0257",
+      "keyword": "blaziken",
+      "key": "blaziken"
+    },
+    {
+      "dex": "0257",
+      "keyword": "blaziken-f",
+      "key": "blaziken-f"
+    },
+    {
+      "dex": "0258",
+      "keyword": "mudkip",
+      "key": "mudkip"
+    },
+    {
+      "dex": "0259",
+      "keyword": "marshtomp",
+      "key": "marshtomp"
+    },
+    {
+      "dex": "0260",
+      "keyword": "swampert",
+      "key": "swampert"
+    },
+    {
+      "dex": "0261",
+      "keyword": "poochyena",
+      "key": "poochyena"
+    },
+    {
+      "dex": "0262",
+      "keyword": "mightyena",
+      "key": "mightyena"
+    },
+    {
+      "dex": "0263",
+      "keyword": "zigzagoon",
+      "key": "zigzagoon"
+    },
+    {
+      "dex": "0263",
+      "keyword": "zigzagoon-1",
+      "key": "zigzagoon-galar"
+    },
+    {
+      "dex": "0264",
+      "keyword": "linoone",
+      "key": "linoone"
+    },
+    {
+      "dex": "0264",
+      "keyword": "linoone-1",
+      "key": "linoone-galar"
+    },
+    {
+      "dex": "0265",
+      "keyword": "wurmple",
+      "key": "wurmple"
+    },
+    {
+      "dex": "0266",
+      "keyword": "silcoon",
+      "key": "silcoon"
+    },
+    {
+      "dex": "0267",
+      "keyword": "beautifly",
+      "key": "beautifly"
+    },
+    {
+      "dex": "0267",
+      "keyword": "beautifly-f",
+      "key": "beautifly-f"
+    },
+    {
+      "dex": "0268",
+      "keyword": "cascoon",
+      "key": "cascoon"
+    },
+    {
+      "dex": "0269",
+      "keyword": "dustox",
+      "key": "dustox"
+    },
+    {
+      "dex": "0269",
+      "keyword": "dustox-f",
+      "key": "dustox-f"
+    },
+    {
+      "dex": "0270",
+      "keyword": "lotad",
+      "key": "lotad"
+    },
+    {
+      "dex": "0271",
+      "keyword": "lombre",
+      "key": "lombre"
+    },
+    {
+      "dex": "0272",
+      "keyword": "ludicolo",
+      "key": "ludicolo"
+    },
+    {
+      "dex": "0272",
+      "keyword": "ludicolo-f",
+      "key": "ludicolo-f"
+    },
+    {
+      "dex": "0273",
+      "keyword": "seedot",
+      "key": "seedot"
+    },
+    {
+      "dex": "0274",
+      "keyword": "nuzleaf",
+      "key": "nuzleaf"
+    },
+    {
+      "dex": "0274",
+      "keyword": "nuzleaf-f",
+      "key": "nuzleaf-f"
+    },
+    {
+      "dex": "0275",
+      "keyword": "shiftry",
+      "key": "shiftry"
+    },
+    {
+      "dex": "0275",
+      "keyword": "shiftry-f",
+      "key": "shiftry-f"
+    },
+    {
+      "dex": "0276",
+      "keyword": "taillow",
+      "key": "taillow"
+    },
+    {
+      "dex": "0277",
+      "keyword": "swellow",
+      "key": "swellow"
+    },
+    {
+      "dex": "0278",
+      "keyword": "wingull",
+      "key": "wingull"
+    },
+    {
+      "dex": "0279",
+      "keyword": "pelipper",
+      "key": "pelipper"
+    },
+    {
+      "dex": "0280",
+      "keyword": "ralts",
+      "key": "ralts"
+    },
+    {
+      "dex": "0281",
+      "keyword": "kirlia",
+      "key": "kirlia"
+    },
+    {
+      "dex": "0282",
+      "keyword": "gardevoir",
+      "key": "gardevoir"
+    },
+    {
+      "dex": "0283",
+      "keyword": "surskit",
+      "key": "surskit"
+    },
+    {
+      "dex": "0284",
+      "keyword": "masquerain",
+      "key": "masquerain"
+    },
+    {
+      "dex": "0285",
+      "keyword": "shroomish",
+      "key": "shroomish"
+    },
+    {
+      "dex": "0286",
+      "keyword": "breloom",
+      "key": "breloom"
+    },
+    {
+      "dex": "0287",
+      "keyword": "slakoth",
+      "key": "slakoth"
+    },
+    {
+      "dex": "0288",
+      "keyword": "vigoroth",
+      "key": "vigoroth"
+    },
+    {
+      "dex": "0289",
+      "keyword": "slaking",
+      "key": "slaking"
+    },
+    {
+      "dex": "0290",
+      "keyword": "nincada",
+      "key": "nincada"
+    },
+    {
+      "dex": "0291",
+      "keyword": "ninjask",
+      "key": "ninjask"
+    },
+    {
+      "dex": "0292",
+      "keyword": "shedinja",
+      "key": "shedinja"
+    },
+    {
+      "dex": "0293",
+      "keyword": "whismur",
+      "key": "whismur"
+    },
+    {
+      "dex": "0294",
+      "keyword": "loudred",
+      "key": "loudred"
+    },
+    {
+      "dex": "0295",
+      "keyword": "exploud",
+      "key": "exploud"
+    },
+    {
+      "dex": "0296",
+      "keyword": "makuhita",
+      "key": "makuhita"
+    },
+    {
+      "dex": "0297",
+      "keyword": "hariyama",
+      "key": "hariyama"
+    },
+    {
+      "dex": "0298",
+      "keyword": "azurill",
+      "key": "azurill"
+    },
+    {
+      "dex": "0299",
+      "keyword": "nosepass",
+      "key": "nosepass"
+    },
+    {
+      "dex": "0300",
+      "keyword": "skitty",
+      "key": "skitty"
+    },
+    {
+      "dex": "0301",
+      "keyword": "delcatty",
+      "key": "delcatty"
+    },
+    {
+      "dex": "0302",
+      "keyword": "sableye",
+      "key": "sableye"
+    },
+    {
+      "dex": "0303",
+      "keyword": "mawile",
+      "key": "mawile"
+    },
+    {
+      "dex": "0304",
+      "keyword": "aron",
+      "key": "aron"
+    },
+    {
+      "dex": "0305",
+      "keyword": "lairon",
+      "key": "lairon"
+    },
+    {
+      "dex": "0306",
+      "keyword": "aggron",
+      "key": "aggron"
+    },
+    {
+      "dex": "0307",
+      "keyword": "meditite",
+      "key": "meditite"
+    },
+    {
+      "dex": "0307",
+      "keyword": "meditite-f",
+      "key": "meditite-f"
+    },
+    {
+      "dex": "0308",
+      "keyword": "medicham",
+      "key": "medicham"
+    },
+    {
+      "dex": "0308",
+      "keyword": "medicham-f",
+      "key": "medicham-f"
+    },
+    {
+      "dex": "0309",
+      "keyword": "electrike",
+      "key": "electrike"
+    },
+    {
+      "dex": "0310",
+      "keyword": "manectric",
+      "key": "manectric"
+    },
+    {
+      "dex": "0311",
+      "keyword": "plusle",
+      "key": "plusle"
+    },
+    {
+      "dex": "0312",
+      "keyword": "minun",
+      "key": "minun"
+    },
+    {
+      "dex": "0313",
+      "keyword": "volbeat",
+      "key": "volbeat"
+    },
+    {
+      "dex": "0314",
+      "keyword": "illumise",
+      "key": "illumise"
+    },
+    {
+      "dex": "0315",
+      "keyword": "roselia",
+      "key": "roselia"
+    },
+    {
+      "dex": "0315",
+      "keyword": "roselia-f",
+      "key": "roselia-f"
+    },
+    {
+      "dex": "0316",
+      "keyword": "gulpin",
+      "key": "gulpin"
+    },
+    {
+      "dex": "0316",
+      "keyword": "gulpin-f",
+      "key": "gulpin-f"
+    },
+    {
+      "dex": "0317",
+      "keyword": "swalot",
+      "key": "swalot"
+    },
+    {
+      "dex": "0317",
+      "keyword": "swalot-f",
+      "key": "swalot-f"
+    },
+    {
+      "dex": "0318",
+      "keyword": "carvanha",
+      "key": "carvanha"
+    },
+    {
+      "dex": "0319",
+      "keyword": "sharpedo",
+      "key": "sharpedo"
+    },
+    {
+      "dex": "0320",
+      "keyword": "wailmer",
+      "key": "wailmer"
+    },
+    {
+      "dex": "0321",
+      "keyword": "wailord",
+      "key": "wailord"
+    },
+    {
+      "dex": "0322",
+      "keyword": "numel",
+      "key": "numel"
+    },
+    {
+      "dex": "0322",
+      "keyword": "numel-f",
+      "key": "numel-f"
+    },
+    {
+      "dex": "0323",
+      "keyword": "camerupt",
+      "key": "camerupt"
+    },
+    {
+      "dex": "0323",
+      "keyword": "camerupt-f",
+      "key": "camerupt-f"
+    },
+    {
+      "dex": "0324",
+      "keyword": "torkoal",
+      "key": "torkoal"
+    },
+    {
+      "dex": "0325",
+      "keyword": "spoink",
+      "key": "spoink"
+    },
+    {
+      "dex": "0326",
+      "keyword": "grumpig",
+      "key": "grumpig"
+    },
+    {
+      "dex": "0327",
+      "keyword": "spinda",
+      "key": "spinda"
+    },
+    {
+      "dex": "0328",
+      "keyword": "trapinch",
+      "key": "trapinch"
+    },
+    {
+      "dex": "0329",
+      "keyword": "vibrava",
+      "key": "vibrava"
+    },
+    {
+      "dex": "0330",
+      "keyword": "flygon",
+      "key": "flygon"
+    },
+    {
+      "dex": "0331",
+      "keyword": "cacnea",
+      "key": "cacnea"
+    },
+    {
+      "dex": "0332",
+      "keyword": "cacturne",
+      "key": "cacturne"
+    },
+    {
+      "dex": "0332",
+      "keyword": "cacturne-f",
+      "key": "cacturne-f"
+    },
+    {
+      "dex": "0333",
+      "keyword": "swablu",
+      "key": "swablu"
+    },
+    {
+      "dex": "0334",
+      "keyword": "altaria",
+      "key": "altaria"
+    },
+    {
+      "dex": "0335",
+      "keyword": "zangoose",
+      "key": "zangoose"
+    },
+    {
+      "dex": "0336",
+      "keyword": "seviper",
+      "key": "seviper"
+    },
+    {
+      "dex": "0337",
+      "keyword": "lunatone",
+      "key": "lunatone"
+    },
+    {
+      "dex": "0338",
+      "keyword": "solrock",
+      "key": "solrock"
+    },
+    {
+      "dex": "0339",
+      "keyword": "barboach",
+      "key": "barboach"
+    },
+    {
+      "dex": "0340",
+      "keyword": "whiscash",
+      "key": "whiscash"
+    },
+    {
+      "dex": "0341",
+      "keyword": "corphish",
+      "key": "corphish"
+    },
+    {
+      "dex": "0342",
+      "keyword": "crawdaunt",
+      "key": "crawdaunt"
+    },
+    {
+      "dex": "0343",
+      "keyword": "baltoy",
+      "key": "baltoy"
+    },
+    {
+      "dex": "0344",
+      "keyword": "claydol",
+      "key": "claydol"
+    },
+    {
+      "dex": "0345",
+      "keyword": "lileep",
+      "key": "lileep"
+    },
+    {
+      "dex": "0346",
+      "keyword": "cradily",
+      "key": "cradily"
+    },
+    {
+      "dex": "0347",
+      "keyword": "anorith",
+      "key": "anorith"
+    },
+    {
+      "dex": "0348",
+      "keyword": "armaldo",
+      "key": "armaldo"
+    },
+    {
+      "dex": "0349",
+      "keyword": "feebas",
+      "key": "feebas"
+    },
+    {
+      "dex": "0350",
+      "keyword": "milotic",
+      "key": "milotic"
+    },
+    {
+      "dex": "0350",
+      "keyword": "milotic-f",
+      "key": "milotic-f"
+    },
+    {
+      "dex": "0351",
+      "keyword": "castform",
+      "key": "castform"
+    },
+    {
+      "dex": "0352",
+      "keyword": "kecleon",
+      "key": "kecleon"
+    },
+    {
+      "dex": "0353",
+      "keyword": "shuppet",
+      "key": "shuppet"
+    },
+    {
+      "dex": "0354",
+      "keyword": "banette",
+      "key": "banette"
+    },
+    {
+      "dex": "0355",
+      "keyword": "duskull",
+      "key": "duskull"
+    },
+    {
+      "dex": "0356",
+      "keyword": "dusclops",
+      "key": "dusclops"
+    },
+    {
+      "dex": "0357",
+      "keyword": "tropius",
+      "key": "tropius"
+    },
+    {
+      "dex": "0358",
+      "keyword": "chimecho",
+      "key": "chimecho"
+    },
+    {
+      "dex": "0359",
+      "keyword": "absol",
+      "key": "absol"
+    },
+    {
+      "dex": "0360",
+      "keyword": "wynaut",
+      "key": "wynaut"
+    },
+    {
+      "dex": "0361",
+      "keyword": "snorunt",
+      "key": "snorunt"
+    },
+    {
+      "dex": "0362",
+      "keyword": "glalie",
+      "key": "glalie"
+    },
+    {
+      "dex": "0363",
+      "keyword": "spheal",
+      "key": "spheal"
+    },
+    {
+      "dex": "0364",
+      "keyword": "sealeo",
+      "key": "sealeo"
+    },
+    {
+      "dex": "0365",
+      "keyword": "walrein",
+      "key": "walrein"
+    },
+    {
+      "dex": "0366",
+      "keyword": "clamperl",
+      "key": "clamperl"
+    },
+    {
+      "dex": "0367",
+      "keyword": "huntail",
+      "key": "huntail"
+    },
+    {
+      "dex": "0368",
+      "keyword": "gorebyss",
+      "key": "gorebyss"
+    },
+    {
+      "dex": "0369",
+      "keyword": "relicanth",
+      "key": "relicanth"
+    },
+    {
+      "dex": "0369",
+      "keyword": "relicanth-f",
+      "key": "relicanth-f"
+    },
+    {
+      "dex": "0370",
+      "keyword": "luvdisc",
+      "key": "luvdisc"
+    },
+    {
+      "dex": "0371",
+      "keyword": "bagon",
+      "key": "bagon"
+    },
+    {
+      "dex": "0372",
+      "keyword": "shelgon",
+      "key": "shelgon"
+    },
+    {
+      "dex": "0373",
+      "keyword": "salamence",
+      "key": "salamence"
+    },
+    {
+      "dex": "0374",
+      "keyword": "beldum",
+      "key": "beldum"
+    },
+    {
+      "dex": "0375",
+      "keyword": "metang",
+      "key": "metang"
+    },
+    {
+      "dex": "0376",
+      "keyword": "metagross",
+      "key": "metagross"
+    },
+    {
+      "dex": "0377",
+      "keyword": "regirock",
+      "key": "regirock"
+    },
+    {
+      "dex": "0378",
+      "keyword": "regice",
+      "key": "regice"
+    },
+    {
+      "dex": "0379",
+      "keyword": "registeel",
+      "key": "registeel"
+    },
+    {
+      "dex": "0380",
+      "keyword": "latias",
+      "key": "latias"
+    },
+    {
+      "dex": "0381",
+      "keyword": "latios",
+      "key": "latios"
+    },
+    {
+      "dex": "0382",
+      "keyword": "kyogre",
+      "key": "kyogre"
+    },
+    {
+      "dex": "0383",
+      "keyword": "groudon",
+      "key": "groudon"
+    },
+    {
+      "dex": "0384",
+      "keyword": "rayquaza",
+      "key": "rayquaza"
+    },
+    {
+      "dex": "0385",
+      "keyword": "jirachi",
+      "key": "jirachi"
+    },
+    {
+      "dex": "0386",
+      "keyword": "deoxys",
+      "key": "deoxys-normal"
+    },
+    {
+      "dex": "0386",
+      "keyword": "deoxys-1",
+      "key": "deoxys-attack"
+    },
+    {
+      "dex": "0386",
+      "keyword": "deoxys-2",
+      "key": "deoxys-defense"
+    },
+    {
+      "dex": "0386",
+      "keyword": "deoxys-3",
+      "key": "deoxys-speed"
+    },
+    {
+      "dex": "0387",
+      "keyword": "turtwig",
+      "key": "turtwig"
+    },
+    {
+      "dex": "0388",
+      "keyword": "grotle",
+      "key": "grotle"
+    },
+    {
+      "dex": "0389",
+      "keyword": "torterra",
+      "key": "torterra"
+    },
+    {
+      "dex": "0390",
+      "keyword": "chimchar",
+      "key": "chimchar"
+    },
+    {
+      "dex": "0391",
+      "keyword": "monferno",
+      "key": "monferno"
+    },
+    {
+      "dex": "0392",
+      "keyword": "infernape",
+      "key": "infernape"
+    },
+    {
+      "dex": "0393",
+      "keyword": "piplup",
+      "key": "piplup"
+    },
+    {
+      "dex": "0394",
+      "keyword": "prinplup",
+      "key": "prinplup"
+    },
+    {
+      "dex": "0395",
+      "keyword": "empoleon",
+      "key": "empoleon"
+    },
+    {
+      "dex": "0396",
+      "keyword": "starly",
+      "key": "starly"
+    },
+    {
+      "dex": "0396",
+      "keyword": "starly-f",
+      "key": "starly-f"
+    },
+    {
+      "dex": "0397",
+      "keyword": "staravia",
+      "key": "staravia"
+    },
+    {
+      "dex": "0397",
+      "keyword": "staravia-f",
+      "key": "staravia-f"
+    },
+    {
+      "dex": "0398",
+      "keyword": "staraptor",
+      "key": "staraptor"
+    },
+    {
+      "dex": "0398",
+      "keyword": "staraptor-f",
+      "key": "staraptor-f"
+    },
+    {
+      "dex": "0399",
+      "keyword": "bidoof",
+      "key": "bidoof"
+    },
+    {
+      "dex": "0399",
+      "keyword": "bidoof-f",
+      "key": "bidoof-f"
+    },
+    {
+      "dex": "0400",
+      "keyword": "bibarel",
+      "key": "bibarel"
+    },
+    {
+      "dex": "0400",
+      "keyword": "bibarel-f",
+      "key": "bibarel-f"
+    },
+    {
+      "dex": "0401",
+      "keyword": "kricketot",
+      "key": "kricketot"
+    },
+    {
+      "dex": "0401",
+      "keyword": "kricketot-f",
+      "key": "kricketot-f"
+    },
+    {
+      "dex": "0402",
+      "keyword": "kricketune",
+      "key": "kricketune"
+    },
+    {
+      "dex": "0402",
+      "keyword": "kricketune-f",
+      "key": "kricketune-f"
+    },
+    {
+      "dex": "0403",
+      "keyword": "shinx",
+      "key": "shinx"
+    },
+    {
+      "dex": "0403",
+      "keyword": "shinx-f",
+      "key": "shinx-f"
+    },
+    {
+      "dex": "0404",
+      "keyword": "luxio",
+      "key": "luxio"
+    },
+    {
+      "dex": "0404",
+      "keyword": "luxio-f",
+      "key": "luxio-f"
+    },
+    {
+      "dex": "0405",
+      "keyword": "luxray",
+      "key": "luxray"
+    },
+    {
+      "dex": "0405",
+      "keyword": "luxray-f",
+      "key": "luxray-f"
+    },
+    {
+      "dex": "0406",
+      "keyword": "budew",
+      "key": "budew"
+    },
+    {
+      "dex": "0407",
+      "keyword": "roserade",
+      "key": "roserade"
+    },
+    {
+      "dex": "0407",
+      "keyword": "roserade-f",
+      "key": "roserade-f"
+    },
+    {
+      "dex": "0408",
+      "keyword": "cranidos",
+      "key": "cranidos"
+    },
+    {
+      "dex": "0409",
+      "keyword": "rampardos",
+      "key": "rampardos"
+    },
+    {
+      "dex": "0410",
+      "keyword": "shieldon",
+      "key": "shieldon"
+    },
+    {
+      "dex": "0411",
+      "keyword": "bastiodon",
+      "key": "bastiodon"
+    },
+    {
+      "dex": "0412",
+      "keyword": "burmy",
+      "key": "burmy-plant"
+    },
+    {
+      "dex": "0412",
+      "keyword": "burmy-1",
+      "key": "burmy-sandy"
+    },
+    {
+      "dex": "0412",
+      "keyword": "burmy-2",
+      "key": "burmy-trash"
+    },
+    {
+      "dex": "0413",
+      "keyword": "wormadam",
+      "key": "wormadam-plant"
+    },
+    {
+      "dex": "0413",
+      "keyword": "wormadam-1",
+      "key": "wormadam-sandy"
+    },
+    {
+      "dex": "0413",
+      "keyword": "wormadam-2",
+      "key": "wormadam-trash"
+    },
+    {
+      "dex": "0414",
+      "keyword": "mothim",
+      "key": "mothim-plant"
+    },
+    {
+      "dex": "0415",
+      "keyword": "combee",
+      "key": "combee"
+    },
+    {
+      "dex": "0415",
+      "keyword": "combee-f",
+      "key": "combee-f"
+    },
+    {
+      "dex": "0416",
+      "keyword": "vespiquen",
+      "key": "vespiquen"
+    },
+    {
+      "dex": "0417",
+      "keyword": "pachirisu",
+      "key": "pachirisu"
+    },
+    {
+      "dex": "0417",
+      "keyword": "pachirisu-f",
+      "key": "pachirisu-f"
+    },
+    {
+      "dex": "0418",
+      "keyword": "buizel",
+      "key": "buizel"
+    },
+    {
+      "dex": "0418",
+      "keyword": "buizel-f",
+      "key": "buizel-f"
+    },
+    {
+      "dex": "0419",
+      "keyword": "floatzel",
+      "key": "floatzel"
+    },
+    {
+      "dex": "0419",
+      "keyword": "floatzel-f",
+      "key": "floatzel-f"
+    },
+    {
+      "dex": "0420",
+      "keyword": "cherubi",
+      "key": "cherubi"
+    },
+    {
+      "dex": "0421",
+      "keyword": "cherrim",
+      "key": "cherrim-overcast"
+    },
+    {
+      "dex": "0422",
+      "keyword": "shellos",
+      "key": "shellos-west"
+    },
+    {
+      "dex": "0422",
+      "keyword": "shellos-1",
+      "key": "shellos-east"
+    },
+    {
+      "dex": "0423",
+      "keyword": "gastrodon",
+      "key": "gastrodon-west"
+    },
+    {
+      "dex": "0423",
+      "keyword": "gastrodon-1",
+      "key": "gastrodon-east"
+    },
+    {
+      "dex": "0424",
+      "keyword": "ambipom",
+      "key": "ambipom"
+    },
+    {
+      "dex": "0424",
+      "keyword": "ambipom-f",
+      "key": "ambipom-f"
+    },
+    {
+      "dex": "0425",
+      "keyword": "drifloon",
+      "key": "drifloon"
+    },
+    {
+      "dex": "0426",
+      "keyword": "drifblim",
+      "key": "drifblim"
+    },
+    {
+      "dex": "0427",
+      "keyword": "buneary",
+      "key": "buneary"
+    },
+    {
+      "dex": "0428",
+      "keyword": "lopunny",
+      "key": "lopunny"
+    },
+    {
+      "dex": "0429",
+      "keyword": "mismagius",
+      "key": "mismagius"
+    },
+    {
+      "dex": "0430",
+      "keyword": "honchkrow",
+      "key": "honchkrow"
+    },
+    {
+      "dex": "0431",
+      "keyword": "glameow",
+      "key": "glameow"
+    },
+    {
+      "dex": "0432",
+      "keyword": "purugly",
+      "key": "purugly"
+    },
+    {
+      "dex": "0433",
+      "keyword": "chingling",
+      "key": "chingling"
+    },
+    {
+      "dex": "0434",
+      "keyword": "stunky",
+      "key": "stunky"
+    },
+    {
+      "dex": "0435",
+      "keyword": "skuntank",
+      "key": "skuntank"
+    },
+    {
+      "dex": "0436",
+      "keyword": "bronzor",
+      "key": "bronzor"
+    },
+    {
+      "dex": "0437",
+      "keyword": "bronzong",
+      "key": "bronzong"
+    },
+    {
+      "dex": "0438",
+      "keyword": "bonsly",
+      "key": "bonsly"
+    },
+    {
+      "dex": "0439",
+      "keyword": "mime jr.",
+      "key": "mime-jr"
+    },
+    {
+      "dex": "0440",
+      "keyword": "happiny",
+      "key": "happiny"
+    },
+    {
+      "dex": "0441",
+      "keyword": "chatot",
+      "key": "chatot"
+    },
+    {
+      "dex": "0442",
+      "keyword": "spiritomb",
+      "key": "spiritomb"
+    },
+    {
+      "dex": "0443",
+      "keyword": "gible",
+      "key": "gible"
+    },
+    {
+      "dex": "0443",
+      "keyword": "gible-f",
+      "key": "gible-f"
+    },
+    {
+      "dex": "0444",
+      "keyword": "gabite",
+      "key": "gabite"
+    },
+    {
+      "dex": "0444",
+      "keyword": "gabite-f",
+      "key": "gabite-f"
+    },
+    {
+      "dex": "0445",
+      "keyword": "garchomp",
+      "key": "garchomp"
+    },
+    {
+      "dex": "0445",
+      "keyword": "garchomp-f",
+      "key": "garchomp-f"
+    },
+    {
+      "dex": "0446",
+      "keyword": "munchlax",
+      "key": "munchlax"
+    },
+    {
+      "dex": "0447",
+      "keyword": "riolu",
+      "key": "riolu"
+    },
+    {
+      "dex": "0448",
+      "keyword": "lucario",
+      "key": "lucario"
+    },
+    {
+      "dex": "0449",
+      "keyword": "hippopotas",
+      "key": "hippopotas"
+    },
+    {
+      "dex": "0449",
+      "keyword": "hippopotas-f",
+      "key": "hippopotas-f"
+    },
+    {
+      "dex": "0450",
+      "keyword": "hippowdon",
+      "key": "hippowdon"
+    },
+    {
+      "dex": "0450",
+      "keyword": "hippowdon-f",
+      "key": "hippowdon-f"
+    },
+    {
+      "dex": "0451",
+      "keyword": "skorupi",
+      "key": "skorupi"
+    },
+    {
+      "dex": "0452",
+      "keyword": "drapion",
+      "key": "drapion"
+    },
+    {
+      "dex": "0453",
+      "keyword": "croagunk",
+      "key": "croagunk"
+    },
+    {
+      "dex": "0453",
+      "keyword": "croagunk-f",
+      "key": "croagunk-f"
+    },
+    {
+      "dex": "0454",
+      "keyword": "toxicroak",
+      "key": "toxicroak"
+    },
+    {
+      "dex": "0454",
+      "keyword": "toxicroak-f",
+      "key": "toxicroak-f"
+    },
+    {
+      "dex": "0455",
+      "keyword": "carnivine",
+      "key": "carnivine"
+    },
+    {
+      "dex": "0456",
+      "keyword": "finneon",
+      "key": "finneon"
+    },
+    {
+      "dex": "0456",
+      "keyword": "finneon-f",
+      "key": "finneon-f"
+    },
+    {
+      "dex": "0457",
+      "keyword": "lumineon",
+      "key": "lumineon"
+    },
+    {
+      "dex": "0457",
+      "keyword": "lumineon-f",
+      "key": "lumineon-f"
+    },
+    {
+      "dex": "0458",
+      "keyword": "mantyke",
+      "key": "mantyke"
+    },
+    {
+      "dex": "0459",
+      "keyword": "snover",
+      "key": "snover"
+    },
+    {
+      "dex": "0459",
+      "keyword": "snover-f",
+      "key": "snover-f"
+    },
+    {
+      "dex": "0460",
+      "keyword": "abomasnow",
+      "key": "abomasnow"
+    },
+    {
+      "dex": "0460",
+      "keyword": "abomasnow-f",
+      "key": "abomasnow-f"
+    },
+    {
+      "dex": "0461",
+      "keyword": "weavile",
+      "key": "weavile"
+    },
+    {
+      "dex": "0461",
+      "keyword": "weavile-f",
+      "key": "weavile-f"
+    },
+    {
+      "dex": "0462",
+      "keyword": "magnezone",
+      "key": "magnezone"
+    },
+    {
+      "dex": "0463",
+      "keyword": "lickilicky",
+      "key": "lickilicky"
+    },
+    {
+      "dex": "0464",
+      "keyword": "rhyperior",
+      "key": "rhyperior"
+    },
+    {
+      "dex": "0464",
+      "keyword": "rhyperior-f",
+      "key": "rhyperior-f"
+    },
+    {
+      "dex": "0465",
+      "keyword": "tangrowth",
+      "key": "tangrowth"
+    },
+    {
+      "dex": "0465",
+      "keyword": "tangrowth-f",
+      "key": "tangrowth-f"
+    },
+    {
+      "dex": "0466",
+      "keyword": "electivire",
+      "key": "electivire"
+    },
+    {
+      "dex": "0467",
+      "keyword": "magmortar",
+      "key": "magmortar"
+    },
+    {
+      "dex": "0468",
+      "keyword": "togekiss",
+      "key": "togekiss"
+    },
+    {
+      "dex": "0469",
+      "keyword": "yanmega",
+      "key": "yanmega"
+    },
+    {
+      "dex": "0470",
+      "keyword": "leafeon",
+      "key": "leafeon"
+    },
+    {
+      "dex": "0471",
+      "keyword": "glaceon",
+      "key": "glaceon"
+    },
+    {
+      "dex": "0472",
+      "keyword": "gliscor",
+      "key": "gliscor"
+    },
+    {
+      "dex": "0473",
+      "keyword": "mamoswine",
+      "key": "mamoswine"
+    },
+    {
+      "dex": "0473",
+      "keyword": "mamoswine-f",
+      "key": "mamoswine-f"
+    },
+    {
+      "dex": "0474",
+      "keyword": "porygon-z",
+      "key": "porygon-z"
+    },
+    {
+      "dex": "0475",
+      "keyword": "gallade",
+      "key": "gallade"
+    },
+    {
+      "dex": "0476",
+      "keyword": "probopass",
+      "key": "probopass"
+    },
+    {
+      "dex": "0477",
+      "keyword": "dusknoir",
+      "key": "dusknoir"
+    },
+    {
+      "dex": "0478",
+      "keyword": "froslass",
+      "key": "froslass"
+    },
+    {
+      "dex": "0479",
+      "keyword": "rotom",
+      "key": "rotom"
+    },
+    {
+      "dex": "0479",
+      "keyword": "rotom-1",
+      "key": "rotom-heat"
+    },
+    {
+      "dex": "0479",
+      "keyword": "rotom-2",
+      "key": "rotom-wash"
+    },
+    {
+      "dex": "0479",
+      "keyword": "rotom-3",
+      "key": "rotom-frost"
+    },
+    {
+      "dex": "0479",
+      "keyword": "rotom-4",
+      "key": "rotom-fan"
+    },
+    {
+      "dex": "0479",
+      "keyword": "rotom-5",
+      "key": "rotom-mow"
+    },
+    {
+      "dex": "0480",
+      "keyword": "uxie",
+      "key": "uxie"
+    },
+    {
+      "dex": "0481",
+      "keyword": "mesprit",
+      "key": "mesprit"
+    },
+    {
+      "dex": "0482",
+      "keyword": "azelf",
+      "key": "azelf"
+    },
+    {
+      "dex": "0483",
+      "keyword": "dialga",
+      "key": "dialga"
+    },
+    {
+      "dex": "0484",
+      "keyword": "palkia",
+      "key": "palkia"
+    },
+    {
+      "dex": "0485",
+      "keyword": "heatran",
+      "key": "heatran"
+    },
+    {
+      "dex": "0486",
+      "keyword": "regigigas",
+      "key": "regigigas"
+    },
+    {
+      "dex": "0487",
+      "keyword": "giratina",
+      "key": "giratina-altered"
+    },
+    {
+      "dex": "0488",
+      "keyword": "cresselia",
+      "key": "cresselia"
+    },
+    {
+      "dex": "0489",
+      "keyword": "phione",
+      "key": "phione"
+    },
+    {
+      "dex": "0490",
+      "keyword": "manaphy",
+      "key": "manaphy"
+    },
+    {
+      "dex": "0491",
+      "keyword": "darkrai",
+      "key": "darkrai"
+    },
+    {
+      "dex": "0492",
+      "keyword": "shaymin",
+      "key": "shaymin-land"
+    },
+    {
+      "dex": "0492",
+      "keyword": "shaymin-1",
+      "key": "shaymin-sky"
+    },
+    {
+      "dex": "0493",
+      "keyword": "arceus",
+      "key": "arceus-normal"
+    },
+    {
+      "dex": "0494",
+      "keyword": "victini",
+      "key": "victini"
+    },
+    {
+      "dex": "0495",
+      "keyword": "snivy",
+      "key": "snivy"
+    },
+    {
+      "dex": "0496",
+      "keyword": "servine",
+      "key": "servine"
+    },
+    {
+      "dex": "0497",
+      "keyword": "serperior",
+      "key": "serperior"
+    },
+    {
+      "dex": "0498",
+      "keyword": "tepig",
+      "key": "tepig"
+    },
+    {
+      "dex": "0499",
+      "keyword": "pignite",
+      "key": "pignite"
+    },
+    {
+      "dex": "0500",
+      "keyword": "emboar",
+      "key": "emboar"
+    },
+    {
+      "dex": "0501",
+      "keyword": "oshawott",
+      "key": "oshawott"
+    },
+    {
+      "dex": "0502",
+      "keyword": "dewott",
+      "key": "dewott"
+    },
+    {
+      "dex": "0503",
+      "keyword": "samurott",
+      "key": "samurott"
+    },
+    {
+      "dex": "0503",
+      "keyword": "samurott-1",
+      "key": "samurott-hisui"
+    },
+    {
+      "dex": "0504",
+      "keyword": "patrat",
+      "key": "patrat"
+    },
+    {
+      "dex": "0505",
+      "keyword": "watchog",
+      "key": "watchog"
+    },
+    {
+      "dex": "0506",
+      "keyword": "lillipup",
+      "key": "lillipup"
+    },
+    {
+      "dex": "0507",
+      "keyword": "herdier",
+      "key": "herdier"
+    },
+    {
+      "dex": "0508",
+      "keyword": "stoutland",
+      "key": "stoutland"
+    },
+    {
+      "dex": "0509",
+      "keyword": "purrloin",
+      "key": "purrloin"
+    },
+    {
+      "dex": "0510",
+      "keyword": "liepard",
+      "key": "liepard"
+    },
+    {
+      "dex": "0511",
+      "keyword": "pansage",
+      "key": "pansage"
+    },
+    {
+      "dex": "0512",
+      "keyword": "simisage",
+      "key": "simisage"
+    },
+    {
+      "dex": "0513",
+      "keyword": "pansear",
+      "key": "pansear"
+    },
+    {
+      "dex": "0514",
+      "keyword": "simisear",
+      "key": "simisear"
+    },
+    {
+      "dex": "0515",
+      "keyword": "panpour",
+      "key": "panpour"
+    },
+    {
+      "dex": "0516",
+      "keyword": "simipour",
+      "key": "simipour"
+    },
+    {
+      "dex": "0517",
+      "keyword": "munna",
+      "key": "munna"
+    },
+    {
+      "dex": "0518",
+      "keyword": "musharna",
+      "key": "musharna"
+    },
+    {
+      "dex": "0519",
+      "keyword": "pidove",
+      "key": "pidove"
+    },
+    {
+      "dex": "0520",
+      "keyword": "tranquill",
+      "key": "tranquill"
+    },
+    {
+      "dex": "0521",
+      "keyword": "unfezant",
+      "key": "unfezant"
+    },
+    {
+      "dex": "0521",
+      "keyword": "unfezant-f",
+      "key": "unfezant-f"
+    },
+    {
+      "dex": "0522",
+      "keyword": "blitzle",
+      "key": "blitzle"
+    },
+    {
+      "dex": "0523",
+      "keyword": "zebstrika",
+      "key": "zebstrika"
+    },
+    {
+      "dex": "0524",
+      "keyword": "roggenrola",
+      "key": "roggenrola"
+    },
+    {
+      "dex": "0525",
+      "keyword": "boldore",
+      "key": "boldore"
+    },
+    {
+      "dex": "0526",
+      "keyword": "gigalith",
+      "key": "gigalith"
+    },
+    {
+      "dex": "0527",
+      "keyword": "woobat",
+      "key": "woobat"
+    },
+    {
+      "dex": "0528",
+      "keyword": "swoobat",
+      "key": "swoobat"
+    },
+    {
+      "dex": "0529",
+      "keyword": "drilbur",
+      "key": "drilbur"
+    },
+    {
+      "dex": "0530",
+      "keyword": "excadrill",
+      "key": "excadrill"
+    },
+    {
+      "dex": "0531",
+      "keyword": "audino",
+      "key": "audino"
+    },
+    {
+      "dex": "0532",
+      "keyword": "timburr",
+      "key": "timburr"
+    },
+    {
+      "dex": "0533",
+      "keyword": "gurdurr",
+      "key": "gurdurr"
+    },
+    {
+      "dex": "0534",
+      "keyword": "conkeldurr",
+      "key": "conkeldurr"
+    },
+    {
+      "dex": "0535",
+      "keyword": "tympole",
+      "key": "tympole"
+    },
+    {
+      "dex": "0536",
+      "keyword": "palpitoad",
+      "key": "palpitoad"
+    },
+    {
+      "dex": "0537",
+      "keyword": "seismitoad",
+      "key": "seismitoad"
+    },
+    {
+      "dex": "0538",
+      "keyword": "throh",
+      "key": "throh"
+    },
+    {
+      "dex": "0539",
+      "keyword": "sawk",
+      "key": "sawk"
+    },
+    {
+      "dex": "0540",
+      "keyword": "sewaddle",
+      "key": "sewaddle"
+    },
+    {
+      "dex": "0541",
+      "keyword": "swadloon",
+      "key": "swadloon"
+    },
+    {
+      "dex": "0542",
+      "keyword": "leavanny",
+      "key": "leavanny"
+    },
+    {
+      "dex": "0543",
+      "keyword": "venipede",
+      "key": "venipede"
+    },
+    {
+      "dex": "0544",
+      "keyword": "whirlipede",
+      "key": "whirlipede"
+    },
+    {
+      "dex": "0545",
+      "keyword": "scolipede",
+      "key": "scolipede"
+    },
+    {
+      "dex": "0546",
+      "keyword": "cottonee",
+      "key": "cottonee"
+    },
+    {
+      "dex": "0547",
+      "keyword": "whimsicott",
+      "key": "whimsicott"
+    },
+    {
+      "dex": "0548",
+      "keyword": "petilil",
+      "key": "petilil"
+    },
+    {
+      "dex": "0549",
+      "keyword": "lilligant",
+      "key": "lilligant"
+    },
+    {
+      "dex": "0549",
+      "keyword": "lilligant-1",
+      "key": "lilligant-hisui"
+    },
+    {
+      "dex": "0550",
+      "keyword": "basculin",
+      "key": "basculin-red-striped"
+    },
+    {
+      "dex": "0550",
+      "keyword": "basculin-1",
+      "key": "basculin-blue-striped"
+    },
+    {
+      "dex": "0550",
+      "keyword": "basculin-2",
+      "key": "basculin-white-striped"
+    },
+    {
+      "dex": "0551",
+      "keyword": "sandile",
+      "key": "sandile"
+    },
+    {
+      "dex": "0552",
+      "keyword": "krokorok",
+      "key": "krokorok"
+    },
+    {
+      "dex": "0553",
+      "keyword": "krookodile",
+      "key": "krookodile"
+    },
+    {
+      "dex": "0554",
+      "keyword": "darumaka",
+      "key": "darumaka"
+    },
+    {
+      "dex": "0554",
+      "keyword": "darumaka-1",
+      "key": "darumaka-galar"
+    },
+    {
+      "dex": "0555",
+      "keyword": "darmanitan",
+      "key": "darmanitan-standard"
+    },
+    {
+      "dex": "0555",
+      "keyword": "darmanitan-1",
+      "key": "darmanitan-galar-standard"
+    },
+    {
+      "dex": "0556",
+      "keyword": "maractus",
+      "key": "maractus"
+    },
+    {
+      "dex": "0557",
+      "keyword": "dwebble",
+      "key": "dwebble"
+    },
+    {
+      "dex": "0558",
+      "keyword": "crustle",
+      "key": "crustle"
+    },
+    {
+      "dex": "0559",
+      "keyword": "scraggy",
+      "key": "scraggy"
+    },
+    {
+      "dex": "0560",
+      "keyword": "scrafty",
+      "key": "scrafty"
+    },
+    {
+      "dex": "0561",
+      "keyword": "sigilyph",
+      "key": "sigilyph"
+    },
+    {
+      "dex": "0562",
+      "keyword": "yamask",
+      "key": "yamask"
+    },
+    {
+      "dex": "0562",
+      "keyword": "yamask-1",
+      "key": "yamask-galar"
+    },
+    {
+      "dex": "0563",
+      "keyword": "cofagrigus",
+      "key": "cofagrigus"
+    },
+    {
+      "dex": "0564",
+      "keyword": "tirtouga",
+      "key": "tirtouga"
+    },
+    {
+      "dex": "0565",
+      "keyword": "carracosta",
+      "key": "carracosta"
+    },
+    {
+      "dex": "0566",
+      "keyword": "archen",
+      "key": "archen"
+    },
+    {
+      "dex": "0567",
+      "keyword": "archeops",
+      "key": "archeops"
+    },
+    {
+      "dex": "0568",
+      "keyword": "trubbish",
+      "key": "trubbish"
+    },
+    {
+      "dex": "0569",
+      "keyword": "garbodor",
+      "key": "garbodor"
+    },
+    {
+      "dex": "0570",
+      "keyword": "zorua",
+      "key": "zorua"
+    },
+    {
+      "dex": "0570",
+      "keyword": "zorua-1",
+      "key": "zorua-hisui"
+    },
+    {
+      "dex": "0571",
+      "keyword": "zoroark",
+      "key": "zoroark"
+    },
+    {
+      "dex": "0571",
+      "keyword": "zoroark-1",
+      "key": "zoroark-hisui"
+    },
+    {
+      "dex": "0572",
+      "keyword": "minccino",
+      "key": "minccino"
+    },
+    {
+      "dex": "0573",
+      "keyword": "cinccino",
+      "key": "cinccino"
+    },
+    {
+      "dex": "0574",
+      "keyword": "gothita",
+      "key": "gothita"
+    },
+    {
+      "dex": "0575",
+      "keyword": "gothorita",
+      "key": "gothorita"
+    },
+    {
+      "dex": "0576",
+      "keyword": "gothitelle",
+      "key": "gothitelle"
+    },
+    {
+      "dex": "0577",
+      "keyword": "solosis",
+      "key": "solosis"
+    },
+    {
+      "dex": "0578",
+      "keyword": "duosion",
+      "key": "duosion"
+    },
+    {
+      "dex": "0579",
+      "keyword": "reuniclus",
+      "key": "reuniclus"
+    },
+    {
+      "dex": "0580",
+      "keyword": "ducklett",
+      "key": "ducklett"
+    },
+    {
+      "dex": "0581",
+      "keyword": "swanna",
+      "key": "swanna"
+    },
+    {
+      "dex": "0582",
+      "keyword": "vanillite",
+      "key": "vanillite"
+    },
+    {
+      "dex": "0583",
+      "keyword": "vanillish",
+      "key": "vanillish"
+    },
+    {
+      "dex": "0584",
+      "keyword": "vanilluxe",
+      "key": "vanilluxe"
+    },
+    {
+      "dex": "0585",
+      "keyword": "deerling",
+      "key": "deerling-spring"
+    },
+    {
+      "dex": "0585",
+      "keyword": "deerling-1",
+      "key": "deerling-summer"
+    },
+    {
+      "dex": "0585",
+      "keyword": "deerling-2",
+      "key": "deerling-autumn"
+    },
+    {
+      "dex": "0585",
+      "keyword": "deerling-3",
+      "key": "deerling-winter"
+    },
+    {
+      "dex": "0586",
+      "keyword": "sawsbuck",
+      "key": "sawsbuck-spring"
+    },
+    {
+      "dex": "0586",
+      "keyword": "sawsbuck-1",
+      "key": "sawsbuck-summer"
+    },
+    {
+      "dex": "0586",
+      "keyword": "sawsbuck-2",
+      "key": "sawsbuck-autumn"
+    },
+    {
+      "dex": "0586",
+      "keyword": "sawsbuck-3",
+      "key": "sawsbuck-winter"
+    },
+    {
+      "dex": "0587",
+      "keyword": "emolga",
+      "key": "emolga"
+    },
+    {
+      "dex": "0588",
+      "keyword": "karrablast",
+      "key": "karrablast"
+    },
+    {
+      "dex": "0589",
+      "keyword": "escavalier",
+      "key": "escavalier"
+    },
+    {
+      "dex": "0590",
+      "keyword": "foongus",
+      "key": "foongus"
+    },
+    {
+      "dex": "0591",
+      "keyword": "amoonguss",
+      "key": "amoonguss"
+    },
+    {
+      "dex": "0592",
+      "keyword": "frillish",
+      "key": "frillish-male"
+    },
+    {
+      "dex": "0592",
+      "keyword": "frillish-f",
+      "key": "frillish-female"
+    },
+    {
+      "dex": "0593",
+      "keyword": "jellicent",
+      "key": "jellicent-male"
+    },
+    {
+      "dex": "0593",
+      "keyword": "jellicent-f",
+      "key": "jellicent-female"
+    },
+    {
+      "dex": "0594",
+      "keyword": "alomomola",
+      "key": "alomomola"
+    },
+    {
+      "dex": "0595",
+      "keyword": "joltik",
+      "key": "joltik"
+    },
+    {
+      "dex": "0596",
+      "keyword": "galvantula",
+      "key": "galvantula"
+    },
+    {
+      "dex": "0597",
+      "keyword": "ferroseed",
+      "key": "ferroseed"
+    },
+    {
+      "dex": "0598",
+      "keyword": "ferrothorn",
+      "key": "ferrothorn"
+    },
+    {
+      "dex": "0599",
+      "keyword": "klink",
+      "key": "klink"
+    },
+    {
+      "dex": "0600",
+      "keyword": "klang",
+      "key": "klang"
+    },
+    {
+      "dex": "0601",
+      "keyword": "klinklang",
+      "key": "klinklang"
+    },
+    {
+      "dex": "0602",
+      "keyword": "tynamo",
+      "key": "tynamo"
+    },
+    {
+      "dex": "0603",
+      "keyword": "eelektrik",
+      "key": "eelektrik"
+    },
+    {
+      "dex": "0604",
+      "keyword": "eelektross",
+      "key": "eelektross"
+    },
+    {
+      "dex": "0605",
+      "keyword": "elgyem",
+      "key": "elgyem"
+    },
+    {
+      "dex": "0606",
+      "keyword": "beheeyem",
+      "key": "beheeyem"
+    },
+    {
+      "dex": "0607",
+      "keyword": "litwick",
+      "key": "litwick"
+    },
+    {
+      "dex": "0608",
+      "keyword": "lampent",
+      "key": "lampent"
+    },
+    {
+      "dex": "0609",
+      "keyword": "chandelure",
+      "key": "chandelure"
+    },
+    {
+      "dex": "0610",
+      "keyword": "axew",
+      "key": "axew"
+    },
+    {
+      "dex": "0611",
+      "keyword": "fraxure",
+      "key": "fraxure"
+    },
+    {
+      "dex": "0612",
+      "keyword": "haxorus",
+      "key": "haxorus"
+    },
+    {
+      "dex": "0613",
+      "keyword": "cubchoo",
+      "key": "cubchoo"
+    },
+    {
+      "dex": "0614",
+      "keyword": "beartic",
+      "key": "beartic"
+    },
+    {
+      "dex": "0615",
+      "keyword": "cryogonal",
+      "key": "cryogonal"
+    },
+    {
+      "dex": "0616",
+      "keyword": "shelmet",
+      "key": "shelmet"
+    },
+    {
+      "dex": "0617",
+      "keyword": "accelgor",
+      "key": "accelgor"
+    },
+    {
+      "dex": "0618",
+      "keyword": "stunfisk",
+      "key": "stunfisk"
+    },
+    {
+      "dex": "0618",
+      "keyword": "stunfisk-1",
+      "key": "stunfisk-galar"
+    },
+    {
+      "dex": "0619",
+      "keyword": "mienfoo",
+      "key": "mienfoo"
+    },
+    {
+      "dex": "0620",
+      "keyword": "mienshao",
+      "key": "mienshao"
+    },
+    {
+      "dex": "0621",
+      "keyword": "druddigon",
+      "key": "druddigon"
+    },
+    {
+      "dex": "0622",
+      "keyword": "golett",
+      "key": "golett"
+    },
+    {
+      "dex": "0623",
+      "keyword": "golurk",
+      "key": "golurk"
+    },
+    {
+      "dex": "0624",
+      "keyword": "pawniard",
+      "key": "pawniard"
+    },
+    {
+      "dex": "0625",
+      "keyword": "bisharp",
+      "key": "bisharp"
+    },
+    {
+      "dex": "0626",
+      "keyword": "bouffalant",
+      "key": "bouffalant"
+    },
+    {
+      "dex": "0627",
+      "keyword": "rufflet",
+      "key": "rufflet"
+    },
+    {
+      "dex": "0628",
+      "keyword": "braviary",
+      "key": "braviary"
+    },
+    {
+      "dex": "0628",
+      "keyword": "braviary-1",
+      "key": "braviary-hisui"
+    },
+    {
+      "dex": "0629",
+      "keyword": "vullaby",
+      "key": "vullaby"
+    },
+    {
+      "dex": "0630",
+      "keyword": "mandibuzz",
+      "key": "mandibuzz"
+    },
+    {
+      "dex": "0631",
+      "keyword": "heatmor",
+      "key": "heatmor"
+    },
+    {
+      "dex": "0632",
+      "keyword": "durant",
+      "key": "durant"
+    },
+    {
+      "dex": "0633",
+      "keyword": "deino",
+      "key": "deino"
+    },
+    {
+      "dex": "0634",
+      "keyword": "zweilous",
+      "key": "zweilous"
+    },
+    {
+      "dex": "0635",
+      "keyword": "hydreigon",
+      "key": "hydreigon"
+    },
+    {
+      "dex": "0636",
+      "keyword": "larvesta",
+      "key": "larvesta"
+    },
+    {
+      "dex": "0637",
+      "keyword": "volcarona",
+      "key": "volcarona"
+    },
+    {
+      "dex": "0638",
+      "keyword": "cobalion",
+      "key": "cobalion"
+    },
+    {
+      "dex": "0639",
+      "keyword": "terrakion",
+      "key": "terrakion"
+    },
+    {
+      "dex": "0640",
+      "keyword": "virizion",
+      "key": "virizion"
+    },
+    {
+      "dex": "0641",
+      "keyword": "tornadus",
+      "key": "tornadus-incarnate"
+    },
+    {
+      "dex": "0641",
+      "keyword": "tornadus-1",
+      "key": "tornadus-therian"
+    },
+    {
+      "dex": "0642",
+      "keyword": "thundurus",
+      "key": "thundurus-incarnate"
+    },
+    {
+      "dex": "0642",
+      "keyword": "thundurus-1",
+      "key": "thundurus-therian"
+    },
+    {
+      "dex": "0643",
+      "keyword": "reshiram",
+      "key": "reshiram"
+    },
+    {
+      "dex": "0644",
+      "keyword": "zekrom",
+      "key": "zekrom"
+    },
+    {
+      "dex": "0645",
+      "keyword": "landorus",
+      "key": "landorus-incarnate"
+    },
+    {
+      "dex": "0645",
+      "keyword": "landorus-1",
+      "key": "landorus-therian"
+    },
+    {
+      "dex": "0646",
+      "keyword": "kyurem",
+      "key": "kyurem"
+    },
+    {
+      "dex": "0647",
+      "keyword": "keldeo",
+      "key": "keldeo-ordinary"
+    },
+    {
+      "dex": "0647",
+      "keyword": "keldeo-1",
+      "key": "keldeo-resolute"
+    },
+    {
+      "dex": "0648",
+      "keyword": "meloetta",
+      "key": "meloetta-aria"
+    },
+    {
+      "dex": "0649",
+      "keyword": "genesect",
+      "key": "genesect"
+    },
+    {
+      "dex": "0650",
+      "keyword": "chespin",
+      "key": "chespin"
+    },
+    {
+      "dex": "0651",
+      "keyword": "quilladin",
+      "key": "quilladin"
+    },
+    {
+      "dex": "0652",
+      "keyword": "chesnaught",
+      "key": "chesnaught"
+    },
+    {
+      "dex": "0653",
+      "keyword": "fennekin",
+      "key": "fennekin"
+    },
+    {
+      "dex": "0654",
+      "keyword": "braixen",
+      "key": "braixen"
+    },
+    {
+      "dex": "0655",
+      "keyword": "delphox",
+      "key": "delphox"
+    },
+    {
+      "dex": "0656",
+      "keyword": "froakie",
+      "key": "froakie"
+    },
+    {
+      "dex": "0657",
+      "keyword": "frogadier",
+      "key": "frogadier"
+    },
+    {
+      "dex": "0658",
+      "keyword": "greninja",
+      "key": "greninja"
+    },
+    {
+      "dex": "0659",
+      "keyword": "bunnelby",
+      "key": "bunnelby"
+    },
+    {
+      "dex": "0660",
+      "keyword": "diggersby",
+      "key": "diggersby"
+    },
+    {
+      "dex": "0661",
+      "keyword": "fletchling",
+      "key": "fletchling"
+    },
+    {
+      "dex": "0662",
+      "keyword": "fletchinder",
+      "key": "fletchinder"
+    },
+    {
+      "dex": "0663",
+      "keyword": "talonflame",
+      "key": "talonflame"
+    },
+    {
+      "dex": "0664",
+      "keyword": "scatterbug",
+      "key": "scatterbug-icy-snow"
+    },
+    {
+      "dex": "0665",
+      "keyword": "spewpa",
+      "key": "spewpa-icy-snow"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon",
+      "key": "vivillon-icy-snow"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-1",
+      "key": "vivillon-polar"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-2",
+      "key": "vivillon-tundra"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-3",
+      "key": "vivillon-continental"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-4",
+      "key": "vivillon-garden"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-5",
+      "key": "vivillon-elegant"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-6",
+      "key": "vivillon-meadow"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-7",
+      "key": "vivillon-modern"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-8",
+      "key": "vivillon-marine"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-9",
+      "key": "vivillon-archipelago"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-10",
+      "key": "vivillon-high-plains"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-11",
+      "key": "vivillon-sandstorm"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-12",
+      "key": "vivillon-river"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-13",
+      "key": "vivillon-monsoon"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-14",
+      "key": "vivillon-savanna"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-15",
+      "key": "vivillon-sun"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-16",
+      "key": "vivillon-ocean"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-17",
+      "key": "vivillon-jungle"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-18",
+      "key": "vivillon-fancy"
+    },
+    {
+      "dex": "0666",
+      "keyword": "vivillon-19",
+      "key": "vivillon-poke-ball"
+    },
+    {
+      "dex": "0667",
+      "keyword": "litleo",
+      "key": "litleo"
+    },
+    {
+      "dex": "0668",
+      "keyword": "pyroar",
+      "key": "pyroar-male"
+    },
+    {
+      "dex": "0668",
+      "keyword": "pyroar-f",
+      "key": "pyroar-female"
+    },
+    {
+      "dex": "0669",
+      "keyword": "flabébé",
+      "key": "flabebe-red"
+    },
+    {
+      "dex": "0669",
+      "keyword": "flabébé-1",
+      "key": "flabebe-yellow"
+    },
+    {
+      "dex": "0669",
+      "keyword": "flabébé-2",
+      "key": "flabebe-orange"
+    },
+    {
+      "dex": "0669",
+      "keyword": "flabébé-3",
+      "key": "flabebe-blue"
+    },
+    {
+      "dex": "0669",
+      "keyword": "flabébé-4",
+      "key": "flabebe-white"
+    },
+    {
+      "dex": "0670",
+      "keyword": "floette",
+      "key": "floette-red"
+    },
+    {
+      "dex": "0670",
+      "keyword": "floette-1",
+      "key": "floette-yellow"
+    },
+    {
+      "dex": "0670",
+      "keyword": "floette-2",
+      "key": "floette-orange"
+    },
+    {
+      "dex": "0670",
+      "keyword": "floette-3",
+      "key": "floette-blue"
+    },
+    {
+      "dex": "0670",
+      "keyword": "floette-4",
+      "key": "floette-white"
+    },
+    {
+      "dex": "0670",
+      "keyword": "floette-5",
+      "key": "floette-eternal"
+    },
+    {
+      "dex": "0671",
+      "keyword": "florges",
+      "key": "florges-red"
+    },
+    {
+      "dex": "0671",
+      "keyword": "florges-1",
+      "key": "florges-yellow"
+    },
+    {
+      "dex": "0671",
+      "keyword": "florges-2",
+      "key": "florges-orange"
+    },
+    {
+      "dex": "0671",
+      "keyword": "florges-3",
+      "key": "florges-blue"
+    },
+    {
+      "dex": "0671",
+      "keyword": "florges-4",
+      "key": "florges-white"
+    },
+    {
+      "dex": "0672",
+      "keyword": "skiddo",
+      "key": "skiddo"
+    },
+    {
+      "dex": "0673",
+      "keyword": "gogoat",
+      "key": "gogoat"
+    },
+    {
+      "dex": "0674",
+      "keyword": "pancham",
+      "key": "pancham"
+    },
+    {
+      "dex": "0675",
+      "keyword": "pangoro",
+      "key": "pangoro"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou",
+      "key": "furfrou-natural"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-1",
+      "key": "furfrou-heart"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-2",
+      "key": "furfrou-star"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-3",
+      "key": "furfrou-diamond"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-4",
+      "key": "furfrou-debutante"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-5",
+      "key": "furfrou-matron"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-6",
+      "key": "furfrou-dandy"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-7",
+      "key": "furfrou-la-reine"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-8",
+      "key": "furfrou-kabuki"
+    },
+    {
+      "dex": "0676",
+      "keyword": "furfrou-9",
+      "key": "furfrou-pharaoh"
+    },
+    {
+      "dex": "0677",
+      "keyword": "espurr",
+      "key": "espurr"
+    },
+    {
+      "dex": "0678",
+      "keyword": "meowstic",
+      "key": "meowstic-male"
+    },
+    {
+      "dex": "0678",
+      "keyword": "meowstic-f",
+      "key": "meowstic-female"
+    },
+    {
+      "dex": "0679",
+      "keyword": "honedge",
+      "key": "honedge"
+    },
+    {
+      "dex": "0680",
+      "keyword": "doublade",
+      "key": "doublade"
+    },
+    {
+      "dex": "0681",
+      "keyword": "aegislash",
+      "key": "aegislash-shield"
+    },
+    {
+      "dex": "0682",
+      "keyword": "spritzee",
+      "key": "spritzee"
+    },
+    {
+      "dex": "0683",
+      "keyword": "aromatisse",
+      "key": "aromatisse"
+    },
+    {
+      "dex": "0684",
+      "keyword": "swirlix",
+      "key": "swirlix"
+    },
+    {
+      "dex": "0685",
+      "keyword": "slurpuff",
+      "key": "slurpuff"
+    },
+    {
+      "dex": "0686",
+      "keyword": "inkay",
+      "key": "inkay"
+    },
+    {
+      "dex": "0687",
+      "keyword": "malamar",
+      "key": "malamar"
+    },
+    {
+      "dex": "0688",
+      "keyword": "binacle",
+      "key": "binacle"
+    },
+    {
+      "dex": "0689",
+      "keyword": "barbaracle",
+      "key": "barbaracle"
+    },
+    {
+      "dex": "0690",
+      "keyword": "skrelp",
+      "key": "skrelp"
+    },
+    {
+      "dex": "0691",
+      "keyword": "dragalge",
+      "key": "dragalge"
+    },
+    {
+      "dex": "0692",
+      "keyword": "clauncher",
+      "key": "clauncher"
+    },
+    {
+      "dex": "0693",
+      "keyword": "clawitzer",
+      "key": "clawitzer"
+    },
+    {
+      "dex": "0694",
+      "keyword": "helioptile",
+      "key": "helioptile"
+    },
+    {
+      "dex": "0695",
+      "keyword": "heliolisk",
+      "key": "heliolisk"
+    },
+    {
+      "dex": "0696",
+      "keyword": "tyrunt",
+      "key": "tyrunt"
+    },
+    {
+      "dex": "0697",
+      "keyword": "tyrantrum",
+      "key": "tyrantrum"
+    },
+    {
+      "dex": "0698",
+      "keyword": "amaura",
+      "key": "amaura"
+    },
+    {
+      "dex": "0699",
+      "keyword": "aurorus",
+      "key": "aurorus"
+    },
+    {
+      "dex": "0700",
+      "keyword": "sylveon",
+      "key": "sylveon"
+    },
+    {
+      "dex": "0701",
+      "keyword": "hawlucha",
+      "key": "hawlucha"
+    },
+    {
+      "dex": "0702",
+      "keyword": "dedenne",
+      "key": "dedenne"
+    },
+    {
+      "dex": "0703",
+      "keyword": "carbink",
+      "key": "carbink"
+    },
+    {
+      "dex": "0704",
+      "keyword": "goomy",
+      "key": "goomy"
+    },
+    {
+      "dex": "0705",
+      "keyword": "sliggoo",
+      "key": "sliggoo"
+    },
+    {
+      "dex": "0705",
+      "keyword": "sliggoo-1",
+      "key": "sliggoo-hisui"
+    },
+    {
+      "dex": "0706",
+      "keyword": "goodra",
+      "key": "goodra"
+    },
+    {
+      "dex": "0706",
+      "keyword": "goodra-1",
+      "key": "goodra-hisui"
+    },
+    {
+      "dex": "0707",
+      "keyword": "klefki",
+      "key": "klefki"
+    },
+    {
+      "dex": "0708",
+      "keyword": "phantump",
+      "key": "phantump"
+    },
+    {
+      "dex": "0709",
+      "keyword": "trevenant",
+      "key": "trevenant"
+    },
+    {
+      "dex": "0710",
+      "keyword": "pumpkaboo",
+      "key": "pumpkaboo-average"
+    },
+    {
+      "dex": "0710",
+      "keyword": "pumpkaboo-1",
+      "key": "pumpkaboo-small"
+    },
+    {
+      "dex": "0710",
+      "keyword": "pumpkaboo-2",
+      "key": "pumpkaboo-large"
+    },
+    {
+      "dex": "0710",
+      "keyword": "pumpkaboo-3",
+      "key": "pumpkaboo-super"
+    },
+    {
+      "dex": "0711",
+      "keyword": "gourgeist",
+      "key": "gourgeist-average"
+    },
+    {
+      "dex": "0711",
+      "keyword": "gourgeist-1",
+      "key": "gourgeist-small"
+    },
+    {
+      "dex": "0711",
+      "keyword": "gourgeist-2",
+      "key": "gourgeist-large"
+    },
+    {
+      "dex": "0711",
+      "keyword": "gourgeist-3",
+      "key": "gourgeist-super"
+    },
+    {
+      "dex": "0712",
+      "keyword": "bergmite",
+      "key": "bergmite"
+    },
+    {
+      "dex": "0713",
+      "keyword": "avalugg",
+      "key": "avalugg"
+    },
+    {
+      "dex": "0713",
+      "keyword": "avalugg-1",
+      "key": "avalugg-hisui"
+    },
+    {
+      "dex": "0714",
+      "keyword": "noibat",
+      "key": "noibat"
+    },
+    {
+      "dex": "0715",
+      "keyword": "noivern",
+      "key": "noivern"
+    },
+    {
+      "dex": "0716",
+      "keyword": "xerneas",
+      "key": "xerneas-active"
+    },
+    {
+      "dex": "0717",
+      "keyword": "yveltal",
+      "key": "yveltal"
+    },
+    {
+      "dex": "0718",
+      "keyword": "zygarde",
+      "key": "zygarde-50"
+    },
+    {
+      "dex": "0718",
+      "keyword": "zygarde-1",
+      "key": "zygarde-10"
+    },
+    {
+      "dex": "0719",
+      "keyword": "diancie",
+      "key": "diancie"
+    },
+    {
+      "dex": "0720",
+      "keyword": "hoopa",
+      "key": "hoopa"
+    },
+    {
+      "dex": "0720",
+      "keyword": "hoopa-1",
+      "key": "hoopa-unbound"
+    },
+    {
+      "dex": "0721",
+      "keyword": "volcanion",
+      "key": "volcanion"
+    },
+    {
+      "dex": "0722",
+      "keyword": "rowlet",
+      "key": "rowlet"
+    },
+    {
+      "dex": "0723",
+      "keyword": "dartrix",
+      "key": "dartrix"
+    },
+    {
+      "dex": "0724",
+      "keyword": "decidueye",
+      "key": "decidueye"
+    },
+    {
+      "dex": "0724",
+      "keyword": "decidueye-1",
+      "key": "decidueye-hisui"
+    },
+    {
+      "dex": "0725",
+      "keyword": "litten",
+      "key": "litten"
+    },
+    {
+      "dex": "0726",
+      "keyword": "torracat",
+      "key": "torracat"
+    },
+    {
+      "dex": "0727",
+      "keyword": "incineroar",
+      "key": "incineroar"
+    },
+    {
+      "dex": "0728",
+      "keyword": "popplio",
+      "key": "popplio"
+    },
+    {
+      "dex": "0729",
+      "keyword": "brionne",
+      "key": "brionne"
+    },
+    {
+      "dex": "0730",
+      "keyword": "primarina",
+      "key": "primarina"
+    },
+    {
+      "dex": "0731",
+      "keyword": "pikipek",
+      "key": "pikipek"
+    },
+    {
+      "dex": "0732",
+      "keyword": "trumbeak",
+      "key": "trumbeak"
+    },
+    {
+      "dex": "0733",
+      "keyword": "toucannon",
+      "key": "toucannon"
+    },
+    {
+      "dex": "0734",
+      "keyword": "yungoos",
+      "key": "yungoos"
+    },
+    {
+      "dex": "0735",
+      "keyword": "gumshoos",
+      "key": "gumshoos"
+    },
+    {
+      "dex": "0736",
+      "keyword": "grubbin",
+      "key": "grubbin"
+    },
+    {
+      "dex": "0737",
+      "keyword": "charjabug",
+      "key": "charjabug"
+    },
+    {
+      "dex": "0738",
+      "keyword": "vikavolt",
+      "key": "vikavolt"
+    },
+    {
+      "dex": "0739",
+      "keyword": "crabrawler",
+      "key": "crabrawler"
+    },
+    {
+      "dex": "0740",
+      "keyword": "crabominable",
+      "key": "crabominable"
+    },
+    {
+      "dex": "0741",
+      "keyword": "oricorio",
+      "key": "oricorio-baile"
+    },
+    {
+      "dex": "0741",
+      "keyword": "oricorio-1",
+      "key": "oricorio-pom-pom"
+    },
+    {
+      "dex": "0741",
+      "keyword": "oricorio-2",
+      "key": "oricorio-pau"
+    },
+    {
+      "dex": "0741",
+      "keyword": "oricorio-3",
+      "key": "oricorio-sensu"
+    },
+    {
+      "dex": "0742",
+      "keyword": "cutiefly",
+      "key": "cutiefly"
+    },
+    {
+      "dex": "0743",
+      "keyword": "ribombee",
+      "key": "ribombee"
+    },
+    {
+      "dex": "0744",
+      "keyword": "rockruff",
+      "key": "rockruff"
+    },
+    {
+      "dex": "0745",
+      "keyword": "lycanroc",
+      "key": "lycanroc-midday"
+    },
+    {
+      "dex": "0745",
+      "keyword": "lycanroc-1",
+      "key": "lycanroc-midnight"
+    },
+    {
+      "dex": "0745",
+      "keyword": "lycanroc-2",
+      "key": "lycanroc-dusk"
+    },
+    {
+      "dex": "0746",
+      "keyword": "wishiwashi",
+      "key": "wishiwashi-school"
+    },
+    {
+      "dex": "0747",
+      "keyword": "mareanie",
+      "key": "mareanie"
+    },
+    {
+      "dex": "0748",
+      "keyword": "toxapex",
+      "key": "toxapex"
+    },
+    {
+      "dex": "0749",
+      "keyword": "mudbray",
+      "key": "mudbray"
+    },
+    {
+      "dex": "0750",
+      "keyword": "mudsdale",
+      "key": "mudsdale"
+    },
+    {
+      "dex": "0751",
+      "keyword": "dewpider",
+      "key": "dewpider"
+    },
+    {
+      "dex": "0752",
+      "keyword": "araquanid",
+      "key": "araquanid"
+    },
+    {
+      "dex": "0753",
+      "keyword": "fomantis",
+      "key": "fomantis"
+    },
+    {
+      "dex": "0754",
+      "keyword": "lurantis",
+      "key": "lurantis"
+    },
+    {
+      "dex": "0755",
+      "keyword": "morelull",
+      "key": "morelull"
+    },
+    {
+      "dex": "0756",
+      "keyword": "shiinotic",
+      "key": "shiinotic"
+    },
+    {
+      "dex": "0757",
+      "keyword": "salandit",
+      "key": "salandit"
+    },
+    {
+      "dex": "0758",
+      "keyword": "salazzle",
+      "key": "salazzle"
+    },
+    {
+      "dex": "0759",
+      "keyword": "stufful",
+      "key": "stufful"
+    },
+    {
+      "dex": "0760",
+      "keyword": "bewear",
+      "key": "bewear"
+    },
+    {
+      "dex": "0761",
+      "keyword": "bounsweet",
+      "key": "bounsweet"
+    },
+    {
+      "dex": "0762",
+      "keyword": "steenee",
+      "key": "steenee"
+    },
+    {
+      "dex": "0763",
+      "keyword": "tsareena",
+      "key": "tsareena"
+    },
+    {
+      "dex": "0764",
+      "keyword": "comfey",
+      "key": "comfey"
+    },
+    {
+      "dex": "0765",
+      "keyword": "oranguru",
+      "key": "oranguru"
+    },
+    {
+      "dex": "0766",
+      "keyword": "passimian",
+      "key": "passimian"
+    },
+    {
+      "dex": "0767",
+      "keyword": "wimpod",
+      "key": "wimpod"
+    },
+    {
+      "dex": "0768",
+      "keyword": "golisopod",
+      "key": "golisopod"
+    },
+    {
+      "dex": "0769",
+      "keyword": "sandygast",
+      "key": "sandygast"
+    },
+    {
+      "dex": "0770",
+      "keyword": "palossand",
+      "key": "palossand"
+    },
+    {
+      "dex": "0771",
+      "keyword": "pyukumuku",
+      "key": "pyukumuku"
+    },
+    {
+      "dex": "0772",
+      "keyword": "type: null",
+      "key": "type-null"
+    },
+    {
+      "dex": "0773",
+      "keyword": "silvally",
+      "key": "silvally-normal"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior",
+      "key": "minior-red"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior-1",
+      "key": "minior-orange"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior-2",
+      "key": "minior-yellow"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior-3",
+      "key": "minior-green"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior-4",
+      "key": "minior-blue"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior-5",
+      "key": "minior-indigo"
+    },
+    {
+      "dex": "0774",
+      "keyword": "minior-6",
+      "key": "minior-violet"
+    },
+    {
+      "dex": "0775",
+      "keyword": "komala",
+      "key": "komala"
+    },
+    {
+      "dex": "0776",
+      "keyword": "turtonator",
+      "key": "turtonator"
+    },
+    {
+      "dex": "0777",
+      "keyword": "togedemaru",
+      "key": "togedemaru"
+    },
+    {
+      "dex": "0778",
+      "keyword": "mimikyu",
+      "key": "mimikyu-disguised"
+    },
+    {
+      "dex": "0779",
+      "keyword": "bruxish",
+      "key": "bruxish"
+    },
+    {
+      "dex": "0780",
+      "keyword": "drampa",
+      "key": "drampa"
+    },
+    {
+      "dex": "0781",
+      "keyword": "dhelmise",
+      "key": "dhelmise"
+    },
+    {
+      "dex": "0782",
+      "keyword": "jangmo-o",
+      "key": "jangmo-o"
+    },
+    {
+      "dex": "0783",
+      "keyword": "hakamo-o",
+      "key": "hakamo-o"
+    },
+    {
+      "dex": "0784",
+      "keyword": "kommo-o",
+      "key": "kommo-o"
+    },
+    {
+      "dex": "0785",
+      "keyword": "tapu koko",
+      "key": "tapu-koko"
+    },
+    {
+      "dex": "0786",
+      "keyword": "tapu lele",
+      "key": "tapu-lele"
+    },
+    {
+      "dex": "0787",
+      "keyword": "tapu bulu",
+      "key": "tapu-bulu"
+    },
+    {
+      "dex": "0788",
+      "keyword": "tapu fini",
+      "key": "tapu-fini"
+    },
+    {
+      "dex": "0789",
+      "keyword": "cosmog",
+      "key": "cosmog"
+    },
+    {
+      "dex": "0790",
+      "keyword": "cosmoem",
+      "key": "cosmoem"
+    },
+    {
+      "dex": "0791",
+      "keyword": "solgaleo",
+      "key": "solgaleo"
+    },
+    {
+      "dex": "0792",
+      "keyword": "lunala",
+      "key": "lunala"
+    },
+    {
+      "dex": "0793",
+      "keyword": "nihilego",
+      "key": "nihilego"
+    },
+    {
+      "dex": "0794",
+      "keyword": "buzzwole",
+      "key": "buzzwole"
+    },
+    {
+      "dex": "0795",
+      "keyword": "pheromosa",
+      "key": "pheromosa"
+    },
+    {
+      "dex": "0796",
+      "keyword": "xurkitree",
+      "key": "xurkitree"
+    },
+    {
+      "dex": "0797",
+      "keyword": "celesteela",
+      "key": "celesteela"
+    },
+    {
+      "dex": "0798",
+      "keyword": "kartana",
+      "key": "kartana"
+    },
+    {
+      "dex": "0799",
+      "keyword": "guzzlord",
+      "key": "guzzlord"
+    },
+    {
+      "dex": "0800",
+      "keyword": "necrozma",
+      "key": "necrozma"
+    },
+    {
+      "dex": "0801",
+      "keyword": "magearna",
+      "key": "magearna"
+    },
+    {
+      "dex": "0801",
+      "keyword": "magearna-1",
+      "key": "magearna-original"
+    },
+    {
+      "dex": "0802",
+      "keyword": "marshadow",
+      "key": "marshadow"
+    },
+    {
+      "dex": "0803",
+      "keyword": "poipole",
+      "key": "poipole"
+    },
+    {
+      "dex": "0804",
+      "keyword": "naganadel",
+      "key": "naganadel"
+    },
+    {
+      "dex": "0805",
+      "keyword": "stakataka",
+      "key": "stakataka"
+    },
+    {
+      "dex": "0806",
+      "keyword": "blacephalon",
+      "key": "blacephalon"
+    },
+    {
+      "dex": "0807",
+      "keyword": "zeraora",
+      "key": "zeraora"
+    },
+    {
+      "dex": "0808",
+      "keyword": "meltan",
+      "key": "meltan"
+    },
+    {
+      "dex": "0809",
+      "keyword": "melmetal",
+      "key": "melmetal"
+    },
+    {
+      "dex": "0810",
+      "keyword": "grookey",
+      "key": "grookey"
+    },
+    {
+      "dex": "0811",
+      "keyword": "thwackey",
+      "key": "thwackey"
+    },
+    {
+      "dex": "0812",
+      "keyword": "rillaboom",
+      "key": "rillaboom"
+    },
+    {
+      "dex": "0813",
+      "keyword": "scorbunny",
+      "key": "scorbunny"
+    },
+    {
+      "dex": "0814",
+      "keyword": "raboot",
+      "key": "raboot"
+    },
+    {
+      "dex": "0815",
+      "keyword": "cinderace",
+      "key": "cinderace"
+    },
+    {
+      "dex": "0816",
+      "keyword": "sobble",
+      "key": "sobble"
+    },
+    {
+      "dex": "0817",
+      "keyword": "drizzile",
+      "key": "drizzile"
+    },
+    {
+      "dex": "0818",
+      "keyword": "inteleon",
+      "key": "inteleon"
+    },
+    {
+      "dex": "0819",
+      "keyword": "skwovet",
+      "key": "skwovet"
+    },
+    {
+      "dex": "0820",
+      "keyword": "greedent",
+      "key": "greedent"
+    },
+    {
+      "dex": "0821",
+      "keyword": "rookidee",
+      "key": "rookidee"
+    },
+    {
+      "dex": "0822",
+      "keyword": "corvisquire",
+      "key": "corvisquire"
+    },
+    {
+      "dex": "0823",
+      "keyword": "corviknight",
+      "key": "corviknight"
+    },
+    {
+      "dex": "0824",
+      "keyword": "blipbug",
+      "key": "blipbug"
+    },
+    {
+      "dex": "0825",
+      "keyword": "dottler",
+      "key": "dottler"
+    },
+    {
+      "dex": "0826",
+      "keyword": "orbeetle",
+      "key": "orbeetle"
+    },
+    {
+      "dex": "0827",
+      "keyword": "nickit",
+      "key": "nickit"
+    },
+    {
+      "dex": "0828",
+      "keyword": "thievul",
+      "key": "thievul"
+    },
+    {
+      "dex": "0829",
+      "keyword": "gossifleur",
+      "key": "gossifleur"
+    },
+    {
+      "dex": "0830",
+      "keyword": "eldegoss",
+      "key": "eldegoss"
+    },
+    {
+      "dex": "0831",
+      "keyword": "wooloo",
+      "key": "wooloo"
+    },
+    {
+      "dex": "0832",
+      "keyword": "dubwool",
+      "key": "dubwool"
+    },
+    {
+      "dex": "0833",
+      "keyword": "chewtle",
+      "key": "chewtle"
+    },
+    {
+      "dex": "0834",
+      "keyword": "drednaw",
+      "key": "drednaw"
+    },
+    {
+      "dex": "0835",
+      "keyword": "yamper",
+      "key": "yamper"
+    },
+    {
+      "dex": "0836",
+      "keyword": "boltund",
+      "key": "boltund"
+    },
+    {
+      "dex": "0837",
+      "keyword": "rolycoly",
+      "key": "rolycoly"
+    },
+    {
+      "dex": "0838",
+      "keyword": "carkol",
+      "key": "carkol"
+    },
+    {
+      "dex": "0839",
+      "keyword": "coalossal",
+      "key": "coalossal"
+    },
+    {
+      "dex": "0840",
+      "keyword": "applin",
+      "key": "applin"
+    },
+    {
+      "dex": "0841",
+      "keyword": "flapple",
+      "key": "flapple"
+    },
+    {
+      "dex": "0842",
+      "keyword": "appletun",
+      "key": "appletun"
+    },
+    {
+      "dex": "0843",
+      "keyword": "silicobra",
+      "key": "silicobra"
+    },
+    {
+      "dex": "0844",
+      "keyword": "sandaconda",
+      "key": "sandaconda"
+    },
+    {
+      "dex": "0845",
+      "keyword": "cramorant",
+      "key": "cramorant"
+    },
+    {
+      "dex": "0846",
+      "keyword": "arrokuda",
+      "key": "arrokuda"
+    },
+    {
+      "dex": "0847",
+      "keyword": "barraskewda",
+      "key": "barraskewda"
+    },
+    {
+      "dex": "0848",
+      "keyword": "toxel",
+      "key": "toxel"
+    },
+    {
+      "dex": "0849",
+      "keyword": "toxtricity",
+      "key": "toxtricity-amped"
+    },
+    {
+      "dex": "0849",
+      "keyword": "toxtricity-1",
+      "key": "toxtricity-low-key"
+    },
+    {
+      "dex": "0850",
+      "keyword": "sizzlipede",
+      "key": "sizzlipede"
+    },
+    {
+      "dex": "0851",
+      "keyword": "centiskorch",
+      "key": "centiskorch"
+    },
+    {
+      "dex": "0852",
+      "keyword": "clobbopus",
+      "key": "clobbopus"
+    },
+    {
+      "dex": "0853",
+      "keyword": "grapploct",
+      "key": "grapploct"
+    },
+    {
+      "dex": "0854",
+      "keyword": "sinistea",
+      "key": "sinistea-phony"
+    },
+    {
+      "dex": "0854",
+      "keyword": "sinistea-1",
+      "key": "sinistea-antique"
+    },
+    {
+      "dex": "0855",
+      "keyword": "polteageist",
+      "key": "polteageist-phony"
+    },
+    {
+      "dex": "0855",
+      "keyword": "polteageist-1",
+      "key": "polteageist-antique"
+    },
+    {
+      "dex": "0856",
+      "keyword": "hatenna",
+      "key": "hatenna"
+    },
+    {
+      "dex": "0857",
+      "keyword": "hattrem",
+      "key": "hattrem"
+    },
+    {
+      "dex": "0858",
+      "keyword": "hatterene",
+      "key": "hatterene"
+    },
+    {
+      "dex": "0859",
+      "keyword": "impidimp",
+      "key": "impidimp"
+    },
+    {
+      "dex": "0860",
+      "keyword": "morgrem",
+      "key": "morgrem"
+    },
+    {
+      "dex": "0861",
+      "keyword": "grimmsnarl",
+      "key": "grimmsnarl"
+    },
+    {
+      "dex": "0862",
+      "keyword": "obstagoon",
+      "key": "obstagoon"
+    },
+    {
+      "dex": "0863",
+      "keyword": "perrserker",
+      "key": "perrserker"
+    },
+    {
+      "dex": "0864",
+      "keyword": "cursola",
+      "key": "cursola"
+    },
+    {
+      "dex": "0865",
+      "keyword": "sirfetch'd",
+      "key": "sirfetchd"
+    },
+    {
+      "dex": "0866",
+      "keyword": "mr. rime",
+      "key": "mr-rime"
+    },
+    {
+      "dex": "0867",
+      "keyword": "runerigus",
+      "key": "runerigus"
+    },
+    {
+      "dex": "0868",
+      "keyword": "milcery",
+      "key": "milcery"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie",
+      "key": "alcremie-vanilla-cream-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-a",
+      "key": "alcremie-vanilla-cream-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-b",
+      "key": "alcremie-vanilla-cream-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-c",
+      "key": "alcremie-vanilla-cream-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-d",
+      "key": "alcremie-vanilla-cream-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-e",
+      "key": "alcremie-vanilla-cream-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-f",
+      "key": "alcremie-vanilla-cream-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1",
+      "key": "alcremie-ruby-cream-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1-a",
+      "key": "alcremie-ruby-cream-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1-b",
+      "key": "alcremie-ruby-cream-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1-c",
+      "key": "alcremie-ruby-cream-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1-d",
+      "key": "alcremie-ruby-cream-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1-e",
+      "key": "alcremie-ruby-cream-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-1-f",
+      "key": "alcremie-ruby-cream-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2",
+      "key": "alcremie-matcha-cream-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2-a",
+      "key": "alcremie-matcha-cream-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2-b",
+      "key": "alcremie-matcha-cream-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2-c",
+      "key": "alcremie-matcha-cream-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2-d",
+      "key": "alcremie-matcha-cream-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2-e",
+      "key": "alcremie-matcha-cream-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-2-f",
+      "key": "alcremie-matcha-cream-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3",
+      "key": "alcremie-mint-cream-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3-a",
+      "key": "alcremie-mint-cream-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3-b",
+      "key": "alcremie-mint-cream-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3-c",
+      "key": "alcremie-mint-cream-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3-d",
+      "key": "alcremie-mint-cream-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3-e",
+      "key": "alcremie-mint-cream-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-3-f",
+      "key": "alcremie-mint-cream-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4",
+      "key": "alcremie-lemon-cream-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4-a",
+      "key": "alcremie-lemon-cream-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4-b",
+      "key": "alcremie-lemon-cream-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4-c",
+      "key": "alcremie-lemon-cream-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4-d",
+      "key": "alcremie-lemon-cream-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4-e",
+      "key": "alcremie-lemon-cream-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-4-f",
+      "key": "alcremie-lemon-cream-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5",
+      "key": "alcremie-salted-cream-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5-a",
+      "key": "alcremie-salted-cream-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5-b",
+      "key": "alcremie-salted-cream-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5-c",
+      "key": "alcremie-salted-cream-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5-d",
+      "key": "alcremie-salted-cream-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5-e",
+      "key": "alcremie-salted-cream-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-5-f",
+      "key": "alcremie-salted-cream-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6",
+      "key": "alcremie-ruby-swirl-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6-a",
+      "key": "alcremie-ruby-swirl-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6-b",
+      "key": "alcremie-ruby-swirl-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6-c",
+      "key": "alcremie-ruby-swirl-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6-d",
+      "key": "alcremie-ruby-swirl-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6-e",
+      "key": "alcremie-ruby-swirl-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-6-f",
+      "key": "alcremie-ruby-swirl-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7",
+      "key": "alcremie-caramel-swirl-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7-a",
+      "key": "alcremie-caramel-swirl-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7-b",
+      "key": "alcremie-caramel-swirl-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7-c",
+      "key": "alcremie-caramel-swirl-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7-d",
+      "key": "alcremie-caramel-swirl-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7-e",
+      "key": "alcremie-caramel-swirl-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-7-f",
+      "key": "alcremie-caramel-swirl-ribbon-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8",
+      "key": "alcremie-rainbow-swirl-strawberry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8-a",
+      "key": "alcremie-rainbow-swirl-berry-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8-b",
+      "key": "alcremie-rainbow-swirl-love-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8-c",
+      "key": "alcremie-rainbow-swirl-star-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8-d",
+      "key": "alcremie-rainbow-swirl-clover-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8-e",
+      "key": "alcremie-rainbow-swirl-flower-sweet"
+    },
+    {
+      "dex": "0869",
+      "keyword": "alcremie-8-f",
+      "key": "alcremie-rainbow-swirl-ribbon-sweet"
+    },
+    {
+      "dex": "0870",
+      "keyword": "falinks",
+      "key": "falinks"
+    },
+    {
+      "dex": "0871",
+      "keyword": "pincurchin",
+      "key": "pincurchin"
+    },
+    {
+      "dex": "0872",
+      "keyword": "snom",
+      "key": "snom"
+    },
+    {
+      "dex": "0873",
+      "keyword": "frosmoth",
+      "key": "frosmoth"
+    },
+    {
+      "dex": "0874",
+      "keyword": "stonjourner",
+      "key": "stonjourner"
+    },
+    {
+      "dex": "0875",
+      "keyword": "eiscue",
+      "key": "eiscue-ice"
+    },
+    {
+      "dex": "0876",
+      "keyword": "indeedee",
+      "key": "indeedee-male"
+    },
+    {
+      "dex": "0876",
+      "keyword": "indeedee-f",
+      "key": "indeedee-female"
+    },
+    {
+      "dex": "0877",
+      "keyword": "morpeko",
+      "key": "morpeko-full-belly"
+    },
+    {
+      "dex": "0878",
+      "keyword": "cufant",
+      "key": "cufant"
+    },
+    {
+      "dex": "0879",
+      "keyword": "copperajah",
+      "key": "copperajah"
+    },
+    {
+      "dex": "0880",
+      "keyword": "dracozolt",
+      "key": "dracozolt"
+    },
+    {
+      "dex": "0881",
+      "keyword": "arctozolt",
+      "key": "arctozolt"
+    },
+    {
+      "dex": "0882",
+      "keyword": "dracovish",
+      "key": "dracovish"
+    },
+    {
+      "dex": "0883",
+      "keyword": "arctovish",
+      "key": "arctovish"
+    },
+    {
+      "dex": "0884",
+      "keyword": "duraludon",
+      "key": "duraludon"
+    },
+    {
+      "dex": "0885",
+      "keyword": "dreepy",
+      "key": "dreepy"
+    },
+    {
+      "dex": "0886",
+      "keyword": "drakloak",
+      "key": "drakloak"
+    },
+    {
+      "dex": "0887",
+      "keyword": "dragapult",
+      "key": "dragapult"
+    },
+    {
+      "dex": "0888",
+      "keyword": "zacian",
+      "key": "zacian"
+    },
+    {
+      "dex": "0889",
+      "keyword": "zamazenta",
+      "key": "zamazenta"
+    },
+    {
+      "dex": "0890",
+      "keyword": "eternatus",
+      "key": "eternatus"
+    },
+    {
+      "dex": "0891",
+      "keyword": "kubfu",
+      "key": "kubfu"
+    },
+    {
+      "dex": "0892",
+      "keyword": "urshifu",
+      "key": "urshifu-single-strike"
+    },
+    {
+      "dex": "0892",
+      "keyword": "urshifu-1",
+      "key": "urshifu-rapid-strike"
+    },
+    {
+      "dex": "0893",
+      "keyword": "zarude",
+      "key": "zarude"
+    },
+    {
+      "dex": "0893",
+      "keyword": "zarude-1",
+      "key": "zarude-dada"
+    },
+    {
+      "dex": "0894",
+      "keyword": "regieleki",
+      "key": "regieleki"
+    },
+    {
+      "dex": "0895",
+      "keyword": "regidrago",
+      "key": "regidrago"
+    },
+    {
+      "dex": "0896",
+      "keyword": "glastrier",
+      "key": "glastrier"
+    },
+    {
+      "dex": "0897",
+      "keyword": "spectrier",
+      "key": "spectrier"
+    },
+    {
+      "dex": "0898",
+      "keyword": "calyrex",
+      "key": "calyrex"
+    },
+    {
+      "dex": "0899",
+      "keyword": "wyrdeer",
+      "key": "wyrdeer"
+    },
+    {
+      "dex": "0900",
+      "keyword": "kleavor",
+      "key": "kleavor"
+    },
+    {
+      "dex": "0901",
+      "keyword": "ursaluna",
+      "key": "ursaluna"
+    },
+    {
+      "dex": "0901",
+      "keyword": "ursaluna-1",
+      "key": "ursaluna-bloodmoon"
+    },
+    {
+      "dex": "0902",
+      "keyword": "basculegion",
+      "key": "basculegion-male"
+    },
+    {
+      "dex": "0902",
+      "keyword": "basculegion-f",
+      "key": "basculegion-female"
+    },
+    {
+      "dex": "0903",
+      "keyword": "sneasler",
+      "key": "sneasler"
+    },
+    {
+      "dex": "0904",
+      "keyword": "overqwil",
+      "key": "overqwil"
+    },
+    {
+      "dex": "0905",
+      "keyword": "enamorus",
+      "key": "enamorus-incarnate"
+    },
+    {
+      "dex": "0905",
+      "keyword": "enamorus-1",
+      "key": "enamorus-therian"
+    },
+    {
+      "dex": "0906",
+      "keyword": "sprigatito",
+      "key": "sprigatito"
+    },
+    {
+      "dex": "0907",
+      "keyword": "floragato",
+      "key": "floragato"
+    },
+    {
+      "dex": "0908",
+      "keyword": "meowscarada",
+      "key": "meowscarada"
+    },
+    {
+      "dex": "0909",
+      "keyword": "fuecoco",
+      "key": "fuecoco"
+    },
+    {
+      "dex": "0910",
+      "keyword": "crocalor",
+      "key": "crocalor"
+    },
+    {
+      "dex": "0911",
+      "keyword": "skeledirge",
+      "key": "skeledirge"
+    },
+    {
+      "dex": "0912",
+      "keyword": "quaxly",
+      "key": "quaxly"
+    },
+    {
+      "dex": "0913",
+      "keyword": "quaxwell",
+      "key": "quaxwell"
+    },
+    {
+      "dex": "0914",
+      "keyword": "quaquaval",
+      "key": "quaquaval"
+    },
+    {
+      "dex": "0915",
+      "keyword": "lechonk",
+      "key": "lechonk"
+    },
+    {
+      "dex": "0916",
+      "keyword": "oinkologne",
+      "key": "oinkologne-male"
+    },
+    {
+      "dex": "0916",
+      "keyword": "oinkologne-f",
+      "key": "oinkologne-female"
+    },
+    {
+      "dex": "0917",
+      "keyword": "tarountula",
+      "key": "tarountula"
+    },
+    {
+      "dex": "0918",
+      "keyword": "spidops",
+      "key": "spidops"
+    },
+    {
+      "dex": "0919",
+      "keyword": "nymble",
+      "key": "nymble"
+    },
+    {
+      "dex": "0920",
+      "keyword": "lokix",
+      "key": "lokix"
+    },
+    {
+      "dex": "0921",
+      "keyword": "pawmi",
+      "key": "pawmi"
+    },
+    {
+      "dex": "0922",
+      "keyword": "pawmo",
+      "key": "pawmo"
+    },
+    {
+      "dex": "0923",
+      "keyword": "pawmot",
+      "key": "pawmot"
+    },
+    {
+      "dex": "0924",
+      "keyword": "tandemaus",
+      "key": "tandemaus"
+    },
+    {
+      "dex": "0925",
+      "keyword": "maushold",
+      "key": "maushold-family-of-four"
+    },
+    {
+      "dex": "0925",
+      "keyword": "maushold-1",
+      "key": "maushold-family-of-three"
+    },
+    {
+      "dex": "0926",
+      "keyword": "fidough",
+      "key": "fidough"
+    },
+    {
+      "dex": "0927",
+      "keyword": "dachsbun",
+      "key": "dachsbun"
+    },
+    {
+      "dex": "0928",
+      "keyword": "smoliv",
+      "key": "smoliv"
+    },
+    {
+      "dex": "0929",
+      "keyword": "dolliv",
+      "key": "dolliv"
+    },
+    {
+      "dex": "0930",
+      "keyword": "arboliva",
+      "key": "arboliva"
+    },
+    {
+      "dex": "0931",
+      "keyword": "squawkabilly",
+      "key": "squawkabilly-green-plumage"
+    },
+    {
+      "dex": "0931",
+      "keyword": "squawkabilly-1",
+      "key": "squawkabilly-blue-plumage"
+    },
+    {
+      "dex": "0931",
+      "keyword": "squawkabilly-2",
+      "key": "squawkabilly-yellow-plumage"
+    },
+    {
+      "dex": "0931",
+      "keyword": "squawkabilly-3",
+      "key": "squawkabilly-white-plumage"
+    },
+    {
+      "dex": "0932",
+      "keyword": "nacli",
+      "key": "nacli"
+    },
+    {
+      "dex": "0933",
+      "keyword": "naclstack",
+      "key": "naclstack"
+    },
+    {
+      "dex": "0934",
+      "keyword": "garganacl",
+      "key": "garganacl"
+    },
+    {
+      "dex": "0935",
+      "keyword": "charcadet",
+      "key": "charcadet"
+    },
+    {
+      "dex": "0936",
+      "keyword": "armarouge",
+      "key": "armarouge"
+    },
+    {
+      "dex": "0937",
+      "keyword": "ceruledge",
+      "key": "ceruledge"
+    },
+    {
+      "dex": "0938",
+      "keyword": "tadbulb",
+      "key": "tadbulb"
+    },
+    {
+      "dex": "0939",
+      "keyword": "bellibolt",
+      "key": "bellibolt"
+    },
+    {
+      "dex": "0940",
+      "keyword": "wattrel",
+      "key": "wattrel"
+    },
+    {
+      "dex": "0941",
+      "keyword": "kilowattrel",
+      "key": "kilowattrel"
+    },
+    {
+      "dex": "0942",
+      "keyword": "maschiff",
+      "key": "maschiff"
+    },
+    {
+      "dex": "0943",
+      "keyword": "mabosstiff",
+      "key": "mabosstiff"
+    },
+    {
+      "dex": "0944",
+      "keyword": "shroodle",
+      "key": "shroodle"
+    },
+    {
+      "dex": "0945",
+      "keyword": "grafaiai",
+      "key": "grafaiai"
+    },
+    {
+      "dex": "0946",
+      "keyword": "bramblin",
+      "key": "bramblin"
+    },
+    {
+      "dex": "0947",
+      "keyword": "brambleghast",
+      "key": "brambleghast"
+    },
+    {
+      "dex": "0948",
+      "keyword": "toedscool",
+      "key": "toedscool"
+    },
+    {
+      "dex": "0949",
+      "keyword": "toedscruel",
+      "key": "toedscruel"
+    },
+    {
+      "dex": "0950",
+      "keyword": "klawf",
+      "key": "klawf"
+    },
+    {
+      "dex": "0951",
+      "keyword": "capsakid",
+      "key": "capsakid"
+    },
+    {
+      "dex": "0952",
+      "keyword": "scovillain",
+      "key": "scovillain"
+    },
+    {
+      "dex": "0953",
+      "keyword": "rellor",
+      "key": "rellor"
+    },
+    {
+      "dex": "0954",
+      "keyword": "rabsca",
+      "key": "rabsca"
+    },
+    {
+      "dex": "0955",
+      "keyword": "flittle",
+      "key": "flittle"
+    },
+    {
+      "dex": "0956",
+      "keyword": "espathra",
+      "key": "espathra"
+    },
+    {
+      "dex": "0957",
+      "keyword": "tinkatink",
+      "key": "tinkatink"
+    },
+    {
+      "dex": "0958",
+      "keyword": "tinkatuff",
+      "key": "tinkatuff"
+    },
+    {
+      "dex": "0959",
+      "keyword": "tinkaton",
+      "key": "tinkaton"
+    },
+    {
+      "dex": "0960",
+      "keyword": "wiglett",
+      "key": "wiglett"
+    },
+    {
+      "dex": "0961",
+      "keyword": "wugtrio",
+      "key": "wugtrio"
+    },
+    {
+      "dex": "0962",
+      "keyword": "bombirdier",
+      "key": "bombirdier"
+    },
+    {
+      "dex": "0963",
+      "keyword": "finizen",
+      "key": "finizen"
+    },
+    {
+      "dex": "0964",
+      "keyword": "palafin",
+      "key": "palafin-zero"
+    },
+    {
+      "dex": "0965",
+      "keyword": "varoom",
+      "key": "varoom"
+    },
+    {
+      "dex": "0966",
+      "keyword": "revavroom",
+      "key": "revavroom"
+    },
+    {
+      "dex": "0967",
+      "keyword": "cyclizar",
+      "key": "cyclizar"
+    },
+    {
+      "dex": "0968",
+      "keyword": "orthworm",
+      "key": "orthworm"
+    },
+    {
+      "dex": "0969",
+      "keyword": "glimmet",
+      "key": "glimmet"
+    },
+    {
+      "dex": "0970",
+      "keyword": "glimmora",
+      "key": "glimmora"
+    },
+    {
+      "dex": "0971",
+      "keyword": "greavard",
+      "key": "greavard"
+    },
+    {
+      "dex": "0972",
+      "keyword": "houndstone",
+      "key": "houndstone"
+    },
+    {
+      "dex": "0973",
+      "keyword": "flamigo",
+      "key": "flamigo"
+    },
+    {
+      "dex": "0974",
+      "keyword": "cetoddle",
+      "key": "cetoddle"
+    },
+    {
+      "dex": "0975",
+      "keyword": "cetitan",
+      "key": "cetitan"
+    },
+    {
+      "dex": "0976",
+      "keyword": "veluza",
+      "key": "veluza"
+    },
+    {
+      "dex": "0977",
+      "keyword": "dondozo",
+      "key": "dondozo"
+    },
+    {
+      "dex": "0978",
+      "keyword": "tatsugiri",
+      "key": "tatsugiri-curly"
+    },
+    {
+      "dex": "0978",
+      "keyword": "tatsugiri-1",
+      "key": "tatsugiri-droopy"
+    },
+    {
+      "dex": "0978",
+      "keyword": "tatsugiri-2",
+      "key": "tatsugiri-stretchy"
+    },
+    {
+      "dex": "0979",
+      "keyword": "annihilape",
+      "key": "annihilape"
+    },
+    {
+      "dex": "0980",
+      "keyword": "clodsire",
+      "key": "clodsire"
+    },
+    {
+      "dex": "0981",
+      "keyword": "farigiraf",
+      "key": "farigiraf"
+    },
+    {
+      "dex": "0982",
+      "keyword": "dudunsparce",
+      "key": "dudunsparce-two-segment"
+    },
+    {
+      "dex": "0982",
+      "keyword": "dudunsparce-1",
+      "key": "dudunsparce-three-segment"
+    },
+    {
+      "dex": "0983",
+      "keyword": "kingambit",
+      "key": "kingambit"
+    },
+    {
+      "dex": "0984",
+      "keyword": "great tusk",
+      "key": "great-tusk"
+    },
+    {
+      "dex": "0985",
+      "keyword": "scream tail",
+      "key": "scream-tail"
+    },
+    {
+      "dex": "0986",
+      "keyword": "brute bonnet",
+      "key": "brute-bonnet"
+    },
+    {
+      "dex": "0987",
+      "keyword": "flutter mane",
+      "key": "flutter-mane"
+    },
+    {
+      "dex": "0988",
+      "keyword": "slither wing",
+      "key": "slither-wing"
+    },
+    {
+      "dex": "0989",
+      "keyword": "sandy shocks",
+      "key": "sandy-shocks"
+    },
+    {
+      "dex": "0990",
+      "keyword": "iron treads",
+      "key": "iron-treads"
+    },
+    {
+      "dex": "0991",
+      "keyword": "iron bundle",
+      "key": "iron-bundle"
+    },
+    {
+      "dex": "0992",
+      "keyword": "iron hands",
+      "key": "iron-hands"
+    },
+    {
+      "dex": "0993",
+      "keyword": "iron jugulis",
+      "key": "iron-jugulis"
+    },
+    {
+      "dex": "0994",
+      "keyword": "iron moth",
+      "key": "iron-moth"
+    },
+    {
+      "dex": "0995",
+      "keyword": "iron thorns",
+      "key": "iron-thorns"
+    },
+    {
+      "dex": "0996",
+      "keyword": "frigibax",
+      "key": "frigibax"
+    },
+    {
+      "dex": "0997",
+      "keyword": "arctibax",
+      "key": "arctibax"
+    },
+    {
+      "dex": "0998",
+      "keyword": "baxcalibur",
+      "key": "baxcalibur"
+    },
+    {
+      "dex": "0999",
+      "keyword": "gimmighoul",
+      "key": "gimmighoul-chest"
+    },
+    {
+      "dex": "0999",
+      "keyword": "gimmighoul-1",
+      "key": "gimmighoul-roaming"
+    },
+    {
+      "dex": "1000",
+      "keyword": "gholdengo",
+      "key": "gholdengo"
+    },
+    {
+      "dex": "1001",
+      "keyword": "wo-chien",
+      "key": "wo-chien"
+    },
+    {
+      "dex": "1002",
+      "keyword": "chien-pao",
+      "key": "chien-pao"
+    },
+    {
+      "dex": "1003",
+      "keyword": "ting-lu",
+      "key": "ting-lu"
+    },
+    {
+      "dex": "1004",
+      "keyword": "chi-yu",
+      "key": "chi-yu"
+    },
+    {
+      "dex": "1005",
+      "keyword": "roaring moon",
+      "key": "roaring-moon"
+    },
+    {
+      "dex": "1006",
+      "keyword": "iron valiant",
+      "key": "iron-valiant"
+    },
+    {
+      "dex": "1007",
+      "keyword": "koraidon",
+      "key": "koraidon-apex-build"
+    },
+    {
+      "dex": "1008",
+      "keyword": "miraidon",
+      "key": "miraidon-ultimate-mode"
+    },
+    {
+      "dex": "1009",
+      "keyword": "walking wake",
+      "key": "walking-wake"
+    },
+    {
+      "dex": "1010",
+      "keyword": "iron leaves",
+      "key": "iron-leaves"
+    },
+    {
+      "dex": "1011",
+      "keyword": "dipplin",
+      "key": "dipplin"
+    },
+    {
+      "dex": "1012",
+      "keyword": "poltchageist",
+      "key": "poltchageist-counterfeit"
+    },
+    {
+      "dex": "1012",
+      "keyword": "poltchageist-1",
+      "key": "poltchageist-artisan"
+    },
+    {
+      "dex": "1013",
+      "keyword": "sinistcha",
+      "key": "sinistcha-unremarkable"
+    },
+    {
+      "dex": "1013",
+      "keyword": "sinistcha-1",
+      "key": "sinistcha-masterpiece"
+    },
+    {
+      "dex": "1014",
+      "keyword": "okidogi",
+      "key": "okidogi"
+    },
+    {
+      "dex": "1015",
+      "keyword": "munkidori",
+      "key": "munkidori"
+    },
+    {
+      "dex": "1016",
+      "keyword": "fezandipiti",
+      "key": "fezandipiti"
+    },
+    {
+      "dex": "1017",
+      "keyword": "ogerpon",
+      "key": "ogerpon"
+    },
+    {
+      "dex": "1018",
+      "keyword": "archaludon",
+      "key": "archaludon"
+    },
+    {
+      "dex": "1019",
+      "keyword": "hydrapple",
+      "key": "hydrapple"
+    },
+    {
+      "dex": "1020",
+      "keyword": "gouging fire",
+      "key": "gouging-fire"
+    },
+    {
+      "dex": "1021",
+      "keyword": "raging bolt",
+      "key": "raging-bolt"
+    },
+    {
+      "dex": "1022",
+      "keyword": "iron boulder",
+      "key": "iron-boulder"
+    },
+    {
+      "dex": "1023",
+      "keyword": "iron crown",
+      "key": "iron-crown"
+    },
+    {
+      "dex": "1024",
+      "keyword": "terapagos",
+      "key": "terapagos"
+    },
+    {
+      "dex": "1025",
+      "keyword": "pecharunt",
+      "key": "pecharunt"
+    }
+  ],
+  "unmatchedMain": [],
+  "unmatchedFemale": [],
+  "orphans": []
+}

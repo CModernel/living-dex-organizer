@@ -1,0 +1,1293 @@
+dex,name,formName,genderSuffix,keyword
+0001,Bulbasaur,,,bulbasaur
+0002,Ivysaur,,,ivysaur
+0003,Venusaur,,,venusaur
+0004,Charmander,,,charmander
+0005,Charmeleon,,,charmeleon
+0006,Charizard,,,charizard
+0007,Squirtle,,,squirtle
+0008,Wartortle,,,wartortle
+0009,Blastoise,,,blastoise
+0010,Caterpie,,,caterpie
+0011,Metapod,,,metapod
+0012,Butterfree,,,butterfree
+0013,Weedle,,,weedle
+0014,Kakuna,,,kakuna
+0015,Beedrill,,,beedrill
+0016,Pidgey,,,pidgey
+0017,Pidgeotto,,,pidgeotto
+0018,Pidgeot,,,pidgeot
+0019,Rattata,Original,,rattata
+0019,Rattata,Alolan,,rattata-1
+0020,Raticate,Original,,raticate
+0020,Raticate,Alolan,,raticate-1
+0021,Spearow,,,spearow
+0022,Fearow,,,fearow
+0023,Ekans,,,ekans
+0024,Arbok,,,arbok
+0025,Pikachu,,,pikachu
+0025,Pikachu,Original Cap,,pikachu-1
+0025,Pikachu,Hoenn Cap,,pikachu-2
+0025,Pikachu,Sinnoh Cap,,pikachu-3
+0025,Pikachu,Unova Cap,,pikachu-4
+0025,Pikachu,Kalos Cap,,pikachu-5
+0025,Pikachu,Alola Cap,,pikachu-6
+0025,Pikachu,Partner Cap,,pikachu-7
+0025,Pikachu,World Cap,,pikachu-9
+0026,Raichu,Original,,raichu
+0026,Raichu,Alolan,,raichu-1
+0027,Sandshrew,Original,,sandshrew
+0027,Sandshrew,Alolan,,sandshrew-1
+0028,Sandslash,Original,,sandslash
+0028,Sandslash,Alolan,,sandslash-1
+0029,Nidoran♀,,,nidoran♀
+0030,Nidorina,,,nidorina
+0031,Nidoqueen,,,nidoqueen
+0032,Nidoran♂,,,nidoran♂
+0033,Nidorino,,,nidorino
+0034,Nidoking,,,nidoking
+0035,Clefairy,,,clefairy
+0036,Clefable,,,clefable
+0037,Vulpix,Original,,vulpix
+0037,Vulpix,Alolan,,vulpix-1
+0038,Ninetales,Original,,ninetales
+0038,Ninetales,Alolan,,ninetales-1
+0039,Jigglypuff,,,jigglypuff
+0040,Wigglytuff,,,wigglytuff
+0041,Zubat,,,zubat
+0042,Golbat,,,golbat
+0043,Oddish,,,oddish
+0044,Gloom,,,gloom
+0045,Vileplume,,,vileplume
+0046,Paras,,,paras
+0047,Parasect,,,parasect
+0048,Venonat,,,venonat
+0049,Venomoth,,,venomoth
+0050,Diglett,Original,,diglett
+0050,Diglett,Alolan,,diglett-1
+0051,Dugtrio,Original,,dugtrio
+0051,Dugtrio,Alolan,,dugtrio-1
+0052,Meowth,Original,,meowth
+0052,Meowth,Alolan,,meowth-1
+0052,Meowth,Galarian,,meowth-2
+0053,Persian,Original,,persian
+0053,Persian,Alolan,,persian-1
+0054,Psyduck,,,psyduck
+0055,Golduck,,,golduck
+0056,Mankey,,,mankey
+0057,Primeape,,,primeape
+0058,Growlithe,Original,,growlithe
+0058,Growlithe,Hisuian,,growlithe-1
+0059,Arcanine,Original,,arcanine
+0059,Arcanine,Hisuian,,arcanine-1
+0060,Poliwag,,,poliwag
+0061,Poliwhirl,,,poliwhirl
+0062,Poliwrath,,,poliwrath
+0063,Abra,,,abra
+0064,Kadabra,,,kadabra
+0065,Alakazam,,,alakazam
+0066,Machop,,,machop
+0067,Machoke,,,machoke
+0068,Machamp,,,machamp
+0069,Bellsprout,,,bellsprout
+0070,Weepinbell,,,weepinbell
+0071,Victreebel,,,victreebel
+0072,Tentacool,,,tentacool
+0073,Tentacruel,,,tentacruel
+0074,Geodude,Original,,geodude
+0074,Geodude,Alolan,,geodude-1
+0075,Graveler,Original,,graveler
+0075,Graveler,Alolan,,graveler-1
+0076,Golem,Original,,golem
+0076,Golem,Alolan,,golem-1
+0077,Ponyta,Original,,ponyta
+0077,Ponyta,Galarian,,ponyta-1
+0078,Rapidash,Original,,rapidash
+0078,Rapidash,Galarian,,rapidash-1
+0079,Slowpoke,Original,,slowpoke
+0079,Slowpoke,Galarian,,slowpoke-1
+0080,Slowbro,Original,,slowbro
+0080,Slowbro,Galarian,,slowbro-1
+0081,Magnemite,,,magnemite
+0082,Magneton,,,magneton
+0083,Farfetch'd,Original,,farfetch'd
+0083,Farfetch'd,Galarian,,farfetch'd-1
+0084,Doduo,,,doduo
+0085,Dodrio,,,dodrio
+0086,Seel,,,seel
+0087,Dewgong,,,dewgong
+0088,Grimer,Original,,grimer
+0088,Grimer,Alolan,,grimer-1
+0089,Muk,Original,,muk
+0089,Muk,Alolan,,muk-1
+0090,Shellder,,,shellder
+0091,Cloyster,,,cloyster
+0092,Gastly,,,gastly
+0093,Haunter,,,haunter
+0094,Gengar,,,gengar
+0095,Onix,,,onix
+0096,Drowzee,,,drowzee
+0097,Hypno,,,hypno
+0098,Krabby,,,krabby
+0099,Kingler,,,kingler
+0100,Voltorb,Original,,voltorb
+0100,Voltorb,Hisuian,,voltorb-1
+0101,Electrode,Original,,electrode
+0101,Electrode,Hisuian,,electrode-1
+0102,Exeggcute,,,exeggcute
+0103,Exeggutor,Original,,exeggutor
+0103,Exeggutor,Alolan,,exeggutor-1
+0104,Cubone,,,cubone
+0105,Marowak,Original,,marowak
+0105,Marowak,Alolan,,marowak-1
+0106,Hitmonlee,,,hitmonlee
+0107,Hitmonchan,,,hitmonchan
+0108,Lickitung,,,lickitung
+0109,Koffing,,,koffing
+0110,Weezing,Original,,weezing
+0110,Weezing,Galarian,,weezing-1
+0111,Rhyhorn,,,rhyhorn
+0112,Rhydon,,,rhydon
+0113,Chansey,,,chansey
+0114,Tangela,,,tangela
+0115,Kangaskhan,,,kangaskhan
+0116,Horsea,,,horsea
+0117,Seadra,,,seadra
+0118,Goldeen,,,goldeen
+0119,Seaking,,,seaking
+0120,Staryu,,,staryu
+0121,Starmie,,,starmie
+0122,Mr. Mime,Original,,mr. mime
+0122,Mr. Mime,Galarian,,mr. mime-1
+0123,Scyther,,,scyther
+0124,Jynx,,,jynx
+0125,Electabuzz,,,electabuzz
+0126,Magmar,,,magmar
+0127,Pinsir,,,pinsir
+0128,Tauros,,,tauros
+0128,Tauros,Paldean Combat Breed,,tauros-1
+0128,Tauros,Paldean Blaze Breed,,tauros-2
+0128,Tauros,Paldean Aqua Breed,,tauros-3
+0129,Magikarp,,,magikarp
+0130,Gyarados,,,gyarados
+0131,Lapras,,,lapras
+0132,Ditto,,,ditto
+0133,Eevee,,,eevee
+0134,Vaporeon,,,vaporeon
+0135,Jolteon,,,jolteon
+0136,Flareon,,,flareon
+0137,Porygon,,,porygon
+0138,Omanyte,,,omanyte
+0139,Omastar,,,omastar
+0140,Kabuto,,,kabuto
+0141,Kabutops,,,kabutops
+0142,Aerodactyl,,,aerodactyl
+0143,Snorlax,,,snorlax
+0144,Articuno,Original,,articuno
+0144,Articuno,Galarian,,articuno-1
+0145,Zapdos,Original,,zapdos
+0145,Zapdos,Galarian,,zapdos-1
+0146,Moltres,Original,,moltres
+0146,Moltres,Galarian,,moltres-1
+0147,Dratini,,,dratini
+0148,Dragonair,,,dragonair
+0149,Dragonite,,,dragonite
+0150,Mewtwo,,,mewtwo
+0151,Mew,,,mew
+,Gen,,,gen
+0152,Chikorita,,,chikorita
+0153,Bayleef,,,bayleef
+0154,Meganium,,,meganium
+0155,Cyndaquil,,,cyndaquil
+0156,Quilava,,,quilava
+0157,Typhlosion,Original,,typhlosion
+0157,Typhlosion,Hisuian,,typhlosion-1
+0158,Totodile,,,totodile
+0159,Croconaw,,,croconaw
+0160,Feraligatr,,,feraligatr
+0161,Sentret,,,sentret
+0162,Furret,,,furret
+0163,Hoothoot,,,hoothoot
+0164,Noctowl,,,noctowl
+0165,Ledyba,,,ledyba
+0166,Ledian,,,ledian
+0167,Spinarak,,,spinarak
+0168,Ariados,,,ariados
+0169,Crobat,,,crobat
+0170,Chinchou,,,chinchou
+0171,Lanturn,,,lanturn
+0172,Pichu,,,pichu
+0173,Cleffa,,,cleffa
+0174,Igglybuff,,,igglybuff
+0175,Togepi,,,togepi
+0176,Togetic,,,togetic
+0177,Natu,,,natu
+0178,Xatu,,,xatu
+0179,Mareep,,,mareep
+0180,Flaaffy,,,flaaffy
+0181,Ampharos,,,ampharos
+0182,Bellossom,,,bellossom
+0183,Marill,,,marill
+0184,Azumarill,,,azumarill
+0185,Sudowoodo,,,sudowoodo
+0186,Politoed,,,politoed
+0187,Hoppip,,,hoppip
+0188,Skiploom,,,skiploom
+0189,Jumpluff,,,jumpluff
+0190,Aipom,,,aipom
+0191,Sunkern,,,sunkern
+0192,Sunflora,,,sunflora
+0193,Yanma,,,yanma
+0194,Wooper,Original,,wooper
+0194,Wooper,Paldean,,wooper-1
+0195,Quagsire,,,quagsire
+0196,Espeon,,,espeon
+0197,Umbreon,,,umbreon
+0198,Murkrow,,,murkrow
+0199,Slowking,Original,,slowking
+0199,Slowking,Galarian,,slowking-1
+0200,Misdreavus,,,misdreavus
+0201,Unown,a,,unown
+0201,Unown,b,,unown-1
+0201,Unown,c,,unown-2
+0201,Unown,d,,unown-3
+0201,Unown,e,,unown-4
+0201,Unown,f,,unown-5
+0201,Unown,g,,unown-6
+0201,Unown,h,,unown-7
+0201,Unown,i,,unown-8
+0201,Unown,j,,unown-9
+0201,Unown,k,,unown-10
+0201,Unown,l,,unown-11
+0201,Unown,m,,unown-12
+0201,Unown,n,,unown-13
+0201,Unown,o,,unown-14
+0201,Unown,p,,unown-15
+0201,Unown,q,,unown-16
+0201,Unown,r,,unown-17
+0201,Unown,s,,unown-18
+0201,Unown,t,,unown-19
+0201,Unown,u,,unown-20
+0201,Unown,v,,unown-21
+0201,Unown,w,,unown-22
+0201,Unown,x,,unown-23
+0201,Unown,y,,unown-24
+0201,Unown,z,,unown-25
+0201,Unown,!,,unown-26
+0201,Unown,?,,unown-27
+0202,Wobbuffet,,,wobbuffet
+0203,Girafarig,,,girafarig
+0204,Pineco,,,pineco
+0205,Forretress,,,forretress
+0206,Dunsparce,,,dunsparce
+0207,Gligar,,,gligar
+0208,Steelix,,,steelix
+0209,Snubbull,,,snubbull
+0210,Granbull,,,granbull
+0211,Qwilfish,Original,,qwilfish
+0211,Qwilfish,Hisuian,,qwilfish-1
+0212,Scizor,,,scizor
+0213,Shuckle,,,shuckle
+0214,Heracross,,,heracross
+0215,Sneasel,Original,,sneasel
+0215,Sneasel,Hisuian,,sneasel-1
+0216,Teddiursa,,,teddiursa
+0217,Ursaring,,,ursaring
+0218,Slugma,,,slugma
+0219,Magcargo,,,magcargo
+0220,Swinub,,,swinub
+0221,Piloswine,,,piloswine
+0222,Corsola,Original,,corsola
+0222,Corsola,Galarian,,corsola-1
+0223,Remoraid,,,remoraid
+0224,Octillery,,,octillery
+0225,Delibird,,,delibird
+0226,Mantine,,,mantine
+0227,Skarmory,,,skarmory
+0228,Houndour,,,houndour
+0229,Houndoom,,,houndoom
+0230,Kingdra,,,kingdra
+0231,Phanpy,,,phanpy
+0232,Donphan,,,donphan
+0233,Porygon2,,,porygon2
+0234,Stantler,,,stantler
+0235,Smeargle,,,smeargle
+0236,Tyrogue,,,tyrogue
+0237,Hitmontop,,,hitmontop
+0238,Smoochum,,,smoochum
+0239,Elekid,,,elekid
+0240,Magby,,,magby
+0241,Miltank,,,miltank
+0242,Blissey,,,blissey
+0243,Raikou,,,raikou
+0244,Entei,,,entei
+0245,Suicune,,,suicune
+0246,Larvitar,,,larvitar
+0247,Pupitar,,,pupitar
+0248,Tyranitar,,,tyranitar
+0249,Lugia,,,lugia
+0250,Ho-Oh,,,ho-oh
+0251,Celebi,,,celebi
+,Gen,,,gen
+0252,Treecko,,,treecko
+0253,Grovyle,,,grovyle
+0254,Sceptile,,,sceptile
+0255,Torchic,,,torchic
+0256,Combusken,,,combusken
+0257,Blaziken,,,blaziken
+0258,Mudkip,,,mudkip
+0259,Marshtomp,,,marshtomp
+0260,Swampert,,,swampert
+0261,Poochyena,,,poochyena
+0262,Mightyena,,,mightyena
+0263,Zigzagoon,Original,,zigzagoon
+0263,Zigzagoon,Galarian,,zigzagoon-1
+0264,Linoone,Original,,linoone
+0264,Linoone,Galarian,,linoone-1
+0265,Wurmple,,,wurmple
+0266,Silcoon,,,silcoon
+0267,Beautifly,,,beautifly
+0268,Cascoon,,,cascoon
+0269,Dustox,,,dustox
+0270,Lotad,,,lotad
+0271,Lombre,,,lombre
+0272,Ludicolo,,,ludicolo
+0273,Seedot,,,seedot
+0274,Nuzleaf,,,nuzleaf
+0275,Shiftry,,,shiftry
+0276,Taillow,,,taillow
+0277,Swellow,,,swellow
+0278,Wingull,,,wingull
+0279,Pelipper,,,pelipper
+0280,Ralts,,,ralts
+0281,Kirlia,,,kirlia
+0282,Gardevoir,,,gardevoir
+0283,Surskit,,,surskit
+0284,Masquerain,,,masquerain
+0285,Shroomish,,,shroomish
+0286,Breloom,,,breloom
+0287,Slakoth,,,slakoth
+0288,Vigoroth,,,vigoroth
+0289,Slaking,,,slaking
+0290,Nincada,,,nincada
+0291,Ninjask,,,ninjask
+0292,Shedinja,,,shedinja
+0293,Whismur,,,whismur
+0294,Loudred,,,loudred
+0295,Exploud,,,exploud
+0296,Makuhita,,,makuhita
+0297,Hariyama,,,hariyama
+0298,Azurill,,,azurill
+0299,Nosepass,,,nosepass
+0300,Skitty,,,skitty
+0301,Delcatty,,,delcatty
+0302,Sableye,,,sableye
+0303,Mawile,,,mawile
+0304,Aron,,,aron
+0305,Lairon,,,lairon
+0306,Aggron,,,aggron
+0307,Meditite,,,meditite
+0308,Medicham,,,medicham
+0309,Electrike,,,electrike
+0310,Manectric,,,manectric
+0311,Plusle,,,plusle
+0312,Minun,,,minun
+0313,Volbeat,,,volbeat
+0314,Illumise,,,illumise
+0315,Roselia,,,roselia
+0316,Gulpin,,,gulpin
+0317,Swalot,,,swalot
+0318,Carvanha,,,carvanha
+0319,Sharpedo,,,sharpedo
+0320,Wailmer,,,wailmer
+0321,Wailord,,,wailord
+0322,Numel,,,numel
+0323,Camerupt,,,camerupt
+0324,Torkoal,,,torkoal
+0325,Spoink,,,spoink
+0326,Grumpig,,,grumpig
+0327,Spinda,,,spinda
+0328,Trapinch,,,trapinch
+0329,Vibrava,,,vibrava
+0330,Flygon,,,flygon
+0331,Cacnea,,,cacnea
+0332,Cacturne,,,cacturne
+0333,Swablu,,,swablu
+0334,Altaria,,,altaria
+0335,Zangoose,,,zangoose
+0336,Seviper,,,seviper
+0337,Lunatone,,,lunatone
+0338,Solrock,,,solrock
+0339,Barboach,,,barboach
+0340,Whiscash,,,whiscash
+0341,Corphish,,,corphish
+0342,Crawdaunt,,,crawdaunt
+0343,Baltoy,,,baltoy
+0344,Claydol,,,claydol
+0345,Lileep,,,lileep
+0346,Cradily,,,cradily
+0347,Anorith,,,anorith
+0348,Armaldo,,,armaldo
+0349,Feebas,,,feebas
+0350,Milotic,,,milotic
+0351,Castform,,,castform
+0352,Kecleon,,,kecleon
+0353,Shuppet,,,shuppet
+0354,Banette,,,banette
+0355,Duskull,,,duskull
+0356,Dusclops,,,dusclops
+0357,Tropius,,,tropius
+0358,Chimecho,,,chimecho
+0359,Absol,,,absol
+0360,Wynaut,,,wynaut
+0361,Snorunt,,,snorunt
+0362,Glalie,,,glalie
+0363,Spheal,,,spheal
+0364,Sealeo,,,sealeo
+0365,Walrein,,,walrein
+0366,Clamperl,,,clamperl
+0367,Huntail,,,huntail
+0368,Gorebyss,,,gorebyss
+0369,Relicanth,,,relicanth
+0370,Luvdisc,,,luvdisc
+0371,Bagon,,,bagon
+0372,Shelgon,,,shelgon
+0373,Salamence,,,salamence
+0374,Beldum,,,beldum
+0375,Metang,,,metang
+0376,Metagross,,,metagross
+0377,Regirock,,,regirock
+0378,Regice,,,regice
+0379,Registeel,,,registeel
+0380,Latias,,,latias
+0381,Latios,,,latios
+0382,Kyogre,,,kyogre
+0383,Groudon,,,groudon
+0384,Rayquaza,,,rayquaza
+0385,Jirachi,,,jirachi
+0386,Deoxys,Normal,,deoxys
+0386,Deoxys,Attack,,deoxys-1
+0386,Deoxys,Defense,,deoxys-2
+0386,Deoxys,Speed,,deoxys-3
+,Gen,,,gen
+0387,Turtwig,,,turtwig
+0388,Grotle,,,grotle
+0389,Torterra,,,torterra
+0390,Chimchar,,,chimchar
+0391,Monferno,,,monferno
+0392,Infernape,,,infernape
+0393,Piplup,,,piplup
+0394,Prinplup,,,prinplup
+0395,Empoleon,,,empoleon
+0396,Starly,,,starly
+0397,Staravia,,,staravia
+0398,Staraptor,,,staraptor
+0399,Bidoof,,,bidoof
+0400,Bibarel,,,bibarel
+0401,Kricketot,,,kricketot
+0402,Kricketune,,,kricketune
+0403,Shinx,,,shinx
+0404,Luxio,,,luxio
+0405,Luxray,,,luxray
+0406,Budew,,,budew
+0407,Roserade,,,roserade
+0408,Cranidos,,,cranidos
+0409,Rampardos,,,rampardos
+0410,Shieldon,,,shieldon
+0411,Bastiodon,,,bastiodon
+0412,Burmy,Plant,,burmy
+0412,Burmy,Sandy,,burmy-1
+0412,Burmy,Trash,,burmy-2
+0413,Wormadam,Plant,,wormadam
+0413,Wormadam,Sandy,,wormadam-1
+0413,Wormadam,Trash,,wormadam-2
+0414,Mothim,,,mothim
+0415,Combee,,,combee
+0416,Vespiquen,,,vespiquen
+0417,Pachirisu,,,pachirisu
+0418,Buizel,,,buizel
+0419,Floatzel,,,floatzel
+0420,Cherubi,,,cherubi
+0421,Cherrim,,,cherrim
+0422,Shellos,West Sea,,shellos
+0422,Shellos,East Sea,,shellos-1
+0423,Gastrodon,West Sea,,gastrodon
+0423,Gastrodon,East Sea,,gastrodon-1
+0424,Ambipom,,,ambipom
+0425,Drifloon,,,drifloon
+0426,Drifblim,,,drifblim
+0427,Buneary,,,buneary
+0428,Lopunny,,,lopunny
+0429,Mismagius,,,mismagius
+0430,Honchkrow,,,honchkrow
+0431,Glameow,,,glameow
+0432,Purugly,,,purugly
+0433,Chingling,,,chingling
+0434,Stunky,,,stunky
+0435,Skuntank,,,skuntank
+0436,Bronzor,,,bronzor
+0437,Bronzong,,,bronzong
+0438,Bonsly,,,bonsly
+0439,Mime Jr.,,,mime jr.
+0440,Happiny,,,happiny
+0441,Chatot,,,chatot
+0442,Spiritomb,,,spiritomb
+0443,Gible,,,gible
+0444,Gabite,,,gabite
+0445,Garchomp,,,garchomp
+0446,Munchlax,,,munchlax
+0447,Riolu,,,riolu
+0448,Lucario,,,lucario
+0449,Hippopotas,,,hippopotas
+0450,Hippowdon,,,hippowdon
+0451,Skorupi,,,skorupi
+0452,Drapion,,,drapion
+0453,Croagunk,,,croagunk
+0454,Toxicroak,,,toxicroak
+0455,Carnivine,,,carnivine
+0456,Finneon,,,finneon
+0457,Lumineon,,,lumineon
+0458,Mantyke,,,mantyke
+0459,Snover,,,snover
+0460,Abomasnow,,,abomasnow
+0461,Weavile,,,weavile
+0462,Magnezone,,,magnezone
+0463,Lickilicky,,,lickilicky
+0464,Rhyperior,,,rhyperior
+0465,Tangrowth,,,tangrowth
+0466,Electivire,,,electivire
+0467,Magmortar,,,magmortar
+0468,Togekiss,,,togekiss
+0469,Yanmega,,,yanmega
+0470,Leafeon,,,leafeon
+0471,Glaceon,,,glaceon
+0472,Gliscor,,,gliscor
+0473,Mamoswine,,,mamoswine
+0474,Porygon-Z,,,porygon-z
+0475,Gallade,,,gallade
+0476,Probopass,,,probopass
+0477,Dusknoir,,,dusknoir
+0478,Froslass,,,froslass
+0479,Rotom,Normal,,rotom
+0479,Rotom,Heat,,rotom-1
+0479,Rotom,Wash,,rotom-2
+0479,Rotom,Frost,,rotom-3
+0479,Rotom,Fan,,rotom-4
+0479,Rotom,Mow,,rotom-5
+0480,Uxie,,,uxie
+0481,Mesprit,,,mesprit
+0482,Azelf,,,azelf
+0483,Dialga,Normal,,dialga
+0484,Palkia,Normal,,palkia
+0485,Heatran,,,heatran
+0486,Regigigas,,,regigigas
+0487,Giratina,Normal,,giratina
+0488,Cresselia,,,cresselia
+0489,Phione,,,phione
+0490,Manaphy,,,manaphy
+0491,Darkrai,,,darkrai
+0492,Shaymin,Normal,,shaymin
+0492,Shaymin,Sky,,shaymin-1
+0493,Arceus,,,arceus
+,Gen,,,gen
+0494,Victini,,,victini
+0495,Snivy,,,snivy
+0496,Servine,,,servine
+0497,Serperior,,,serperior
+0498,Tepig,,,tepig
+0499,Pignite,,,pignite
+0500,Emboar,,,emboar
+0501,Oshawott,,,oshawott
+0502,Dewott,,,dewott
+0503,Samurott,Original,,samurott
+0503,Samurott,Hisuian,,samurott-1
+0504,Patrat,,,patrat
+0505,Watchog,,,watchog
+0506,Lillipup,,,lillipup
+0507,Herdier,,,herdier
+0508,Stoutland,,,stoutland
+0509,Purrloin,,,purrloin
+0510,Liepard,,,liepard
+0511,Pansage,,,pansage
+0512,Simisage,,,simisage
+0513,Pansear,,,pansear
+0514,Simisear,,,simisear
+0515,Panpour,,,panpour
+0516,Simipour,,,simipour
+0517,Munna,,,munna
+0518,Musharna,,,musharna
+0519,Pidove,,,pidove
+0520,Tranquill,,,tranquill
+0521,Unfezant,,,unfezant
+0522,Blitzle,,,blitzle
+0523,Zebstrika,,,zebstrika
+0524,Roggenrola,,,roggenrola
+0525,Boldore,,,boldore
+0526,Gigalith,,,gigalith
+0527,Woobat,,,woobat
+0528,Swoobat,,,swoobat
+0529,Drilbur,,,drilbur
+0530,Excadrill,,,excadrill
+0531,Audino,,,audino
+0532,Timburr,,,timburr
+0533,Gurdurr,,,gurdurr
+0534,Conkeldurr,,,conkeldurr
+0535,Tympole,,,tympole
+0536,Palpitoad,,,palpitoad
+0537,Seismitoad,,,seismitoad
+0538,Throh,,,throh
+0539,Sawk,,,sawk
+0540,Sewaddle,,,sewaddle
+0541,Swadloon,,,swadloon
+0542,Leavanny,,,leavanny
+0543,Venipede,,,venipede
+0544,Whirlipede,,,whirlipede
+0545,Scolipede,,,scolipede
+0546,Cottonee,,,cottonee
+0547,Whimsicott,,,whimsicott
+0548,Petilil,,,petilil
+0549,Lilligant,Original,,lilligant
+0549,Lilligant,Hisuian,,lilligant-1
+0550,Basculin,Red Stripe,,basculin
+0550,Basculin,Blue Stripe,,basculin-1
+0550,Basculin,White Stripe,,basculin-2
+0551,Sandile,,,sandile
+0552,Krokorok,,,krokorok
+0553,Krookodile,,,krookodile
+0554,Darumaka,Original,,darumaka
+0554,Darumaka,Galarian,,darumaka-1
+0555,Darmanitan,Original,,darmanitan
+0555,Darmanitan,Galarian,,darmanitan-1
+0556,Maractus,,,maractus
+0557,Dwebble,,,dwebble
+0558,Crustle,,,crustle
+0559,Scraggy,,,scraggy
+0560,Scrafty,,,scrafty
+0561,Sigilyph,,,sigilyph
+0562,Yamask,Original,,yamask
+0562,Yamask,Galarian,,yamask-1
+0563,Cofagrigus,,,cofagrigus
+0564,Tirtouga,,,tirtouga
+0565,Carracosta,,,carracosta
+0566,Archen,,,archen
+0567,Archeops,,,archeops
+0568,Trubbish,,,trubbish
+0569,Garbodor,,,garbodor
+0570,Zorua,Original,,zorua
+0570,Zorua,Hisuian,,zorua-1
+0571,Zoroark,Original,,zoroark
+0571,Zoroark,Hisuian,,zoroark-1
+0572,Minccino,,,minccino
+0573,Cinccino,,,cinccino
+0574,Gothita,,,gothita
+0575,Gothorita,,,gothorita
+0576,Gothitelle,,,gothitelle
+0577,Solosis,,,solosis
+0578,Duosion,,,duosion
+0579,Reuniclus,,,reuniclus
+0580,Ducklett,,,ducklett
+0581,Swanna,,,swanna
+0582,Vanillite,,,vanillite
+0583,Vanillish,,,vanillish
+0584,Vanilluxe,,,vanilluxe
+0585,Deerling,Spring,,deerling
+0585,Deerling,Summer,,deerling-1
+0585,Deerling,Fall,,deerling-2
+0585,Deerling,Winter,,deerling-3
+0586,Sawsbuck,Spring,,sawsbuck
+0586,Sawsbuck,Summer,,sawsbuck-1
+0586,Sawsbuck,Fall,,sawsbuck-2
+0586,Sawsbuck,Winter,,sawsbuck-3
+0587,Emolga,,,emolga
+0588,Karrablast,,,karrablast
+0589,Escavalier,,,escavalier
+0590,Foongus,,,foongus
+0591,Amoonguss,,,amoonguss
+0592,Frillish,,,frillish
+0593,Jellicent,,,jellicent
+0594,Alomomola,,,alomomola
+0595,Joltik,,,joltik
+0596,Galvantula,,,galvantula
+0597,Ferroseed,,,ferroseed
+0598,Ferrothorn,,,ferrothorn
+0599,Klink,,,klink
+0600,Klang,,,klang
+0601,Klinklang,,,klinklang
+0602,Tynamo,,,tynamo
+0603,Eelektrik,,,eelektrik
+0604,Eelektross,,,eelektross
+0605,Elgyem,,,elgyem
+0606,Beheeyem,,,beheeyem
+0607,Litwick,,,litwick
+0608,Lampent,,,lampent
+0609,Chandelure,,,chandelure
+0610,Axew,,,axew
+0611,Fraxure,,,fraxure
+0612,Haxorus,,,haxorus
+0613,Cubchoo,,,cubchoo
+0614,Beartic,,,beartic
+0615,Cryogonal,,,cryogonal
+0616,Shelmet,,,shelmet
+0617,Accelgor,,,accelgor
+0618,Stunfisk,Original,,stunfisk
+0618,Stunfisk,Galarian,,stunfisk-1
+0619,Mienfoo,,,mienfoo
+0620,Mienshao,,,mienshao
+0621,Druddigon,,,druddigon
+0622,Golett,,,golett
+0623,Golurk,,,golurk
+0624,Pawniard,,,pawniard
+0625,Bisharp,,,bisharp
+0626,Bouffalant,,,bouffalant
+0627,Rufflet,,,rufflet
+0628,Braviary,Original,,braviary
+0628,Braviary,Hisuian,,braviary-1
+0629,Vullaby,,,vullaby
+0630,Mandibuzz,,,mandibuzz
+0631,Heatmor,,,heatmor
+0632,Durant,,,durant
+0633,Deino,,,deino
+0634,Zweilous,,,zweilous
+0635,Hydreigon,,,hydreigon
+0636,Larvesta,,,larvesta
+0637,Volcarona,,,volcarona
+0638,Cobalion,,,cobalion
+0639,Terrakion,,,terrakion
+0640,Virizion,,,virizion
+0641,Tornadus,Incarnate,,tornadus
+0641,Tornadus,Therian,,tornadus-1
+0642,Thundurus,Incarnate,,thundurus
+0642,Thundurus,Therian,,thundurus-1
+0643,Reshiram,,,reshiram
+0644,Zekrom,,,zekrom
+0645,Landorus,Incarnate,,landorus
+0645,Landorus,Therian,,landorus-1
+0646,Kyurem,,,kyurem
+0647,Keldeo,,,keldeo
+0647,Keldeo,Resolute,,keldeo-1
+0648,Meloetta,,,meloetta
+0649,Genesect,,,genesect
+,Gen,,,gen
+0650,Chespin,,,chespin
+0651,Quilladin,,,quilladin
+0652,Chesnaught,,,chesnaught
+0653,Fennekin,,,fennekin
+0654,Braixen,,,braixen
+0655,Delphox,,,delphox
+0656,Froakie,,,froakie
+0657,Frogadier,,,frogadier
+0658,Greninja,,,greninja
+0659,Bunnelby,,,bunnelby
+0660,Diggersby,,,diggersby
+0661,Fletchling,,,fletchling
+0662,Fletchinder,,,fletchinder
+0663,Talonflame,,,talonflame
+0664,Scatterbug,,,scatterbug
+0665,Spewpa,,,spewpa
+0666,Vivillon,Icy Snow,,vivillon
+0666,Vivillon,Polar,,vivillon-1
+0666,Vivillon,Tundra,,vivillon-2
+0666,Vivillon,Continental,,vivillon-3
+0666,Vivillon,Garden,,vivillon-4
+0666,Vivillon,Elegant,,vivillon-5
+0666,Vivillon,Meadow,,vivillon-6
+0666,Vivillon,Modern,,vivillon-7
+0666,Vivillon,Marine,,vivillon-8
+0666,Vivillon,Archipelago,,vivillon-9
+0666,Vivillon,High Plains,,vivillon-10
+0666,Vivillon,Sandstorm,,vivillon-11
+0666,Vivillon,River,,vivillon-12
+0666,Vivillon,Monsoon,,vivillon-13
+0666,Vivillon,Savanna,,vivillon-14
+0666,Vivillon,Sun,,vivillon-15
+0666,Vivillon,Ocean,,vivillon-16
+0666,Vivillon,Jungle,,vivillon-17
+0666,Vivillon,Fancy,,vivillon-18
+0666,Vivillon,Poké Ball,,vivillon-19
+0667,Litleo,,,litleo
+0668,Pyroar,,,pyroar
+0669,Flabébé,Red Flower,,flabébé
+0669,Flabébé,Yellow Flower,,flabébé-1
+0669,Flabébé,Orange Flower,,flabébé-2
+0669,Flabébé,Blue Flower,,flabébé-3
+0669,Flabébé,White Flower,,flabébé-4
+0670,Floette,Red Flower,,floette
+0670,Floette,Yellow Flower,,floette-1
+0670,Floette,Orange Flower,,floette-2
+0670,Floette,Blue Flower,,floette-3
+0670,Floette,White Flower,,floette-4
+0670,Floette,Eternal Flower,,floette-5
+0671,Florges,Red Flower,,florges
+0671,Florges,Yellow Flower,,florges-1
+0671,Florges,Orange Flower,,florges-2
+0671,Florges,Blue Flower,,florges-3
+0671,Florges,White Flower,,florges-4
+0672,Skiddo,,,skiddo
+0673,Gogoat,,,gogoat
+0674,Pancham,,,pancham
+0675,Pangoro,,,pangoro
+0676,Furfrou,,,furfrou
+0676,Furfrou,Heart,,furfrou-1
+0676,Furfrou,Star,,furfrou-2
+0676,Furfrou,Diamond,,furfrou-3
+0676,Furfrou,Debutante,,furfrou-4
+0676,Furfrou,Matron,,furfrou-5
+0676,Furfrou,Dandy,,furfrou-6
+0676,Furfrou,La Reine,,furfrou-7
+0676,Furfrou,Kabuki,,furfrou-8
+0676,Furfrou,Pharaoh,,furfrou-9
+0677,Espurr,,,espurr
+0678,Meowstic,,,meowstic
+0679,Honedge,,,honedge
+0680,Doublade,,,doublade
+0681,Aegislash,,,aegislash
+0682,Spritzee,,,spritzee
+0683,Aromatisse,,,aromatisse
+0684,Swirlix,,,swirlix
+0685,Slurpuff,,,slurpuff
+0686,Inkay,,,inkay
+0687,Malamar,,,malamar
+0688,Binacle,,,binacle
+0689,Barbaracle,,,barbaracle
+0690,Skrelp,,,skrelp
+0691,Dragalge,,,dragalge
+0692,Clauncher,,,clauncher
+0693,Clawitzer,,,clawitzer
+0694,Helioptile,,,helioptile
+0695,Heliolisk,,,heliolisk
+0696,Tyrunt,,,tyrunt
+0697,Tyrantrum,,,tyrantrum
+0698,Amaura,,,amaura
+0699,Aurorus,,,aurorus
+0700,Sylveon,,,sylveon
+0701,Hawlucha,,,hawlucha
+0702,Dedenne,,,dedenne
+0703,Carbink,,,carbink
+0704,Goomy,,,goomy
+0705,Sliggoo,Original,,sliggoo
+0705,Sliggoo,Hisuian,,sliggoo-1
+0706,Goodra,Original,,goodra
+0706,Goodra,Hisuian,,goodra-1
+0707,Klefki,,,klefki
+0708,Phantump,,,phantump
+0709,Trevenant,,,trevenant
+0710,Pumpkaboo,Average,,pumpkaboo
+0710,Pumpkaboo,Small,,pumpkaboo-1
+0710,Pumpkaboo,Super,,pumpkaboo-2
+0710,Pumpkaboo,Large,,pumpkaboo-3
+0711,Gourgeist,Average,,gourgeist
+0711,Gourgeist,Small,,gourgeist-1
+0711,Gourgeist,Large,,gourgeist-2
+0711,Gourgeist,Super,,gourgeist-3
+0712,Bergmite,,,bergmite
+0713,Avalugg,Original,,avalugg
+0713,Avalugg,Hisuian,,avalugg-1
+0714,Noibat,,,noibat
+0715,Noivern,,,noivern
+0716,Xerneas,,,xerneas
+0717,Yveltal,,,yveltal
+0718,Zygarde,50%,,zygarde
+0718,Zygarde,10%,,zygarde-1
+0719,Diancie,,,diancie
+0720,Hoopa,,,hoopa
+0720,Hoopa,Unbound,,hoopa-1
+0721,Volcanion,,,volcanion
+,Gen,,,gen
+0722,Rowlet,,,rowlet
+0723,Dartrix,,,dartrix
+0724,Decidueye,Original,,decidueye
+0724,Decidueye,Hisuian,,decidueye-1
+0725,Litten,,,litten
+0726,Torracat,,,torracat
+0727,Incineroar,,,incineroar
+0728,Popplio,,,popplio
+0729,Brionne,,,brionne
+0730,Primarina,,,primarina
+0731,Pikipek,,,pikipek
+0732,Trumbeak,,,trumbeak
+0733,Toucannon,,,toucannon
+0734,Yungoos,,,yungoos
+0735,Gumshoos,,,gumshoos
+0736,Grubbin,,,grubbin
+0737,Charjabug,,,charjabug
+0738,Vikavolt,,,vikavolt
+0739,Crabrawler,,,crabrawler
+0740,Crabominable,,,crabominable
+0741,Oricorio,Baile Style,,oricorio
+0741,Oricorio,Pom-Pom Style,,oricorio-1
+0741,Oricorio,Pa'u Style,,oricorio-2
+0741,Oricorio,Sensu Style,,oricorio-3
+0742,Cutiefly,,,cutiefly
+0743,Ribombee,,,ribombee
+0744,Rockruff,,,rockruff
+0745,Lycanroc,Midday,,lycanroc
+0745,Lycanroc,Midnight,,lycanroc-1
+0745,Lycanroc,Dusk,,lycanroc-2
+0746,Wishiwashi,,,wishiwashi
+0747,Mareanie,,,mareanie
+0748,Toxapex,,,toxapex
+0749,Mudbray,,,mudbray
+0750,Mudsdale,,,mudsdale
+0751,Dewpider,,,dewpider
+0752,Araquanid,,,araquanid
+0753,Fomantis,,,fomantis
+0754,Lurantis,,,lurantis
+0755,Morelull,,,morelull
+0756,Shiinotic,,,shiinotic
+0757,Salandit,,,salandit
+0758,Salazzle,,,salazzle
+0759,Stufful,,,stufful
+0760,Bewear,,,bewear
+0761,Bounsweet,,,bounsweet
+0762,Steenee,,,steenee
+0763,Tsareena,,,tsareena
+0764,Comfey,,,comfey
+0765,Oranguru,,,oranguru
+0765,Passimian,,,passimian
+0767,Wimpod,,,wimpod
+0768,Golisopod,,,golisopod
+0769,Sandygast,,,sandygast
+0770,Palossand,,,palossand
+0771,Pyukumuku,,,pyukumuku
+0772,Type: Null,,,type: null
+0773,Silvally,,,silvally
+0774,Minior,Red Core,,minior
+0774,Minior,Orange Core,,minior-1
+0774,Minior,Yellow Core,,minior-2
+0774,Minior,Green Core,,minior-3
+0774,Minior,Blue Core,,minior-4
+0774,Minior,Indigo Core,,minior-5
+0774,Minior,Violet Core,,minior-6
+0775,Komala,,,komala
+0776,Turtonator,,,turtonator
+0777,Togedemaru,,,togedemaru
+0778,Mimikyu,,,mimikyu
+0779,Bruxish,,,bruxish
+0780,Drampa,,,drampa
+0781,Dhelmise,,,dhelmise
+0782,Jangmo-o,,,jangmo-o
+0783,Hakamo-o,,,hakamo-o
+0784,Kommo-o,,,kommo-o
+0785,Tapu Koko,,,tapu koko
+0786,Tapu Lele,,,tapu lele
+0787,Tapu Bulu,,,tapu bulu
+0788,Tapu Fini,,,tapu fini
+0789,Cosmog,,,cosmog
+0790,Cosmoem,,,cosmoem
+0791,Solgaleo,,,solgaleo
+0792,Lunala,,,lunala
+0793,Nihilego,,,nihilego
+0794,Buzzwole,,,buzzwole
+0795,Pheromosa,,,pheromosa
+0796,Xurkitree,,,xurkitree
+0797,Celesteela,,,celesteela
+0798,Kartana,,,kartana
+0799,Guzzlord,,,guzzlord
+0800,Necrozma,,,necrozma
+0801,Magearna,Basic,,magearna
+0801,Magearna,Original Pokeball,,magearna-1
+0802,Marshadow,,,marshadow
+0803,Poipole,,,poipole
+0804,Naganadel,,,naganadel
+0805,Stakataka,,,stakataka
+0806,Blacephalon,,,blacephalon
+0807,Zeraora,,,zeraora
+0808,Meltan,,,meltan
+0809,Melmetal,,,melmetal
+,Gen,,,gen
+0810,Grookey,,,grookey
+0811,Thwackey,,,thwackey
+0812,Rillaboom,,,rillaboom
+0813,Scorbunny,,,scorbunny
+0814,Raboot,,,raboot
+0815,Cinderace,,,cinderace
+0816,Sobble,,,sobble
+0817,Drizzile,,,drizzile
+0818,Inteleon,,,inteleon
+0819,Skwovet,,,skwovet
+0820,Greedent,,,greedent
+0821,Rookidee,,,rookidee
+0822,Corvisquire,,,corvisquire
+0823,Corviknight,,,corviknight
+0824,Blipbug,,,blipbug
+0825,Dottler,,,dottler
+0826,Orbeetle,,,orbeetle
+0827,Nickit,,,nickit
+0828,Thievul,,,thievul
+0829,Gossifleur,,,gossifleur
+0830,Eldegoss,,,eldegoss
+0831,Wooloo,,,wooloo
+0832,Dubwool,,,dubwool
+0833,Chewtle,,,chewtle
+0834,Drednaw,,,drednaw
+0835,Yamper,,,yamper
+0836,Boltund,,,boltund
+0837,Rolycoly,,,rolycoly
+0838,Carkol,,,carkol
+0839,Coalossal,,,coalossal
+0840,Applin,,,applin
+0841,Flapple,,,flapple
+0842,Appletun,,,appletun
+0843,Silicobra,,,silicobra
+0844,Sandaconda,,,sandaconda
+0845,Cramorant,,,cramorant
+0846,Arrokuda,,,arrokuda
+0847,Barraskewda,,,barraskewda
+0848,Toxel,,,toxel
+0849,Toxtricity,Amped,,toxtricity
+0849,Toxtricity,Low Key,,toxtricity-1
+0850,Sizzlipede,,,sizzlipede
+0851,Centiskorch,,,centiskorch
+0852,Clobbopus,,,clobbopus
+0853,Grapploct,,,grapploct
+0854,Sinistea,Phony Form,,sinistea
+0854,Sinistea,Antique Form,,sinistea-1
+0855,Polteageist,Phony Form,,polteageist
+0855,Polteageist,Antique Form,,polteageist-1
+0856,Hatenna,,,hatenna
+0857,Hattrem,,,hattrem
+0858,Hatterene,,,hatterene
+0859,Impidimp,,,impidimp
+0860,Morgrem,,,morgrem
+0861,Grimmsnarl,,,grimmsnarl
+0862,Obstagoon,,,obstagoon
+0863,Perrserker,,,perrserker
+0864,Cursola,,,cursola
+0865,Sirfetch'd,,,sirfetch'd
+0866,Mr. Rime,,,mr. rime
+0867,Runerigus,,,runerigus
+0868,Milcery,,,milcery
+0869,Alcremie,"Vanilla Cream, Strawberry",,alcremie
+0869,Alcremie,"Vanilla Cream, Berry",-a,alcremie-a
+0869,Alcremie,"Vanilla Cream, Love",-b,alcremie-b
+0869,Alcremie,"Vanilla Cream, Star",-c,alcremie-c
+0869,Alcremie,"Vanilla Cream, Clover",-d,alcremie-d
+0869,Alcremie,"Vanilla Cream, Flower",-e,alcremie-e
+0869,Alcremie,"Vanilla Cream, Ribbon",-f,alcremie-f
+0869,Alcremie,"Ruby Cream, Strawberry",,alcremie-1
+0869,Alcremie,"Ruby Cream, Berry",-a,alcremie-1-a
+0869,Alcremie,"Ruby Cream, Love",-b,alcremie-1-b
+0869,Alcremie,"Ruby Cream, Star",-c,alcremie-1-c
+0869,Alcremie,"Ruby Cream, Clover",-d,alcremie-1-d
+0869,Alcremie,"Ruby Cream, Flower",-e,alcremie-1-e
+0869,Alcremie,"Ruby Cream, Ribbon",-f,alcremie-1-f
+0869,Alcremie,"Matcha Cream, Strawberry",,alcremie-2
+0869,Alcremie,"Matcha Cream, Berry",-a,alcremie-2-a
+0869,Alcremie,"Matcha Cream, Love",-b,alcremie-2-b
+0869,Alcremie,"Matcha Cream, Star",-c,alcremie-2-c
+0869,Alcremie,"Matcha Cream, Clover",-d,alcremie-2-d
+0869,Alcremie,"Matcha Cream, Flower",-e,alcremie-2-e
+0869,Alcremie,"Matcha Cream, Ribbon",-f,alcremie-2-f
+0869,Alcremie,"Mint Cream, Strawberry",,alcremie-3
+0869,Alcremie,"Mint Cream, Berry",-a,alcremie-3-a
+0869,Alcremie,"Mint Cream, Love",-b,alcremie-3-b
+0869,Alcremie,"Mint Cream, Star",-c,alcremie-3-c
+0869,Alcremie,"Mint Cream, Clover",-d,alcremie-3-d
+0869,Alcremie,"Mint Cream, Flower",-e,alcremie-3-e
+0869,Alcremie,"Mint Cream, Ribbon",-f,alcremie-3-f
+0869,Alcremie,"Lemon Cream, Strawberry",,alcremie-4
+0869,Alcremie,"Lemon Cream, Berry",-a,alcremie-4-a
+0869,Alcremie,"Lemon Cream, Love",-b,alcremie-4-b
+0869,Alcremie,"Lemon Cream, Star",-c,alcremie-4-c
+0869,Alcremie,"Lemon Cream, Clover",-d,alcremie-4-d
+0869,Alcremie,"Lemon Cream, Flower",-e,alcremie-4-e
+0869,Alcremie,"Lemon Cream, Ribbon",-f,alcremie-4-f
+0869,Alcremie,"Salted Cream, Strawberry",,alcremie-5
+0869,Alcremie,"Salted Cream, Berry",-a,alcremie-5-a
+0869,Alcremie,"Salted Cream, Love",-b,alcremie-5-b
+0869,Alcremie,"Salted Cream, Star",-c,alcremie-5-c
+0869,Alcremie,"Salted Cream, Clover",-d,alcremie-5-d
+0869,Alcremie,"Salted Cream, Flower",-e,alcremie-5-e
+0869,Alcremie,"Salted Cream, Ribbon",-f,alcremie-5-f
+0869,Alcremie,"Ruby Swirl, Strawberry",,alcremie-6
+0869,Alcremie,"Ruby Swirl, Berry",-a,alcremie-6-a
+0869,Alcremie,"Ruby Swirl, Love",-b,alcremie-6-b
+0869,Alcremie,"Ruby Swirl, Star",-c,alcremie-6-c
+0869,Alcremie,"Ruby Swirl, Clover",-d,alcremie-6-d
+0869,Alcremie,"Ruby Swirl, Flower",-e,alcremie-6-e
+0869,Alcremie,"Ruby Swirl, Ribbon",-f,alcremie-6-f
+0869,Alcremie,"Caramel Swirl, Strawberry",,alcremie-7
+0869,Alcremie,"Caramel Swirl, Berry",-a,alcremie-7-a
+0869,Alcremie,"Caramel Swirl, Love",-b,alcremie-7-b
+0869,Alcremie,"Caramel Swirl, Star",-c,alcremie-7-c
+0869,Alcremie,"Caramel Swirl, Clover",-d,alcremie-7-d
+0869,Alcremie,"Caramel Swirl, Flower",-e,alcremie-7-e
+0869,Alcremie,"Caramel Swirl, Ribbon",-f,alcremie-7-f
+0869,Alcremie,"Rainbow Swirl, Strawberry",,alcremie-8
+0869,Alcremie,"Rainbow Swirl, Berry",-a,alcremie-8-a
+0869,Alcremie,"Rainbow Swirl, Love",-b,alcremie-8-b
+0869,Alcremie,"Rainbow Swirl, Star",-c,alcremie-8-c
+0869,Alcremie,"Rainbow Swirl, Clover",-d,alcremie-8-d
+0869,Alcremie,"Rainbow Swirl, Flower",-e,alcremie-8-e
+0869,Alcremie,"Rainbow Swirl, Ribbon",-f,alcremie-8-f
+0870,Falinks,,,falinks
+0871,Pincurchin,,,pincurchin
+0872,Snom,,,snom
+0873,Frosmoth,,,frosmoth
+0874,Stonjourner,,,stonjourner
+0875,Eiscue,,,eiscue
+0876,Indeedee,,,indeedee
+0877,Morpeko,,,morpeko
+0878,Cufant,,,cufant
+0879,Copperajah,,,copperajah
+0880,Dracozolt,,,dracozolt
+0881,Arctozolt,,,arctozolt
+0882,Dracovish,,,dracovish
+0883,Arctovish,,,arctovish
+0884,Duraludon,,,duraludon
+0885,Dreepy,,,dreepy
+0886,Drakloak,,,drakloak
+0887,Dragapult,,,dragapult
+0888,Zacian,,,zacian
+0889,Zamazenta,,,zamazenta
+0890,Eternatus,,,eternatus
+0891,Kubfu,,,kubfu
+0892,Urshifu,Single Strike,,urshifu
+0892,Urshifu,Rapid Strike,,urshifu-1
+0893,Zarude,Normal,,zarude
+0893,Zarude,Dada,,zarude-1
+0894,Regieleki,,,regieleki
+0895,Regidrago,,,regidrago
+0896,Glastrier,,,glastrier
+0897,Spectrier,,,spectrier
+0898,Calyrex,,,calyrex
+0899,Wyrdeer,,,wyrdeer
+0900,Kleavor,,,kleavor
+0901,Ursaluna,,,ursaluna
+0901,Ursaluna,Bloodmoon,,ursaluna-1
+0902,Basculegion,,,basculegion
+0903,Sneasler,,,sneasler
+0904,Overqwil,,,overqwil
+0905,Enamorus,Incarnate,,enamorus
+0905,Enamorus,Therian,,enamorus-1
+,Gen,,,gen
+0906,Sprigatito,,,sprigatito
+0907,Floragato,,,floragato
+0908,Meowscarada,,,meowscarada
+0909,Fuecoco,,,fuecoco
+0910,Crocalor,,,crocalor
+0911,Skeledirge,,,skeledirge
+0912,Quaxly,,,quaxly
+0913,Quaxwell,,,quaxwell
+0914,Quaquaval,,,quaquaval
+0915,Lechonk,,,lechonk
+0916,Oinkologne,,,oinkologne
+0917,Tarountula,,,tarountula
+0918,Spidops,,,spidops
+0919,Nymble,,,nymble
+0920,Lokix,,,lokix
+0921,Pawmi,,,pawmi
+0922,Pawmo,,,pawmo
+0923,Pawmot,,,pawmot
+0924,Tandemaus,,,tandemaus
+0925,Maushold,Family of 3,,maushold
+0925,Maushold,Family of 4,,maushold-1
+0926,Fidough,,,fidough
+0927,Dachsbun,,,dachsbun
+0928,Smoliv,,,smoliv
+0929,Dolliv,,,dolliv
+0930,Arboliva,,,arboliva
+0931,Squawkabilly,Green,,squawkabilly
+0931,Squawkabilly,Blue,,squawkabilly-1
+0931,Squawkabilly,Yellow,,squawkabilly-2
+0931,Squawkabilly,White,,squawkabilly-3
+0932,Nacli,,,nacli
+0933,Naclstack,,,naclstack
+0934,Garganacl,,,garganacl
+0935,Charcadet,,,charcadet
+0936,Armarouge,,,armarouge
+0937,Ceruledge,,,ceruledge
+0938,Tadbulb,,,tadbulb
+0939,Bellibolt,,,bellibolt
+0940,Wattrel,,,wattrel
+0941,Kilowattrel,,,kilowattrel
+0942,Maschiff,,,maschiff
+0943,Mabosstiff,,,mabosstiff
+0944,Shroodle,,,shroodle
+0945,Grafaiai,,,grafaiai
+0946,Bramblin,,,bramblin
+0947,Brambleghast,,,brambleghast
+0948,Toedscool,,,toedscool
+0949,Toedscruel,,,toedscruel
+0950,Klawf,,,klawf
+0951,Capsakid,,,capsakid
+0952,Scovillain,,,scovillain
+0953,Rellor,,,rellor
+0954,Rabsca,,,rabsca
+0955,Flittle,,,flittle
+0956,Espathra,,,espathra
+0957,Tinkatink,,,tinkatink
+0958,Tinkatuff,,,tinkatuff
+0959,Tinkaton,,,tinkaton
+0960,Wiglett,,,wiglett
+0961,Wugtrio,,,wugtrio
+0962,Bombirdier,,,bombirdier
+0963,Finizen,,,finizen
+0964,Palafin,,,palafin
+0965,Varoom,,,varoom
+0966,Revavroom,,,revavroom
+0967,Cyclizar,,,cyclizar
+0968,Orthworm,,,orthworm
+0969,Glimmet,,,glimmet
+0970,Glimmora,,,glimmora
+0971,Greavard,,,greavard
+0972,Houndstone,,,houndstone
+0973,Flamigo,,,flamigo
+0974,Cetoddle,,,cetoddle
+0975,Cetitan,,,cetitan
+0976,Veluza,,,veluza
+0977,Dondozo,,,dondozo
+0978,Tatsugiri,Curly,,tatsugiri
+0978,Tatsugiri,Droopy,,tatsugiri-1
+0978,Tatsugiri,Stretchy,,tatsugiri-2
+0979,Annihilape,,,annihilape
+0980,Clodsire,,,clodsire
+0981,Farigiraf,,,farigiraf
+0982,Dudunsparce,2 Segment,,dudunsparce
+0982,Dudunsparce,3 Segment,,dudunsparce-1
+0983,Kingambit,,,kingambit
+0984,Great Tusk,,,great tusk
+0985,Scream Tail,,,scream tail
+0986,Brute Bonnet,,,brute bonnet
+0987,Flutter Mane,,,flutter mane
+0988,Slither Wing,,,slither wing
+0989,Sandy Shocks,,,sandy shocks
+0990,Iron Treads,,,iron treads
+0991,Iron Bundle,,,iron bundle
+0992,Iron Hands,,,iron hands
+0993,Iron Jugulis,,,iron jugulis
+0994,Iron Moth,,,iron moth
+0995,Iron Thorns,,,iron thorns
+0996,Frigibax,,,frigibax
+0997,Arctibax,,,arctibax
+0998,Baxcalibur,,,baxcalibur
+0999,Gimmighoul,Chest Form,,gimmighoul
+0999,Gimmighoul,Roaming Form,,gimmighoul-1
+1000,Gholdengo,,,gholdengo
+1001,Wo-Chien,,,wo-chien
+1002,Chien-Pao,,,chien-pao
+1003,Ting-Lu,,,ting-lu
+1004,Chi-Yu,,,chi-yu
+1005,Roaring Moon,,,roaring moon
+1006,Iron Valiant,,,iron valiant
+1007,Koraidon,,,koraidon
+1008,Miraidon,,,miraidon
+1009,Walking wake,,,walking wake
+1010,Iron leaves,,,iron leaves
+1011,Dipplin,,,dipplin
+1012,Poltchageist,Counterfeit,,poltchageist
+1012,Poltchageist,Artisan,,poltchageist-1
+1013,Sinistcha,Unremarkable,,sinistcha
+1013,Sinistcha,Masterpiece,,sinistcha-1
+1014,Okidogi,,,okidogi
+1015,Munkidori,,,munkidori
+1016,Fezandipiti,,,fezandipiti
+1017,Ogerpon,,,ogerpon
+1018,Archaludon,,,archaludon
+1019,Hydrapple,,,hydrapple
+1020,Gouging Fire,,,gouging fire
+1021,Raging Bolt,,,raging bolt
+1022,Iron Boulder,,,iron boulder
+1023,Iron Crown,,,iron crown
+1024,Terapagos,,,terapagos
+1025,Pecharunt,,,pecharunt

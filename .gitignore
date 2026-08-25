@@ -1,0 +1,8 @@
+# Original vendor spreadsheet exports (pre-normalize-sheet.js). Kept locally only —
+# see scripts/normalize-sheet.js for why: the committed sheets/*.csv are already the
+# generic, vendor-agnostic version these are converted into.
+/sheets/raw/
+
+# PokeAPI fetch caches used by scripts/generate-living-form-full.js
+/scripts/.pokeapi-candidates-cache.json
+/scripts/.pokeapi-evolution-chains-cache.json
