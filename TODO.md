@@ -29,12 +29,21 @@ existing ones.
 
 ## Product / App
 
-- [ ] **3. Implement the actual app.** Today the whole repo is a data pipeline (scripts +
-      generated JSON); there's no UI or business logic (marking Pokémon owned/not
-      owned, see `docs/PLANNING.md`). There isn't even a `package.json`.
+- [ ] **3. Implement the actual app.** Today this repo is only a data pipeline
+      (scripts + generated JSON); there's no UI or business logic (marking Pokémon
+      owned/not owned, see `docs/PLANNING.md`). Decided: the app lives in its own
+      separate repo (mirroring the sibling `Pokemon Champions` project's
+      data-repo/app-repo split), consuming `data/v1/living-form-full-data.json` via
+      the jsDelivr CDN documented in the README — not built inside this repo.
 - [ ] **4. Backend/Supabase** for multi-device sync — future phase, **do not implement
       yet** (see `docs/PLANNING.md` and `docs/RULES.md` section 3). When tackled, it
       must leave the security TODOs `docs/RULES.md` section 1 requires.
+- [ ] **27. Design the multi-list user-state data model** before starting frontend
+      work. `docs/PLANNING.md`'s current `getUserState()`/`setUserState()` sketch
+      assumes one list; #16 needs several simultaneous named lists (e.g. a shiny
+      Living Dex and a regular one), each with its own tier/filter definition and
+      owned/not-owned map. Needs a shape like a map of list-id → { name, baseTier,
+      ownedState } before components get built against it.
 
 ## Web App (requirements for #3)
 
