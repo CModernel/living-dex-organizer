@@ -1,0 +1,10 @@
+{
+  "name": "@cmodernel/living-dex-tiers",
+  "version": "0.1.0",
+  "description": "Curated Living Dex tier predicates (Living Form, Living Lite, Final Form Full, Final Form) for the Living Dex Organizer dataset.",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

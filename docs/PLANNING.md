@@ -30,6 +30,61 @@
   not a copy of the dataset with an added field).
 - Avoid redundancy: don't duplicate information already present in the static dataset.
 
+### Multi-list data model (TODO #27)
+
+The app supports several simultaneous named lists (e.g. a shiny Living Dex and a
+regular one, TODO #16), not just one collection:
+
+```ts
+type UserState = {
+  lists: Record<string /* list id */, PokemonList>;
+  activeListId: string | null;   // last-viewed list, for resuming on reload
+  preferences: {
+    visibleColumns: string[];    // TODO #11
+    compactMode: boolean;        // TODO #12
+    darkMode?: 'system' | 'light' | 'dark'; // TODO #10
+  };
+};
+
+type PokemonList = {
+  id: string;                    // stable unique id
+  name: string;                  // user-given display name
+  createdAt: string;             // ISO timestamp
+  dataVersion: 'v1';             // which data/v{N} schema this filter assumes
+  variant: 'normal' | 'shiny';   // same entries, different sprite + tracked meaning
+  filter: ListFilter;
+  ownedIds: string[];            // sparse: owned entry slugs; absence = not owned
+};
+
+// preset = byte-identical to a curated sheet, via @cmodernel/living-dex-tiers
+// (packages/tiers/ — includes every one-off species exception, e.g. Tauros/
+// Basculin/Minior/Alcremie). custom = generic, checkbox-composable criteria over
+// the dataset's own metadata fields; it can only approximate a preset — that's
+// expected, not a gap to fix.
+type ListFilter =
+  | { type: 'preset'; preset: 'living-form-full' | 'living-form' | 'living-lite'
+                              | 'final-form-full' | 'final-form' }
+  | { type: 'custom'; criteria: CustomFilterCriteria };
+
+type CustomFilterCriteria = {
+  evolutionStages?: Array<'pre' | 'mid' | 'final'>; // omit = all
+  includeAlternateForms?: boolean;   // default true
+  includeGenderVariants?: boolean;   // default false (matches living-form's rule)
+  regionalFormsOnly?: boolean;       // if includeAlternateForms, restrict to regional
+  regions?: string[];                // omit = all regions
+};
+```
+
+Notes:
+- Box/slot position (TODO #17) is **never persisted** — always derived client-side
+  from a list's filtered, `sortIndex`-sorted entries, chunked into boxes of 30, per
+  `generate-living-form-full.js`'s own stated design.
+- The empty-state "start a list" flow (TODO #16) just creates a new `PokemonList`
+  with `ownedIds: []` and either a preset or a custom filter.
+- Storage still goes through `getUserState()`/`setUserState()` (whole-object
+  read/write, see below); any finer-grained helpers (`toggleOwned`, `upsertList`)
+  are a thin layer on top in the app, not a new persistence primitive.
+
 ## Storage/backend roadmap
 
 - **Current phase**: no backend. User state in local storage (e.g.

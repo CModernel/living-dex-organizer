@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { TIERS } = require('./tiers');
+const { TIERS } = require('.');
 
 test('living-form: excludes only gender variants', () => {
   const { predicate } = TIERS['living-form'];

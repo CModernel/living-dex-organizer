@@ -11,6 +11,6 @@
     "generate": "node scripts/generate-living-form-full.js",
     "verify": "node scripts/verify.js",
     "normalize": "node scripts/normalize-sheet.js",
-    "test": "node --test scripts/lib/*.test.js"
+    "test": "node --test scripts/lib/*.test.js packages/tiers/*.test.js"
   }
 }

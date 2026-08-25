@@ -38,12 +38,15 @@ existing ones.
 - [ ] **4. Backend/Supabase** for multi-device sync — future phase, **do not implement
       yet** (see `docs/PLANNING.md` and `docs/RULES.md` section 3). When tackled, it
       must leave the security TODOs `docs/RULES.md` section 1 requires.
-- [ ] **27. Design the multi-list user-state data model** before starting frontend
-      work. `docs/PLANNING.md`'s current `getUserState()`/`setUserState()` sketch
-      assumes one list; #16 needs several simultaneous named lists (e.g. a shiny
-      Living Dex and a regular one), each with its own tier/filter definition and
-      owned/not-owned map. Needs a shape like a map of list-id → { name, baseTier,
-      ownedState } before components get built against it.
+- [x] **27. Design the multi-list user-state data model.** Done — see
+      `docs/PLANNING.md`'s "Multi-list data model" section: a `UserState` with a
+      map of `lists` (each a `PokemonList` with its own `filter` — either a preset
+      tier or a custom checkbox-composable one — plus a sparse `ownedIds` array),
+      `activeListId`, and shared display `preferences`.
+- [ ] **28. Publish `@cmodernel/living-dex-tiers` to npm** (now living in
+      `packages/tiers/`, structurally ready — see #27) once the app repo actually
+      needs to `npm install` it. Requires the user's own npm login; not something
+      to do from an assistant session.
 
 ## Web App (requirements for #3)
 
