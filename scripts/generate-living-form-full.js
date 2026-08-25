@@ -33,9 +33,10 @@ const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-d
 const REPORT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-mapping-report.json');
 const CACHE_FILE = path.join(__dirname, '.pokeapi-candidates-cache.json');
 const EVOLUTION_CACHE_FILE = path.join(__dirname, '.pokeapi-evolution-chains-cache.json');
-// Bump this when the candidate shape changes, so a stale on-disk cache is rejected instead
-// of silently missing fields added later (e.g. evolutionChainUrl).
-const CANDIDATE_CACHE_VERSION = 2;
+// Bump this when the candidate shape *or* fetching logic changes, so a stale on-disk
+// cache is rejected instead of silently keeping outdated/incorrect data (e.g. fields
+// added later, or the v3 fix below for shared sprites on multi-form species).
+const CANDIDATE_CACHE_VERSION = 3;
 
 // Deliberately stays on Austin John's own 1.4 rather than the fan-made 1.4.1: 1.4.1 drops
 // Eternal Flower Floette (floette-5), which is obtainable in Legends Z-A and transferable
@@ -163,7 +164,20 @@ async function collectCandidates() {
       const statsMap = getStatsMap(pokemon.stats);
       const forms = pokemon.forms?.length ? pokemon.forms : [{ name: pokemon.name }];
 
+      // Purely cosmetic form families (Unown's 28 letters, Vivillon's 20 patterns,
+      // Alcremie's 63 combinations, Furfrou's 10 trims, Flabébé/Floette/Florges'
+      // colors...) are modeled by PokeAPI as multiple `/pokemon-form/` entries under
+      // ONE `/pokemon/` resource, not as separate top-level `/pokemon/` entries. Their
+      // types/stats are genuinely identical across forms (fine to share), but each
+      // form has its OWN distinct sprite — reusing the parent's `pokemon.sprites` for
+      // all of them would show every letter/pattern/color as the same picture. Only
+      // pay for the extra per-form fetch when there's more than one form to tell apart.
       for (const formRef of forms) {
+        let sprites = getSpriteUrls(pokemon.sprites);
+        if (forms.length > 1) {
+          const form = await fetchWithRetry(formRef.url);
+          if (form) sprites = getSpriteUrls(form.sprites);
+        }
         candidates.push({
           slug: formRef.name,
           dexId,
@@ -179,7 +193,7 @@ async function collectCandidates() {
             spdef: statsMap['special-defense'],
             spe: statsMap.speed,
           },
-          sprites: getSpriteUrls(pokemon.sprites),
+          sprites,
         });
       }
     }
