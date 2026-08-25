@@ -76,6 +76,9 @@
 - Each TODO must clearly explain **what's missing** and **why** it was left pending.
 - TODOs can be moved later to an external task system (e.g. Trello) if that turns out to
   be more convenient.
+- Every item in `TODO.md` is numbered (assigned once when added, never renumbered) so
+  it can be referenced in conversation. New items get the next number; order in the
+  file doesn't need to match numeric or chronological order.
 - Suggested format in code:
   ```
   // TODO(security): <what needs review/implementation> — <why it was left pending>

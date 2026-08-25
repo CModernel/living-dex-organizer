@@ -1,11 +1,14 @@
 # TODO
 
 Known pending tasks. No external system (Trello, etc.) — kept here by hand. Format:
-what's missing + why it was left pending.
+what's missing + why it was left pending. Every item is numbered (assigned once,
+kept stable — order doesn't reflect priority or add date) so it can be referenced
+in conversation ("do #2 next"); number new items when they're added, don't renumber
+existing ones.
 
 ## Data
 
-- [x] **Derive sprite URLs instead of storing them in full.** Done via
+- [x] **1. Derive sprite URLs instead of storing them in full.** Done via
       `scripts/lib/sprite-url.js`: each entry now stores a derived
       `{ id, hasFemale, hasShinyFemale }` plus one shared top-level
       `sprite: { baseUrl, variants }`, instead of 4 full URLs. Cut the dataset from
@@ -14,7 +17,7 @@ what's missing + why it was left pending.
       Flabébé/Floette/Florges) were all sharing their parent's sprite instead of
       each form's own — see the "Fix shared sprites" commit.
 
-- [ ] **Add the per-game regional Pokédex numbers** (SwSh/BDSP/PLA/SV/PLZA columns in
+- [ ] **2. Add the per-game regional Pokédex numbers** (SwSh/BDSP/PLA/SV/PLZA columns in
       the original sheet — each game's own regional Pokédex position, e.g. Grookey is
       "#1" in Galar's own dex, not its National number 810). These ARE available from
       PokeAPI, confirmed live: `GET /pokemon-species/{name}/` → `pokedex_numbers`
@@ -36,23 +39,23 @@ what's missing + why it was left pending.
 
 ## Product / App
 
-- [ ] **Implement the actual app.** Today the whole repo is a data pipeline (scripts +
+- [ ] **3. Implement the actual app.** Today the whole repo is a data pipeline (scripts +
       generated JSON); there's no UI or business logic (marking Pokémon owned/not
       owned, see `docs/PLANNING.md`). There isn't even a `package.json`.
-- [ ] **Backend/Supabase** for multi-device sync — future phase, **do not implement
+- [ ] **4. Backend/Supabase** for multi-device sync — future phase, **do not implement
       yet** (see `docs/PLANNING.md` and `docs/RULES.md` section 3). When tackled, it
       must leave the security TODOs `docs/RULES.md` section 1 requires.
 
 ## Distribution / CDN
 
-- [x] **Move the dataset under `data/v1/`** to prepare for path-based versioning,
+- [x] **5. Move the dataset under `data/v1/`** to prepare for path-based versioning,
       mirroring the sibling `pokemon-trainer-data` project's jsDelivr CDN pattern —
       cheap now, avoids a breaking rename later once an app depends on a specific
       path. Done: `data/living-form-full-data.json` and
       `data/living-form-full-mapping-report.json` moved to `data/v1/`.
-- [x] **Document jsDelivr CDN access in the README.** Done, now that the repo is
+- [x] **6. Document jsDelivr CDN access in the README.** Done, now that the repo is
       pushed public — see the README's "Distribution" section.
-- [ ] **Consider an incremental PokeAPI fetch cache** for
+- [ ] **7. Consider an incremental PokeAPI fetch cache** for
       `scripts/generate-living-form-full.js`, mirroring `pokemon-trainer-data`'s
       approach (reuse the previously committed output as the cache, only fetch IDs
       missing from it). Caution: our curation rules (`isExcludedForm`, tier
@@ -63,6 +66,6 @@ what's missing + why it was left pending.
 
 ## Infrastructure
 
-- [x] **Wire `scripts/verify.js` into CI.** Done: `.github/workflows/ci.yml` runs
+- [x] **8. Wire `scripts/verify.js` into CI.** Done: `.github/workflows/ci.yml` runs
       `npm test` + `npm run verify` on every push/PR to `main`. Doesn't hit PokeAPI —
       validates the already-committed dataset and CSVs, so it's fast and free.
