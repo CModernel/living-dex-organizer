@@ -28,6 +28,13 @@ const {
   pairRowsToCandidates,
   SEPARATE_SEX_FORM_DEX,
 } = require('./lib/generate-rules');
+const {
+  SPRITE_BASE_URL,
+  SPRITE_VARIANTS,
+  deriveSpriteId,
+  hasFemaleSprite,
+  hasShinyFemaleSprite,
+} = require('./lib/sprite-url');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-data.json');
 const REPORT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-mapping-report.json');
@@ -81,14 +88,21 @@ function getSpriteUrls(sprites) {
 // The full 8-sprite set above is kept on the fetched candidate (collectCandidates
 // caches it) because the back_female/back_shiny_female fields are still needed to
 // detect species whose only female-distinct sprite is a back view (see the
-// hasFemaleSprite check below). Persisted entries only need the front-facing set.
-function trimSpritesForOutput(sprites) {
-  if (!sprites) return {};
+// hasAnyFemaleSprite check below, which is broader than lib/sprite-url's
+// hasFemaleSprite — that one only looks at the front variants we actually persist).
+function hasAnyFemaleSprite(sprites) {
+  return !!(sprites?.front_female || sprites?.back_female ||
+            sprites?.front_shiny_female || sprites?.back_shiny_female);
+}
+
+// Persisted entries only need a derived { id, hasFemale, hasShinyFemale } — see
+// lib/sprite-url.js for why storing 4 full URLs per entry is redundant (the id
+// token is shared).
+function spriteRefForOutput(sprites) {
   return {
-    front_default: sprites.front_default,
-    front_female: sprites.front_female,
-    front_shiny: sprites.front_shiny,
-    front_shiny_female: sprites.front_shiny_female,
+    id: deriveSpriteId(sprites),
+    hasFemale: hasFemaleSprite(sprites),
+    hasShinyFemale: hasShinyFemaleSprite(sprites),
   };
 }
 
@@ -361,7 +375,7 @@ async function main() {
         dex,
         types: candidate.types,
         generation: candidate.generation,
-        sprites: trimSpritesForOutput(candidate.sprites),
+        sprites: spriteRefForOutput(candidate.sprites),
         evolutionStage: resolveEvolutionStage(candidate.slug, evolutionStage),
         isAlternateForm,
         isGenderVariant: isSeparateSexFemale,
@@ -383,9 +397,7 @@ async function main() {
         return;
       }
       const { candidate } = pair;
-      const hasFemaleSprite = !!(candidate.sprites?.front_female || candidate.sprites?.back_female ||
-                                 candidate.sprites?.front_shiny_female || candidate.sprites?.back_shiny_female);
-      if (!hasFemaleSprite) {
+      if (!hasAnyFemaleSprite(candidate.sprites)) {
         unmatchedFemale.push({ dex, keyword: row.keyword, csvForm: row.formName,
           reason: `PokeAPI has no female sprite for ${candidate.slug}` });
         return;
@@ -406,7 +418,7 @@ async function main() {
         dex,
         types: candidate.types,
         generation: candidate.generation,
-        sprites: trimSpritesForOutput(candidate.sprites),
+        sprites: spriteRefForOutput(candidate.sprites),
         evolutionStage: resolveEvolutionStage(candidate.slug, evolutionStage),
         isAlternateForm: base.isAlternateForm,
         isGenderVariant: true,
@@ -470,7 +482,11 @@ async function main() {
   const outputDir = path.dirname(OUTPUT_FILE);
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify({ count: finalCount, pokemon: entries }, null, 2));
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify({
+    count: finalCount,
+    sprite: { baseUrl: SPRITE_BASE_URL, variants: SPRITE_VARIANTS },
+    pokemon: entries,
+  }, null, 2));
   fs.writeFileSync(REPORT_FILE, JSON.stringify({
     csvTotalRows: allCsvRows.length,
     csvMainRows: csvMainRows.length,

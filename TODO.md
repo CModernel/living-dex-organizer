@@ -5,13 +5,14 @@ what's missing + why it was left pending.
 
 ## Data
 
-- [ ] **Derive sprite URLs instead of storing them in full.** Today
-      `data/living-form-full-data.json` stores 4 full sprite URLs per entry (all
-      sharing the same `https://raw.githubusercontent.com/PokeAPI/...` prefix repeated
-      hundreds of times). Replace with a `baseUrl` + filename pattern (same principle
-      the now-removed `SPRITE-JSON-STRUCTURE-SPECS.md` had), applied to the PokeAPI
-      dataset. Requires touching `scripts/generate-living-form-full.js` and probably
-      re-running it.
+- [x] **Derive sprite URLs instead of storing them in full.** Done via
+      `scripts/lib/sprite-url.js`: each entry now stores a derived
+      `{ id, hasFemale, hasShinyFemale }` plus one shared top-level
+      `sprite: { baseUrl, variants }`, instead of 4 full URLs. Cut the dataset from
+      1.15MB to 830KB (~28%). Along the way, found and fixed a real bug this work
+      depended on: multi-form cosmetic species (Unown, Vivillon, Alcremie, Furfrou,
+      Flabébé/Floette/Florges) were all sharing their parent's sprite instead of
+      each form's own — see the "Fix shared sprites" commit.
 
 - [ ] **Add the per-game regional Pokédex numbers** (SwSh/BDSP/PLA/SV/PLZA columns in
       the original sheet — each game's own regional Pokédex position, e.g. Grookey is
