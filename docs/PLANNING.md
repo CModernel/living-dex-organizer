@@ -56,44 +56,66 @@ type PokemonList = {
   ownedIds: string[];            // sparse: owned entry slugs; absence = not owned
 };
 
-// Always anchored to one of the 5 curated presets from @cmodernel/living-dex-tiers
-// (packages/tiers/ — byte-identical to a reference sheet, including every one-off
-// species exception: Tauros breeds, Basculin stripes, Minior colors, Alcremie
-// flavors). There is deliberately no independent "build a filter from scratch"
-// mode — customization means a small set of well-defined overrides layered on top
-// of a preset, not a generic query builder that could drift from the curated
-// rules. `overrides` currently has exactly one field because it's the only gap the
-// 5 presets don't already cover between them (see below).
+// Three independent toggles, all off by default (= living-form-full, the
+// unfiltered master — the least restrictive starting point, per the user's own
+// framing: start from the full list, then add/remove filters). Turning one on
+// only ever narrows the set; there's no independent "build a filter from
+// scratch" mode — a generic query builder could drift from the curated rules
+// below, so it's deliberately not offered.
 type ListFilter = {
-  preset: 'living-form-full' | 'living-form' | 'living-lite'
-        | 'final-form-full' | 'final-form';
-  overrides?: {
-    includeGenderVariants?: boolean; // every preset excludes these by default
-  };
+  finalStageOnly: boolean;      // default false = all evolution stages
+  regionalFormsOnly: boolean;   // default false = all alternate forms
+  hideGenderVariants: boolean;  // default false = include them
 };
 ```
 
-Why `includeGenderVariants` is the only override needed: the 4 non-master presets
-already form a complete 2×2 of (all evolution stages | final stage only) ×
-(all alternate forms | regional forms only) — confirmed against the real dataset:
+These 3 toggles fully cover the 8 possible combinations, of which 5 are
+Austin John's own curated tiers — confirmed against the real dataset:
 
-| | all alternate forms | regional forms only |
+| finalStageOnly | regionalFormsOnly | hideGenderVariants | tier | count |
+|---|---|---|---|---|
+| false | false | false | Living Form Full (master) | 1387 |
+| false | false | true  | Living Form | 1284 |
+| false | true  | true  | Living Lite | 1082 |
+| true  | false | true  | Final Form Full | 716 |
+| true  | true  | true  | Final Form | 604 |
+
+**Exceptions are per-combination, not per-toggle — this is the reason for the
+resolution rule below.** Each curated tier layers species-specific exceptions on
+top of the generic rule (e.g. Living Lite force-keeps `basculin-2` and drops
+`tauros-2/-3`; Final Form Full instead collapses Minior's colors, Magearna's
+Original Pokéball recolor, and non-Vanilla Alcremie flavors). Proof these aren't
+derivable from a toggle in isolation: `regionalFormsOnly` appears in both Living
+Lite and Final Form, but Floette Eternal Flower is handled *oppositely* in each
+(deliberately, confirmed with the user 2026-08-24) — so no rule of the form "if
+`regionalFormsOnly` then apply X" can be correct in general. The exceptions are
+irreducibly editorial, tied to `scripts/lib/tiers.js` / `packages/tiers`'s exact
+predicates, not to the generic toggles.
+
+**The remaining 3 combinations (`hideGenderVariants: false` crossed with either
+restriction) have no curated tier** — Austin John's sheets never defined them.
+Default for those: inherit the species-exceptions from the curated tier that
+shares the same `(finalStageOnly, regionalFormsOnly)` pair, ignoring
+`hideGenderVariants` for that lookup only (none of the exceptions reference
+gender-variant status, so this is a safe, well-justified reuse — not a guess):
+
+| finalStageOnly | regionalFormsOnly | inherits exceptions from |
 |---|---|---|
-| **all evolution stages** | Living Form (1284) | Living Lite (1082) |
-| **final stage only** | Final Form Full (716) | Final Form (604) |
+| false | true  | Living Lite |
+| true  | false | Final Form Full |
+| true  | true  | Final Form |
 
-Only `living-form-full` (the unfiltered master, 1387) includes gender variants,
-and it doesn't restrict stage or alternate-form scope. So "final stage only, but
-with gender variants" (837 entries) or "regional-only, but with gender variants"
-(1178) have no preset of their own — `includeGenderVariants: true` on top of the
-relevant preset reaches them without needing a 6th/7th named tier.
+This is a pragmatic default, not a curated answer — flag it as such wherever the
+app surfaces one of these 3 combinations (e.g. "this exact combination wasn't
+part of Austin John's sheets; minor cosmetic-variant collapsing is approximated").
 
 Notes:
 - Box/slot position (TODO #17) is **never persisted** — always derived client-side
   from a list's filtered, `sortIndex`-sorted entries, chunked into boxes of 30, per
   `generate-living-form-full.js`'s own stated design.
 - The empty-state "start a list" flow (TODO #16) just creates a new `PokemonList`
-  with `ownedIds: []` and a chosen preset (+ optional override).
+  with `ownedIds: []` and the 3 toggles at their defaults (or pre-set to a known
+  combination, e.g. a "Final Form" quick-start button).
 - Storage still goes through `getUserState()`/`setUserState()` (whole-object
   read/write, see below); any finer-grained helpers (`toggleOwned`, `upsertList`)
   are a thin layer on top in the app, not a new persistence primitive.
