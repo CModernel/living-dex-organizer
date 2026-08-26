@@ -31,10 +31,14 @@ existing ones.
 
 - [ ] **3. Implement the actual app.** Today this repo is only a data pipeline
       (scripts + generated JSON); there's no UI or business logic (marking Pokémon
-      owned/not owned, see `docs/PLANNING.md`). Decided: the app lives in its own
-      separate repo (mirroring the sibling `Pokemon Champions` project's
-      data-repo/app-repo split), consuming `data/v1/living-form-full-data.json` via
-      the jsDelivr CDN documented in the README — not built inside this repo.
+      owned/not owned, see `docs/PLANNING.md`). Decided: the app lives in a
+      separate monorepo (`living-dex-app/`) as a sibling to this repo, with:
+      - `apps/web/` — React 19 + Vite web app, hosted on GitHub Pages
+      - `apps/mobile/` — React Native + Expo app (iOS + Android)
+      - `packages/business-logic/` — shared TypeScript logic (UserState, tier
+        predicates, data parsing, storage abstraction)
+      - Both consume `data/v1/living-form-full-data.json` via the jsDelivr CDN
+        documented in this repo's README.
 - [ ] **4. Backend/Supabase** for multi-device sync — future phase, **do not implement
       yet** (see `docs/PLANNING.md` and `docs/RULES.md` section 3). When tackled, it
       must leave the security TODOs `docs/RULES.md` section 1 requires.
@@ -48,41 +52,11 @@ existing ones.
       needs to `npm install` it. Requires the user's own npm login; not something
       to do from an assistant session.
 
-## Web App (requirements for #3)
+## App Features (web + mobile, TODO #3)
 
-Feature/UX requirements gathered for the app before it's built. All still open.
-
-- [ ] **10. Dark mode.**
-- [ ] **11. Customizable columns** — the user chooses which columns are visible.
-- [ ] **12. Mobile/tablet-friendly layout**, including a "compact" display mode —
-      needs to be comfortable to use on a phone, not just technically responsive.
-- [ ] **13. Intro/welcome page.** Decide whether mobile gets a shorter version of
-      the message than desktop.
-- [ ] **14. Customizable filtering beyond the 5 base tiers** — evolution stage
-      (pre-evos), regional form diffs, other form diffs, gender diffs, and shiny.
-      Decide whether shiny variants are shown freely or gated behind a lock/unlock.
-- [ ] **15. Export/import** user data (list definitions + owned/not-owned state).
-- [ ] **16. Support multiple lists per user** (e.g. a shiny Living Dex and a regular
-      one at the same time). Empty state shows a "start a list" button that asks for
-      a name and, optionally, which Living Dex type to base it on.
-- [ ] **17. Box/slot column hidden by default.** Only surfaced on request, and only
-      suggested for the more basic tiers (Base Dex, Final Form, etc.) by asking if
-      the user plans to eventually organize/migrate physically.
-- [ ] **18. Start with a minimal, simple interface**; let the user progressively
-      customize columns to their liking (pairs with #11).
-- [ ] **19. Persist user preferences** (visible columns, compact mode, etc.) in the
-      browser session first, and later in the user's account once login exists
-      (see #4).
-- [ ] **20. Main view: an Excel/spreadsheet-style table** of Pokémon where the user
-      marks which ones they own.
-- [ ] **21. Some kind of progress indicator/chart** (e.g. % complete).
-- [ ] **22. Sticky column headers on scroll**, so the user always knows which
-      column is which.
-- [ ] **23. Mobile layout must work well in portrait; also test landscape.**
-- [ ] **24. Unit tests for any new app code** — already a standing rule
-      (`docs/RULES.md` #5), reiterated here specifically for the app.
-- [ ] **25. Consider integration tests** for the app.
-- [ ] **26. Consider UI tests** for the app.
+Feature/UX and implementation requirements have moved to the app repo's own TODO.md —
+see [`living-dex-app/TODO.md`](../living-dex-app/TODO.md) for the full list and
+prioritized build order (#10-26, plus foundational TODOs #29-31).
 
 ## Distribution / CDN
 
