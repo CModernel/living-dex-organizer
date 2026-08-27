@@ -974,7 +974,8 @@
         "id": "10095",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-2"
+        "pokejungleId": "0025-2",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -1008,7 +1009,8 @@
         "id": "10096",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-3"
+        "pokejungleId": "0025-3",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -1042,7 +1044,8 @@
         "id": "10097",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-4"
+        "pokejungleId": "0025-4",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -1076,7 +1079,8 @@
         "id": "10098",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-5"
+        "pokejungleId": "0025-5",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -1110,7 +1114,8 @@
         "id": "10099",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-6"
+        "pokejungleId": "0025-6",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -1144,7 +1149,8 @@
         "id": "10148",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-7"
+        "pokejungleId": "0025-7",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -1178,7 +1184,8 @@
         "id": "10160",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0025-9"
+        "pokejungleId": "0025-9",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": true,
@@ -20704,7 +20711,8 @@
         "id": "494",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0494"
+        "pokejungleId": "0494",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -27080,7 +27088,8 @@
         "id": "666-poke-ball",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0666-19"
+        "pokejungleId": "0666-19",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -27492,7 +27501,8 @@
         "id": "10061",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0670-5"
+        "pokejungleId": "0670-5",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -29717,7 +29727,8 @@
         "id": "720",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0720"
+        "pokejungleId": "0720",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -29744,7 +29755,8 @@
         "id": "10086",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0720-1"
+        "pokejungleId": "0720-1",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -32134,7 +32146,8 @@
         "id": "789",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0789"
+        "pokejungleId": "0789",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "pre",
       "isAlternateForm": false,
@@ -32160,7 +32173,8 @@
         "id": "790",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0790"
+        "pokejungleId": "0790",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "mid",
       "isAlternateForm": false,
@@ -32455,7 +32469,8 @@
         "id": "801",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0801"
+        "pokejungleId": "0801",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -32482,7 +32497,8 @@
         "id": "10147",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0801-1"
+        "pokejungleId": "0801-1",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -32509,7 +32525,8 @@
         "id": "802",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0802"
+        "pokejungleId": "0802",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -37138,7 +37155,8 @@
         "id": "891",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0891"
+        "pokejungleId": "0891",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "pre",
       "isAlternateForm": false,
@@ -37167,7 +37185,8 @@
         "id": "892",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0892"
+        "pokejungleId": "0892",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -37196,7 +37215,8 @@
         "id": "10191",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0892-1"
+        "pokejungleId": "0892-1",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -37225,7 +37245,8 @@
         "id": "893",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0893"
+        "pokejungleId": "0893",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -37254,7 +37275,8 @@
         "id": "10192",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0893-1"
+        "pokejungleId": "0893-1",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -37338,7 +37360,8 @@
         "id": "896",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0896"
+        "pokejungleId": "0896",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -37366,7 +37389,8 @@
         "id": "897",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0897"
+        "pokejungleId": "0897",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -37395,7 +37419,8 @@
         "id": "898",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0898"
+        "pokejungleId": "0898",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -37514,7 +37539,8 @@
         "id": "10272",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0901-1"
+        "pokejungleId": "0901-1",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -40939,7 +40965,8 @@
         "id": "1009",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1009"
+        "pokejungleId": "1009",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -40968,7 +40995,8 @@
         "id": "1010",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1010"
+        "pokejungleId": "1010",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41142,7 +41170,8 @@
         "id": "1014",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1014"
+        "pokejungleId": "1014",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41171,7 +41200,8 @@
         "id": "1015",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1015"
+        "pokejungleId": "1015",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41200,7 +41230,8 @@
         "id": "1016",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1016"
+        "pokejungleId": "1016",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41228,7 +41259,8 @@
         "id": "1017",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1017"
+        "pokejungleId": "1017",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41315,7 +41347,8 @@
         "id": "1020",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1020"
+        "pokejungleId": "1020",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41344,7 +41377,8 @@
         "id": "1021",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1021"
+        "pokejungleId": "1021",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41373,7 +41407,8 @@
         "id": "1022",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1022"
+        "pokejungleId": "1022",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41402,7 +41437,8 @@
         "id": "1023",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1023"
+        "pokejungleId": "1023",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41430,7 +41466,8 @@
         "id": "1024",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1024"
+        "pokejungleId": "1024",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -41459,7 +41496,8 @@
         "id": "1025",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "1025"
+        "pokejungleId": "1025",
+        "pokejungleShinyUnavailable": true
       },
       "evolutionStage": "final",
       "isAlternateForm": false,

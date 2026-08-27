@@ -169,6 +169,49 @@ function deriveShinyOverrides(entries) {
   return overrides;
 }
 
+// ---------------------------------------------------------------------------
+// Genuinely shiny-locked entries
+// ---------------------------------------------------------------------------
+
+// Distinct from the collapse cases above: these entries have NO shiny art on
+// PokeJungle at all — either the site returns a real HTTP 404, or (more dangerously)
+// it returns HTTP 200 with the SAME small lock-icon image (128x128px, exactly 2051
+// bytes) it uses everywhere a Pokemon's shiny genuinely can't be obtained in-game.
+// That 200 defeats a plain "does the request succeed" or even an <img onError> check —
+// the request DOES succeed, it just isn't the sprite. Detected instead by fetching
+// every entry's shiny URL and flagging that exact byte size (verified zero false
+// positives: every real shiny sprite in the dataset has a distinct content-length,
+// ranging ~19KB-205KB — nothing else is anywhere near 2051 bytes).
+//
+// The result lines up with real game mechanics almost perfectly — nearly every one is
+// a known shiny-locked Mythical, event-exclusive Legendary, or cosmetic-only form
+// (Victini, Magearna, Marshadow, Zarude, Kubfu/Urshifu, Glastrier/Spectrier/Calyrex,
+// every Gen 9 DLC "Loyal Three"/Paradox/Ogerpon/Pecharunt/Terapagos, Cosmog/Cosmoem,
+// Floette's Eternal Flower, Vivillon's Poke Ball pattern, and every Pikachu cap form
+// except Original Cap). Hoopa is the one species split across both failure modes —
+// Confined returns the lock icon, Unbound returns a real 404 — included here together
+// since both represent the same underlying fact (Hoopa can't be shiny in either forme).
+//
+// Verified live, 2026-08-27, against every entry's PokeJungle shiny URL.
+const SHINY_LOCKED = new Set([
+  'pikachu-hoenn-cap', 'pikachu-sinnoh-cap', 'pikachu-unova-cap', 'pikachu-kalos-cap',
+  'pikachu-alola-cap', 'pikachu-partner-cap', 'pikachu-world-cap', // NOT pikachu-original-cap
+  'victini',
+  'vivillon-poke-ball',
+  'floette-eternal',
+  'hoopa', 'hoopa-unbound',
+  'cosmog', 'cosmoem',
+  'magearna', 'magearna-original',
+  'marshadow',
+  'kubfu', 'urshifu-single-strike', 'urshifu-rapid-strike',
+  'zarude', 'zarude-dada',
+  'glastrier', 'spectrier', 'calyrex',
+  'ursaluna-bloodmoon',
+  'walking-wake', 'iron-leaves', 'okidogi', 'munkidori', 'fezandipiti',
+  'ogerpon', 'gouging-fire', 'raging-bolt', 'iron-boulder', 'iron-crown',
+  'terapagos', 'pecharunt',
+]);
+
 /** Rebuild a full PokeJungle URL from a derived id + variant name, or null if absent. */
 function buildPokeJungleUrl(spriteId, variant = 'normal') {
   if (!spriteId) return null;
@@ -186,6 +229,7 @@ module.exports = {
   ALCREMIE_CREAMS,
   ALCREMIE_SWEETS,
   MINIOR_DEX,
+  SHINY_LOCKED,
   derivePokeJungleIds,
   deriveShinyOverrides,
   buildPokeJungleUrl,

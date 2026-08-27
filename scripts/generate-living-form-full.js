@@ -39,6 +39,7 @@ const {
 const {
   POKEJUNGLE_BASE_URL,
   POKEJUNGLE_VARIANTS,
+  SHINY_LOCKED,
   derivePokeJungleIds,
   deriveShinyOverrides,
 } = require('./lib/pokejungle-sprite');
@@ -469,6 +470,12 @@ async function main() {
   const shinyOverrides = deriveShinyOverrides(Object.values(entries));
   for (const [slug, shinyId] of Object.entries(shinyOverrides)) {
     entries[slug].sprites.pokejungleShinyId = shinyId;
+  }
+  // Entries with NO shiny art at all on PokeJungle (real 404, or the lock-icon 200 —
+  // see SHINY_LOCKED's own comment) — a consumer must skip PokeJungle for these
+  // entirely rather than trust the request "succeeding".
+  for (const slug of SHINY_LOCKED) {
+    if (entries[slug]) entries[slug].sprites.pokejungleShinyUnavailable = true;
   }
 
   const finalCount = Object.keys(entries).length;

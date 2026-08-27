@@ -1,6 +1,11 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { derivePokeJungleIds, deriveShinyOverrides, buildPokeJungleUrl } = require('./pokejungle-sprite');
+const {
+  derivePokeJungleIds,
+  deriveShinyOverrides,
+  buildPokeJungleUrl,
+  SHINY_LOCKED,
+} = require('./pokejungle-sprite');
 
 // Only the four fields the derivation actually reads, in dataset (sortIndex) order.
 function entry(slug, dex, extra = {}) {
@@ -154,4 +159,22 @@ test('deriveShinyOverrides leaves every other species alone (normal id is correc
 
 test('deriveShinyOverrides throws instead of guessing an unrecognized Alcremie sweet', () => {
   assert.throws(() => deriveShinyOverrides([entry('alcremie-vanilla-cream-fake-sweet', '0869')]));
+});
+
+test('SHINY_LOCKED flags known shiny-locked mythicals and event forms', () => {
+  assert.equal(SHINY_LOCKED.has('victini'), true);
+  assert.equal(SHINY_LOCKED.has('marshadow'), true);
+  assert.equal(SHINY_LOCKED.has('floette-eternal'), true);
+});
+
+test('SHINY_LOCKED covers both Hoopa formes despite PokeJungle failing differently for each', () => {
+  // Confined returns the lock icon (HTTP 200); Unbound returns a real 404. Same
+  // underlying fact (Hoopa can't be shiny in either forme), tracked identically here.
+  assert.equal(SHINY_LOCKED.has('hoopa'), true);
+  assert.equal(SHINY_LOCKED.has('hoopa-unbound'), true);
+});
+
+test('SHINY_LOCKED excludes Pikachu\'s Original Cap, the one cap form that IS shiny-obtainable', () => {
+  assert.equal(SHINY_LOCKED.has('pikachu-original-cap'), false);
+  assert.equal(SHINY_LOCKED.has('pikachu-hoenn-cap'), true);
 });
