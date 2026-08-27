@@ -36,6 +36,11 @@ const {
   hasFemaleSprite,
   hasShinyFemaleSprite,
 } = require('./lib/sprite-url');
+const {
+  POKEJUNGLE_BASE_URL,
+  POKEJUNGLE_VARIANTS,
+  derivePokeJungleIds,
+} = require('./lib/pokejungle-sprite');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-data.json');
 const REPORT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-mapping-report.json');
@@ -446,6 +451,18 @@ async function main() {
     });
   }
 
+  // PokeJungle sprite ids. Runs as a pass over the finished entries rather than inside
+  // the loop above because the rule is positional — it needs a species' complete form
+  // list, which only exists once every row has been matched.
+  const entriesByDex = {};
+  Object.values(entries)
+    .sort((a, b) => a.sortIndex - b.sortIndex)
+    .forEach(e => { (entriesByDex[e.dex] = entriesByDex[e.dex] || []).push(e); });
+  for (const speciesEntries of Object.values(entriesByDex)) {
+    const pokejungleIds = derivePokeJungleIds(speciesEntries);
+    speciesEntries.forEach(e => { e.sprites.pokejungleId = pokejungleIds[e.slug]; });
+  }
+
   const finalCount = Object.keys(entries).length;
   console.log('\n📊 Mapping results:');
   console.log(`   CSV rows matched:        ${matched.length} / ${allCsvRows.length}`);
@@ -491,9 +508,18 @@ async function main() {
   const outputDir = path.dirname(OUTPUT_FILE);
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
+  // `baseUrl`/`variants` stay at the top level (PokeAPI, the original and still the
+  // fallback source); `sources` is additive, so a client pinned to the older shape keeps
+  // working and can adopt PokeJungle whenever it's ready.
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify({
     count: finalCount,
-    sprite: { baseUrl: SPRITE_BASE_URL, variants: SPRITE_VARIANTS },
+    sprite: {
+      baseUrl: SPRITE_BASE_URL,
+      variants: SPRITE_VARIANTS,
+      sources: {
+        pokejungle: { baseUrl: POKEJUNGLE_BASE_URL, variants: POKEJUNGLE_VARIANTS },
+      },
+    },
     pokemon: entries,
   }, null, 2));
   fs.writeFileSync(REPORT_FILE, JSON.stringify({

@@ -15,9 +15,15 @@
  *     project — the source sheets are reference-only, not a runtime dependency, per
  *     generate-living-form-full.js's own header comment).
  *
+ *  3. PokeJungle sprite id check — the ids are derived positionally rather than read
+ *     from a file, so this diffs every one of them against the sheet's own sprite
+ *     export (sheets/sprite-urls.csv). See checkPokeJungleIds below for why a silent
+ *     drift here would otherwise be invisible.
+ *
  * Usage:
  *   node verify.js              — runs everything
  *   node verify.js semantics    — just the semantic pairing check
+ *   node verify.js sprites      — just the PokeJungle sprite id check
  *   node verify.js <tier-name>  — just that one tier (e.g. "living-lite")
  */
 const fs = require('fs');
@@ -187,6 +193,61 @@ function checkTier(data, tierName) {
 }
 
 // ---------------------------------------------------------------------------
+// Check 3: PokeJungle sprite ids
+// ---------------------------------------------------------------------------
+
+// lib/pokejungle-sprite.js derives each entry's sprite id positionally instead of
+// reading it from a file, which means a reordering — a new form landing mid-species,
+// a curation change — would silently renumber sprites downstream of it. Nothing else
+// would notice: a wrong id still returns HTTP 200, just showing another Pokémon. So
+// the sheet's own sprite export is committed as ground truth and diffed here.
+//
+// Deliberately offline: pokejungle.net is a third-party host, and reaching it from CI
+// would trade a real correctness check for a flaky one.
+function checkPokeJungleIds(data) {
+  const expected = new Map();
+  const lines = fs.readFileSync(path.join(CSV_DIR, 'sprite-urls.csv'), 'utf-8').split('\n');
+  lines.forEach((line, idx) => {
+    if (idx === 0 || !line.trim()) return;
+    const [keyword, spriteId] = parseCsvLine(line);
+    if (keyword && spriteId) expected.set(keyword, spriteId);
+  });
+
+  const entries = Object.values(data.pokemon);
+  const wrong = [];
+  const unknown = [];
+  for (const e of entries) {
+    const want = expected.get(e.csvKeyword);
+    if (want === undefined) unknown.push(e);
+    else if (e.sprites.pokejungleId !== want) wrong.push({ e, want });
+  }
+
+  console.log('=== PokeJungle sprite ids vs the sheet\'s sprite export ===\n');
+  console.log(`   Entries total:              ${entries.length}`);
+  console.log(`   Reference rows:             ${expected.size}`);
+  console.log(`   Mismatched ids:             ${wrong.length}`);
+  console.log(`   No reference row:           ${unknown.length}\n`);
+
+  if (wrong.length) {
+    console.log('   MISMATCHED — derived id differs from the sheet:');
+    wrong.slice(0, 15).forEach(({ e, want }) =>
+      console.log(`      ${e.csvKeyword.padEnd(28)} derived=${e.sprites.pokejungleId}  sheet=${want}`));
+    if (wrong.length > 15) console.log(`      ... +${wrong.length - 15} more`);
+    console.log();
+  }
+  if (unknown.length) {
+    console.log('   NO REFERENCE ROW — entry has no row in sprite-urls.csv:');
+    unknown.slice(0, 15).forEach(e => console.log(`      ${e.csvKeyword}  (dex=${e.dex})`));
+    if (unknown.length > 15) console.log(`      ... +${unknown.length - 15} more`);
+    console.log();
+  }
+
+  const passed = !wrong.length && !unknown.length;
+  console.log(passed ? '✅ Every sprite id matches the sheet.\n' : '⚠️  Sprite ids have drifted.\n');
+  return passed;
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -197,15 +258,18 @@ function main() {
 
   if (!arg) {
     allPassed = checkSemantics(data) && allPassed;
+    allPassed = checkPokeJungleIds(data) && allPassed;
     for (const tierName of Object.keys(TIERS)) {
       allPassed = checkTier(data, tierName) && allPassed;
     }
   } else if (arg === 'semantics') {
     allPassed = checkSemantics(data);
+  } else if (arg === 'sprites') {
+    allPassed = checkPokeJungleIds(data);
   } else if (TIERS[arg]) {
     allPassed = checkTier(data, arg);
   } else {
-    console.error(`Unknown check "${arg}". Known: semantics, ${Object.keys(TIERS).join(', ')}`);
+    console.error(`Unknown check "${arg}". Known: semantics, sprites, ${Object.keys(TIERS).join(', ')}`);
     process.exit(1);
   }
 
