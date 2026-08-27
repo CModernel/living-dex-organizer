@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { derivePokeJungleIds, buildPokeJungleUrl } = require('./pokejungle-sprite');
+const { derivePokeJungleIds, deriveShinyOverrides, buildPokeJungleUrl } = require('./pokejungle-sprite');
 
 // Only the four fields the derivation actually reads, in dataset (sortIndex) order.
 function entry(slug, dex, extra = {}) {
@@ -111,4 +111,47 @@ test('buildPokeJungleUrl defaults to normal and returns null for a missing id', 
   assert.equal(buildPokeJungleUrl('0025-9'), 'https://pokejungle.net/sprites/normal/0025-9.png');
   assert.equal(buildPokeJungleUrl(null), null);
   assert.throws(() => buildPokeJungleUrl('0001', 'sepia'));
+});
+
+test('deriveShinyOverrides collapses every Minior color to the same bare shiny id', () => {
+  // Shiny Minior is always the same dark core regardless of which color was caught —
+  // the per-color normal-variant id 404s for shiny.
+  const overrides = deriveShinyOverrides([
+    entry('minior-red', '0774'),
+    entry('minior-orange', '0774'),
+    entry('minior-violet', '0774'),
+  ]);
+  assert.deepEqual(overrides, {
+    'minior-red': '0774',
+    'minior-orange': '0774',
+    'minior-violet': '0774',
+  });
+});
+
+test('deriveShinyOverrides collapses Alcremie by sweet only, ignoring cream entirely', () => {
+  // Shiny Alcremie's body color never varies by cream, only by its 7 decorative
+  // sweets — and PokeJungle numbers those with a flat numeric suffix (-1..-6), NOT
+  // the lettered -a..-f scheme the normal variant uses.
+  const overrides = deriveShinyOverrides([
+    entry('alcremie-vanilla-cream-strawberry-sweet', '0869'),
+    entry('alcremie-ruby-cream-strawberry-sweet', '0869'), // different cream, same sweet
+    entry('alcremie-matcha-cream-berry-sweet', '0869'),
+    entry('alcremie-vanilla-cream-ribbon-sweet', '0869'),
+  ]);
+  assert.equal(overrides['alcremie-vanilla-cream-strawberry-sweet'], '0869');
+  assert.equal(overrides['alcremie-ruby-cream-strawberry-sweet'], '0869'); // same as vanilla's
+  assert.equal(overrides['alcremie-matcha-cream-berry-sweet'], '0869-1');
+  assert.equal(overrides['alcremie-vanilla-cream-ribbon-sweet'], '0869-6'); // NOT '-f'
+});
+
+test('deriveShinyOverrides leaves every other species alone (normal id is correct for shiny too)', () => {
+  const overrides = deriveShinyOverrides([
+    entry('venusaur', '0003'),
+    entry('rattata-alola', '0019'),
+  ]);
+  assert.deepEqual(overrides, {});
+});
+
+test('deriveShinyOverrides throws instead of guessing an unrecognized Alcremie sweet', () => {
+  assert.throws(() => deriveShinyOverrides([entry('alcremie-vanilla-cream-fake-sweet', '0869')]));
 });

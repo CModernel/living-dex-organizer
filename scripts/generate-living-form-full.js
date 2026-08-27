@@ -40,6 +40,7 @@ const {
   POKEJUNGLE_BASE_URL,
   POKEJUNGLE_VARIANTS,
   derivePokeJungleIds,
+  deriveShinyOverrides,
 } = require('./lib/pokejungle-sprite');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-data.json');
@@ -461,6 +462,13 @@ async function main() {
   for (const speciesEntries of Object.values(entriesByDex)) {
     const pokejungleIds = derivePokeJungleIds(speciesEntries);
     speciesEntries.forEach(e => { e.sprites.pokejungleId = pokejungleIds[e.slug]; });
+  }
+  // Only set where it actually differs from pokejungleId (currently just Minior and
+  // Alcremie — see deriveShinyOverrides's own comment for why) — everyone else's
+  // normal-variant id is already correct for shiny too.
+  const shinyOverrides = deriveShinyOverrides(Object.values(entries));
+  for (const [slug, shinyId] of Object.entries(shinyOverrides)) {
+    entries[slug].sprites.pokejungleShinyId = shinyId;
   }
 
   const finalCount = Object.keys(entries).length;

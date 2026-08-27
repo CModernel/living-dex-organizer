@@ -31519,7 +31519,8 @@
         "id": "10136",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774"
+        "pokejungleId": "0774",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -31548,7 +31549,8 @@
         "id": "10137",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774-1"
+        "pokejungleId": "0774-1",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -31577,7 +31579,8 @@
         "id": "10138",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774-2"
+        "pokejungleId": "0774-2",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -31606,7 +31609,8 @@
         "id": "10139",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774-3"
+        "pokejungleId": "0774-3",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -31635,7 +31639,8 @@
         "id": "10140",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774-4"
+        "pokejungleId": "0774-4",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -31664,7 +31669,8 @@
         "id": "10141",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774-5"
+        "pokejungleId": "0774-5",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -31693,7 +31699,8 @@
         "id": "10142",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0774-6"
+        "pokejungleId": "0774-6",
+        "pokejungleShinyId": "0774"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34579,7 +34586,8 @@
         "id": "869",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869"
+        "pokejungleId": "0869",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": false,
@@ -34608,7 +34616,8 @@
         "id": "869-vanilla-cream-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-a"
+        "pokejungleId": "0869-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34637,7 +34646,8 @@
         "id": "869-vanilla-cream-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-b"
+        "pokejungleId": "0869-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34666,7 +34676,8 @@
         "id": "869-vanilla-cream-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-c"
+        "pokejungleId": "0869-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34695,7 +34706,8 @@
         "id": "869-vanilla-cream-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-d"
+        "pokejungleId": "0869-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34724,7 +34736,8 @@
         "id": "869-vanilla-cream-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-e"
+        "pokejungleId": "0869-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34753,7 +34766,8 @@
         "id": "869-vanilla-cream-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-f"
+        "pokejungleId": "0869-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34782,7 +34796,8 @@
         "id": "869-ruby-cream-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1"
+        "pokejungleId": "0869-1",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34811,7 +34826,8 @@
         "id": "869-ruby-cream-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1-a"
+        "pokejungleId": "0869-1-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34840,7 +34856,8 @@
         "id": "869-ruby-cream-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1-b"
+        "pokejungleId": "0869-1-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34869,7 +34886,8 @@
         "id": "869-ruby-cream-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1-c"
+        "pokejungleId": "0869-1-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34898,7 +34916,8 @@
         "id": "869-ruby-cream-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1-d"
+        "pokejungleId": "0869-1-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34927,7 +34946,8 @@
         "id": "869-ruby-cream-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1-e"
+        "pokejungleId": "0869-1-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34956,7 +34976,8 @@
         "id": "869-ruby-cream-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-1-f"
+        "pokejungleId": "0869-1-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -34985,7 +35006,8 @@
         "id": "869-matcha-cream-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2"
+        "pokejungleId": "0869-2",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35014,7 +35036,8 @@
         "id": "869-matcha-cream-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2-a"
+        "pokejungleId": "0869-2-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35043,7 +35066,8 @@
         "id": "869-matcha-cream-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2-b"
+        "pokejungleId": "0869-2-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35072,7 +35096,8 @@
         "id": "869-matcha-cream-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2-c"
+        "pokejungleId": "0869-2-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35101,7 +35126,8 @@
         "id": "869-matcha-cream-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2-d"
+        "pokejungleId": "0869-2-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35130,7 +35156,8 @@
         "id": "869-matcha-cream-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2-e"
+        "pokejungleId": "0869-2-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35159,7 +35186,8 @@
         "id": "869-matcha-cream-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-2-f"
+        "pokejungleId": "0869-2-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35188,7 +35216,8 @@
         "id": "869-mint-cream-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3"
+        "pokejungleId": "0869-3",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35217,7 +35246,8 @@
         "id": "869-mint-cream-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3-a"
+        "pokejungleId": "0869-3-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35246,7 +35276,8 @@
         "id": "869-mint-cream-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3-b"
+        "pokejungleId": "0869-3-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35275,7 +35306,8 @@
         "id": "869-mint-cream-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3-c"
+        "pokejungleId": "0869-3-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35304,7 +35336,8 @@
         "id": "869-mint-cream-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3-d"
+        "pokejungleId": "0869-3-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35333,7 +35366,8 @@
         "id": "869-mint-cream-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3-e"
+        "pokejungleId": "0869-3-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35362,7 +35396,8 @@
         "id": "869-mint-cream-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-3-f"
+        "pokejungleId": "0869-3-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35391,7 +35426,8 @@
         "id": "869-lemon-cream-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4"
+        "pokejungleId": "0869-4",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35420,7 +35456,8 @@
         "id": "869-lemon-cream-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4-a"
+        "pokejungleId": "0869-4-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35449,7 +35486,8 @@
         "id": "869-lemon-cream-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4-b"
+        "pokejungleId": "0869-4-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35478,7 +35516,8 @@
         "id": "869-lemon-cream-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4-c"
+        "pokejungleId": "0869-4-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35507,7 +35546,8 @@
         "id": "869-lemon-cream-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4-d"
+        "pokejungleId": "0869-4-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35536,7 +35576,8 @@
         "id": "869-lemon-cream-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4-e"
+        "pokejungleId": "0869-4-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35565,7 +35606,8 @@
         "id": "869-lemon-cream-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-4-f"
+        "pokejungleId": "0869-4-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35594,7 +35636,8 @@
         "id": "869-salted-cream-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5"
+        "pokejungleId": "0869-5",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35623,7 +35666,8 @@
         "id": "869-salted-cream-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5-a"
+        "pokejungleId": "0869-5-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35652,7 +35696,8 @@
         "id": "869-salted-cream-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5-b"
+        "pokejungleId": "0869-5-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35681,7 +35726,8 @@
         "id": "869-salted-cream-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5-c"
+        "pokejungleId": "0869-5-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35710,7 +35756,8 @@
         "id": "869-salted-cream-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5-d"
+        "pokejungleId": "0869-5-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35739,7 +35786,8 @@
         "id": "869-salted-cream-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5-e"
+        "pokejungleId": "0869-5-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35768,7 +35816,8 @@
         "id": "869-salted-cream-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-5-f"
+        "pokejungleId": "0869-5-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35797,7 +35846,8 @@
         "id": "869-ruby-swirl-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6"
+        "pokejungleId": "0869-6",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35826,7 +35876,8 @@
         "id": "869-ruby-swirl-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6-a"
+        "pokejungleId": "0869-6-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35855,7 +35906,8 @@
         "id": "869-ruby-swirl-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6-b"
+        "pokejungleId": "0869-6-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35884,7 +35936,8 @@
         "id": "869-ruby-swirl-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6-c"
+        "pokejungleId": "0869-6-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35913,7 +35966,8 @@
         "id": "869-ruby-swirl-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6-d"
+        "pokejungleId": "0869-6-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35942,7 +35996,8 @@
         "id": "869-ruby-swirl-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6-e"
+        "pokejungleId": "0869-6-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -35971,7 +36026,8 @@
         "id": "869-ruby-swirl-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-6-f"
+        "pokejungleId": "0869-6-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36000,7 +36056,8 @@
         "id": "869-caramel-swirl-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7"
+        "pokejungleId": "0869-7",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36029,7 +36086,8 @@
         "id": "869-caramel-swirl-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7-a"
+        "pokejungleId": "0869-7-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36058,7 +36116,8 @@
         "id": "869-caramel-swirl-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7-b"
+        "pokejungleId": "0869-7-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36087,7 +36146,8 @@
         "id": "869-caramel-swirl-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7-c"
+        "pokejungleId": "0869-7-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36116,7 +36176,8 @@
         "id": "869-caramel-swirl-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7-d"
+        "pokejungleId": "0869-7-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36145,7 +36206,8 @@
         "id": "869-caramel-swirl-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7-e"
+        "pokejungleId": "0869-7-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36174,7 +36236,8 @@
         "id": "869-caramel-swirl-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-7-f"
+        "pokejungleId": "0869-7-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36203,7 +36266,8 @@
         "id": "869-rainbow-swirl-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8"
+        "pokejungleId": "0869-8",
+        "pokejungleShinyId": "0869"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36232,7 +36296,8 @@
         "id": "869-rainbow-swirl-berry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8-a"
+        "pokejungleId": "0869-8-a",
+        "pokejungleShinyId": "0869-1"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36261,7 +36326,8 @@
         "id": "869-rainbow-swirl-love-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8-b"
+        "pokejungleId": "0869-8-b",
+        "pokejungleShinyId": "0869-2"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36290,7 +36356,8 @@
         "id": "869-rainbow-swirl-star-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8-c"
+        "pokejungleId": "0869-8-c",
+        "pokejungleShinyId": "0869-3"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36319,7 +36386,8 @@
         "id": "869-rainbow-swirl-clover-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8-d"
+        "pokejungleId": "0869-8-d",
+        "pokejungleShinyId": "0869-4"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36348,7 +36416,8 @@
         "id": "869-rainbow-swirl-flower-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8-e"
+        "pokejungleId": "0869-8-e",
+        "pokejungleShinyId": "0869-5"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,
@@ -36377,7 +36446,8 @@
         "id": "869-rainbow-swirl-ribbon-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
-        "pokejungleId": "0869-8-f"
+        "pokejungleId": "0869-8-f",
+        "pokejungleShinyId": "0869-6"
       },
       "evolutionStage": "final",
       "isAlternateForm": true,

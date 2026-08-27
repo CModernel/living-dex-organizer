@@ -117,6 +117,58 @@ function derivePokeJungleIds(entries) {
   return ids;
 }
 
+// ---------------------------------------------------------------------------
+// Shiny-only overrides
+// ---------------------------------------------------------------------------
+
+// Minior and Alcremie are visually redundant once shiny: the games themselves don't
+// distinguish the trait that normally sets their forms apart. Shiny Minior is always
+// the same dark core regardless of which color was caught; shiny Alcremie is always
+// the same body color, differing only by its 7 decorative sweets, never by cream. So
+// PokeJungle (like the games' own box/menu art) only ever produced ONE shiny image per
+// case that's actually visually distinct, not one per form — using the per-form
+// NORMAL-variant id for these two species' shiny URLs 404s.
+//
+// Verified live against every id: for dex 0774 (all 7 colors), only bare "0774"
+// resolves; for dex 0869 (all 63 cream x sweet combos), only the 7
+// "0869"/"0869-1".."0869-6" (sweet only, cream ignored, numeric suffix — NOT the
+// lettered "-a".."-f" scheme the normal variant uses) resolve.
+const MINIOR_DEX = '0774';
+
+/**
+ * The shiny sprite id to use INSTEAD of the entry's normal-variant id, or undefined
+ * when the normal id is already correct for shiny too (true for every species except
+ * the two above — confirmed live: 1324/1387 shiny ids matched their normal id exactly,
+ * and the 62 that didn't were entirely these two families).
+ */
+function deriveShinyOverrideId(entry) {
+  if (entry.dex === MINIOR_DEX) return MINIOR_DEX;
+  if (entry.dex === ALCREMIE_DEX) {
+    const match = /^alcremie-(?:.+?)-(\w+)-sweet$/.exec(entry.slug);
+    if (!match) throw new Error(`Unexpected Alcremie slug: ${entry.slug}`);
+    const sweet = ALCREMIE_SWEETS.indexOf(match[1]);
+    if (sweet === -1) throw new Error(`Unknown Alcremie sweet: ${match[1]}`);
+    return `${ALCREMIE_DEX}${sweet === 0 ? '' : `-${sweet}`}`;
+  }
+  return undefined;
+}
+
+/**
+ * Shiny id overrides for a batch of entries (any species mix), as { [slug]: spriteId }
+ * — only for entries where the shiny id actually differs from the normal one, so a
+ * consumer can fall back to the normal id by default and only special-case the few
+ * that need it (matches how the generated dataset stores this: pokejungleShinyId is
+ * only set where it disagrees with pokejungleId).
+ */
+function deriveShinyOverrides(entries) {
+  const overrides = {};
+  for (const entry of entries) {
+    const shinyId = deriveShinyOverrideId(entry);
+    if (shinyId !== undefined) overrides[entry.slug] = shinyId;
+  }
+  return overrides;
+}
+
 /** Rebuild a full PokeJungle URL from a derived id + variant name, or null if absent. */
 function buildPokeJungleUrl(spriteId, variant = 'normal') {
   if (!spriteId) return null;
@@ -133,6 +185,8 @@ module.exports = {
   ALCREMIE_DEX,
   ALCREMIE_CREAMS,
   ALCREMIE_SWEETS,
+  MINIOR_DEX,
   derivePokeJungleIds,
+  deriveShinyOverrides,
   buildPokeJungleUrl,
 };
