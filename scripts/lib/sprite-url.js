@@ -18,6 +18,26 @@ const SPRITE_VARIANTS = {
   front_shiny_female: 'shiny/female/',
 };
 
+// A species that's always one gender (e.g. Nidoran-F, dex 29 — the male counterpart is a
+// wholly separate species, dex 32) has no distinct female art to show. PokeAPI represents
+// that not by leaving the gendered field null, but by pointing it at the exact same URL as
+// its non-female counterpart — confirmed live (2026-09-10) for dex 29: front_female ===
+// front_default and front_shiny_female === front_shiny. This is upstream PokeAPI data
+// drift, not something the original "verified zero exceptions" check below missed —
+// the previously-cached data for this exact entry had both fields null as recently as
+// 2026-08-25. Treated as absent everywhere below: deriving an id from it would otherwise
+// wrongly throw on this field's shape, and reporting it as a real distinct variant would
+// have getSpriteUrl serve an image identical to the default one it's an "alternative" to.
+const FEMALE_VARIANT_BASE_FIELD = {
+  front_female: 'front_default',
+  front_shiny_female: 'front_shiny',
+};
+
+function isDuplicateFemaleVariant(sprites, field) {
+  const baseField = FEMALE_VARIANT_BASE_FIELD[field];
+  return baseField !== undefined && sprites?.[field] === sprites?.[baseField];
+}
+
 /**
  * Extract the shared sprite id token from a raw PokeAPI sprites object (the shape
  * returned by /pokemon/{id} or /pokemon-form/{id}'s `sprites` field). Throws instead
@@ -30,7 +50,7 @@ function deriveSpriteId(sprites) {
   let spriteId = null;
   for (const [field, prefix] of Object.entries(SPRITE_VARIANTS)) {
     const url = sprites?.[field];
-    if (!url) continue;
+    if (!url || isDuplicateFemaleVariant(sprites, field)) continue;
     const expected = SPRITE_BASE_URL + prefix;
     if (!url.startsWith(expected) || !url.endsWith('.png')) {
       throw new Error(`Unexpected sprite URL shape for ${field}: ${url}`);
@@ -53,11 +73,11 @@ function deriveSpriteId(sprites) {
 // (Oinkologne has a regular female sprite but no shiny-female one on PokeAPI) — a
 // single combined flag would reconstruct a URL for an asset that doesn't exist.
 function hasFemaleSprite(sprites) {
-  return !!sprites?.front_female;
+  return !!sprites?.front_female && !isDuplicateFemaleVariant(sprites, 'front_female');
 }
 
 function hasShinyFemaleSprite(sprites) {
-  return !!sprites?.front_shiny_female;
+  return !!sprites?.front_shiny_female && !isDuplicateFemaleVariant(sprites, 'front_shiny_female');
 }
 
 /** Rebuild a full sprite URL from a derived id + variant name, or null if absent. */
@@ -71,6 +91,7 @@ function buildSpriteUrl(spriteId, variant = 'front_default') {
 module.exports = {
   SPRITE_BASE_URL,
   SPRITE_VARIANTS,
+  isDuplicateFemaleVariant,
   deriveSpriteId,
   hasFemaleSprite,
   hasShinyFemaleSprite,

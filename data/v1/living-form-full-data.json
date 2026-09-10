@@ -24103,7 +24103,7 @@
         "isle-of-armor": 192
       },
       "sprites": {
-        "id": null,
+        "id": "592-female",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0592-f"
@@ -24163,7 +24163,7 @@
         "isle-of-armor": 193
       },
       "sprites": {
-        "id": null,
+        "id": "593-female",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0593-f"
@@ -27179,7 +27179,7 @@
         "lumiose-city": 46
       },
       "sprites": {
-        "id": null,
+        "id": "668-female",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0668-f"
@@ -29581,7 +29581,7 @@
         "lumiose-city": 228
       },
       "sprites": {
-        "id": null,
+        "id": "716-active",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0716"
@@ -34117,7 +34117,7 @@
         "blueberry": 127
       },
       "sprites": {
-        "id": null,
+        "id": "854-antique",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0854-1"
@@ -34179,7 +34179,7 @@
         "blueberry": 128
       },
       "sprites": {
-        "id": null,
+        "id": "855-antique",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0855-1"
@@ -41080,7 +41080,7 @@
         "kitakami": 76
       },
       "sprites": {
-        "id": null,
+        "id": "1012-artisan",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "1012-1"
@@ -41138,7 +41138,7 @@
         "kitakami": 77
       },
       "sprites": {
-        "id": null,
+        "id": "1013-masterpiece",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "1013-1"
