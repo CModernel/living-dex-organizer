@@ -63,3 +63,9 @@ test('final-form: keeps regional final-stage alternates, drops non-regional ones
   assert.equal(predicate({ csvKeyword: 'raichu-alola', evolutionStage: 'final', isGenderVariant: false, isAlternateForm: true, isRegionalForm: true }), true);
   assert.equal(predicate({ csvKeyword: 'vivillon-2', evolutionStage: 'final', isGenderVariant: false, isAlternateForm: true, isRegionalForm: false }), false);
 });
+
+test('living-form-full: includes everything, including gender variants', () => {
+  const { predicate } = TIERS['living-form-full'];
+  assert.equal(predicate({ isGenderVariant: true }), true);
+  assert.equal(predicate({ isGenderVariant: false }), true);
+});

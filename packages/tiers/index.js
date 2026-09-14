@@ -95,6 +95,13 @@ const TIERS = {
       return !e.isGenderVariant && e.evolutionStage === 'final' && (!e.isAlternateForm || e.isRegionalForm);
     },
   },
+  'living-form-full': {
+    // The complete, uncurated dataset — includes gender variants (e.g. venusaur-f) that
+    // every other tier excludes. Maps 1:1 to the full dataset by construction, since this
+    // sheet is the same source Living Form Full was generated from; no manual exceptions.
+    csv: 'Living Form Full.csv',
+    predicate: e => true,
+  },
 };
 
 module.exports = { TIERS, KNOWN_DIVERGENCES };
