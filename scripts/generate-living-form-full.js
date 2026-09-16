@@ -43,7 +43,9 @@ const {
   derivePokeJungleIds,
   deriveShinyOverrides,
 } = require('./lib/pokejungle-sprite');
+const { enrichEntriesWithAvailability } = require('./lib/availability');
 
+const AVAILABILITY_CSV_FILE = path.join(__dirname, '..', 'sheets', 'availability', 'pokemon-availability.csv');
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-data.json');
 const REPORT_FILE = path.join(__dirname, '..', 'data', 'v1', 'living-form-full-mapping-report.json');
 const CACHE_FILE = path.join(__dirname, '.pokeapi-candidates-cache.json');
@@ -519,6 +521,16 @@ async function main() {
     const want = (csvByDex[dex] || []).length;
     console.log(`   ${label.padEnd(11)} ${String(got).padStart(3)} / ${want} ${got === want ? '✓' : '✗'}`);
   });
+
+  // Bulbapedia per-game availability (see TODO #31 / scripts/lib/availability.js) — a
+  // pure post-processing join keyed by each entry's own species/region/pokeapiSlug, no
+  // extra PokeAPI data needed, so it doesn't touch CANDIDATE_CACHE_VERSION.
+  const { matched: availabilityMatched, unmatched: availabilityUnmatched } =
+    enrichEntriesWithAvailability(entries, fs.readFileSync(AVAILABILITY_CSV_FILE, 'utf8'));
+  console.log(`\n🎮 Availability: ${availabilityMatched}/${finalCount} entries matched a Bulbapedia row`);
+  if (availabilityUnmatched.length) {
+    console.log(`   ⚠️  ${availabilityUnmatched.length} unmatched: ${availabilityUnmatched.slice(0, 10).join(', ')}${availabilityUnmatched.length > 10 ? ', ...' : ''}`);
+  }
 
   const outputDir = path.dirname(OUTPUT_FILE);
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });

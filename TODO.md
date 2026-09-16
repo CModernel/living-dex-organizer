@@ -27,6 +27,41 @@ existing ones.
       original sheet's SwSh/BDSP/PLA/SV/PLZA letter-prefix grouping. 1311/1387
       entries have at least one regional dex entry.
 
+- [x] **31. Parse Bulbapedia per-game availability data into reusable rules (with
+      tests).** Groundwork for the app's paused "Available in games" column idea (see
+      `living-dex-app/TODO.md`'s Ideas/Future section), which stalled because PokeAPI's
+      `game_indices` is empty for every regional/alternate form (`rattata-alola` → `[]`)
+      — exactly the 267 entries this dataset cares most about. Bulbapedia's own "List of
+      Pokémon by availability" has per-form rows already (`Rattata`, `Rattata ( Alolan
+      Form )`, `Tauros ( Paldean Combat/Blaze/Aqua Form )`, ...), closing that gap. Done:
+      vendored a snapshot of the source CSV + its 21-code symbol legend under
+      `sheets/availability/` (used only as a test fixture, not read by the
+      generation pipeline), and built `scripts/lib/availability.js` — a
+      longest-match-first tokenizer for the (sometimes compound, e.g. `EvE`, `DWET`,
+      `CCR`, `TED`) per-game codes, classifying each into `obtainable` / `conditional` /
+      `unobtainable`, plus a label matcher (`"Name ( X Form )"` → `{ species, region }`,
+      reusing `generate-rules.js`'s existing `alolan→alola`/etc. vocabulary) and a
+      footnote-marker (`" *"`) handler for Bulbapedia's asterisked mythicals/event
+      legendaries. 15 tests in `availability.test.js`, including fixture rows copied
+      verbatim from the vendored CSV, and a full-file parse of all 1101 rows × 41 game
+      columns with zero unrecognized codes.
+      **Update (2026-09-16): wired into the published dataset after all.** Turned out
+      the join needs no PokeAPI data at all — every entry's existing `species`/`region`/
+      `pokeapiSlug` is enough (no `CANDIDATE_CACHE_VERSION` bump needed). Added
+      `enrichEntriesWithAvailability` to `scripts/lib/availability.js`, wired it into
+      `generate-living-form-full.js`'s final write step for future full regenerates, and
+      added `scripts/enrich-availability.js` for updating just this field without a full
+      PokeAPI regenerate. Every entry stores a sparse `{ [gameId]: rawCode }` map (e.g.
+      `{"scarlet":"RD"}`) — the raw Bulbapedia code, not the fully decomposed
+      tokens/category shape, which made the published dataset ~5x heavier (1.0MB →
+      4.86MB) for no real benefit; a consumer calls `tokenizeAvailabilityCell(rawCode)`
+      on demand instead. All 1387 entries matched a Bulbapedia row (0 unmatched); final
+      dataset is 1.0MB → 1.67MB (+67%). `PokemonEntry`/`packages/business-logic` in
+      `living-dex-app` doesn't declare this field yet — additive, so it doesn't break
+      the existing `as PokemonDataset` cast; declaring the type + building actual UI on
+      top of it is still a separate follow-up. Full findings/analysis:
+      `obsidian/Availability-Rules-Analysis.md`.
+
 ## Product / App
 
 - [ ] **3. Implement the actual app.** Today this repo is only a data pipeline

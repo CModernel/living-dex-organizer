@@ -1,0 +1,21 @@
+﻿Symbol,Category,Meaning
+C,Obtainable in-game,The Pokémon can be caught in-game.
+S,Obtainable in-game,"The Pokémon can be caught in-game, but is only available at certain non-fixed times (e.g. swarms, Trophy Garden, Great Marsh). In Pokémon Colosseum and Pokémon XD, this means the Pokémon can be snagged. In Pokémon Sun, Moon, Ultra Sun and Ultra Moon, this means the Pokémon can be caught through Island Scan."
+R,Obtainable in-game,"The Pokémon can be received from someone (such as first partner Pokémon, revived Fossil, in-game trade or Gift Pokémon)."
+E,Obtainable in-game,"The Pokémon cannot be caught in-game, but an earlier evolutionary stage can be obtained and evolved into the Pokémon in this game. It may also be used as a suffix for other methods to indicate that the Pokémon must be evolved from a Pokémon caught using that method."
+B,Obtainable in-game,"The Pokémon cannot be caught in-game, but a later evolutionary stage can be obtained. It can be bred to produce the Pokémon in this game; this may also involve evolving the hatched Pokémon. It may also be used as a suffix for other methods to indicate that the Pokémon must be bred from a Pokémon caught using that method."
+CD,Obtainable in-game,"The Pokémon can be caught in-game, but is only accessible through paid DLC. D may also be used as a suffix for other methods to indicate that it can only be obtained through that method in paid DLC."
+D,Obtainable in-game,"In Pokémon Sword and Shield, the Pokémon can be caught in-game via a Max Raid Battle at a Pokémon Den."
+DA,Obtainable in-game,"In Pokémon Sword and Shield's The Crown Tundra DLC, the Pokémon can be caught in-game via a Max Raid Battle during a Dynamax Adventure in the Max Lair."
+ET,Conditionally obtainable,"The Pokémon cannot be caught in-game, but an earlier evolutionary stage can be obtained. It can be evolved into the Pokémon in this game by trading. It may also be used as a suffix for other methods to indicate that the Pokémon must be evolved through trading from a Pokémon caught using that method."
+TE,Conditionally obtainable,"This Pokémon cannot be caught in-game, but an earlier evolutionary stage can be obtained. It can be evolved into the Pokémon by transferring it to another game and evolving it there."
+CC,Conditionally obtainable,The Pokémon is obtainable in-game but requires some form of communication with another core series game in order to obtain it. It may also be used as a prefix for other methods to indicate that the Pokémon requires a specific method after communicating with another game.
+DS,Conditionally obtainable,"In Pokémon Diamond, Pearl, and Platinum, the Pokémon can be caught in-game via dual-slot mode."
+FS,Conditionally obtainable,"In Pokémon X and Y, the Pokémon can only be caught through the Friend Safari."
+EV,Conditionally obtainable,"The Pokémon can be caught in-game, but only via event distribution or using an item obtained exclusively via event distribution."
+PW,Not obtainable in-game,The Pokémon is available via the Pokéwalker and can be transferred to Pokémon HeartGold and SoulSilver.
+DR,Not obtainable in-game,The Pokémon is available via Pokémon Dream Radar and can be transferred to Pokémon Black 2 and White 2.
+DW,Not obtainable in-game,"The Pokémon was available via Pokémon Dream World and could be transferred to Pokémon Black, White, Black 2 and White 2 before it was shut down."
+Ev,Not obtainable in-game,"The Pokémon was available to this game at some point via distributions in real life, such as ExtremeSpeed Pikachu. Additionally, all Global Link promotions and game-based Pokémon distributions fall under this category."
+T,Not obtainable in-game,This Pokémon can be obtained only by trading or transferring it from another game.
+—,Not obtainable in-game,This Pokémon is unobtainable in this game.
