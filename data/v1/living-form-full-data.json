@@ -52071,7 +52071,7 @@
         "lumiose-city": 38
       },
       "sprites": {
-        "id": "669",
+        "id": "669-red",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0669"
@@ -52281,7 +52281,7 @@
         "lumiose-city": 39
       },
       "sprites": {
-        "id": "670",
+        "id": "670-red",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0670"
@@ -52474,7 +52474,7 @@
         "lumiose-city": 40
       },
       "sprites": {
-        "id": "671",
+        "id": "671-red",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0671"
@@ -57972,7 +57972,7 @@
         "galar": 382
       },
       "sprites": {
-        "id": "773",
+        "id": "773-normal",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0773"
@@ -61779,7 +61779,7 @@
         "blueberry": 43
       },
       "sprites": {
-        "id": "869",
+        "id": "869-vanilla-cream-strawberry-sweet",
         "hasFemale": false,
         "hasShinyFemale": false,
         "pokejungleId": "0869",
